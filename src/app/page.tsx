@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <>
       Software Engineer
-      <a>Xiaohan Du</a>
+      <p>Xiaohan Du</p>
       <div>
         Portrait
       </div>

@@ -1,5 +1,5 @@
-import {Navbar} from "@/app/components/Navbar/navbar";
-import {Footer} from "@/app/components/Footer/footer";
+import { Navbar } from "@/app/components/Navbar/navbar";
+import { Footer } from "@/app/components/Footer/footer";
 import './globals.scss'
 
 interface LayoutProps {
