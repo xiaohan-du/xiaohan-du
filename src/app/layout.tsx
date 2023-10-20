@@ -1,18 +1,23 @@
+'use server';
 import { Navbar } from "@/app/components/Navbar/navbar";
 import { Footer } from "@/app/components/Footer/footer";
+import {getWeatherData} from "@/app/hooks/useWeather";
 import './globals.scss'
 
 interface LayoutProps {
   children: React.ReactNode;
 }
-export default function Layout({ children }: LayoutProps) {
+export default async function RootLayout({ children }: LayoutProps) {
+  const weatherData = await getWeatherData();
   return (
-    <>
-      <main className="flex min-h-screen flex-col items-center justify-between p-24 main">
-        <Navbar />
-        {children}
-        <Footer />
-      </main>
-    </>
+    <html lang="en">
+      <body>
+        <main className="flex min-h-screen flex-col items-center justify-between p-24 main">
+          <Navbar weather={weatherData.weather}/>
+          {children}
+          <Footer />
+        </main>
+      </body>
+    </html>
   )
 }
