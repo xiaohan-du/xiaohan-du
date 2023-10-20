@@ -1,9 +1,10 @@
 'use client';
-
 import Link from "next/link";
 import Image from "next/image";
 import { Navbar } from "flowbite-react";
-export default function DefaultNavbar() {
+import {INavbarProps} from "@/app/interfaces/INavbar";
+
+export const DefaultNavbar = ({weather}: INavbarProps) => {
   return (
     <Navbar fluid rounded className='w-full'>
       <Navbar.Brand as={Link} href="/">
@@ -19,6 +20,8 @@ export default function DefaultNavbar() {
         <Navbar.Link as={Link} href="/services">Services</Navbar.Link>
         <Navbar.Link as={Link} href="/contact">Contact</Navbar.Link>
       </Navbar.Collapse>
+      <Image src={`https://openweathermap.org/img/wn/${weather[0].icon}@2x.png`}  alt="Weather Icon" width={100}
+             height={100}/>
     </Navbar>
   )
 }
