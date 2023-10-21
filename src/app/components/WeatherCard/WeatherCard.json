@@ -1,0 +1,27 @@
+[
+  {
+    "field_key": "temp",
+    "name": "Temperature",
+    "unit": "°C"
+  },
+  {
+    "field_key": "feels_like",
+    "name": "Feels like",
+    "unit": "°C"
+  },
+  {
+    "field_key": "temp_min",
+    "name": "Min",
+    "unit": "°C"
+  },
+  {
+    "field_key": "temp_max",
+    "name": "Max",
+    "unit": "°C"
+  },
+  {
+    "field_key": "pressure",
+    "name": "Pressure",
+    "unit": "hPa"
+  }
+]

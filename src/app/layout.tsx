@@ -1,5 +1,5 @@
 'use server';
-import { Navbar } from "@/app/components/Navbar/navbar";
+import { DefaultNavbar } from "@/app/components/Navbar/navbar";
 import { Footer } from "@/app/components/Footer/footer";
 import {getWeatherData} from "@/app/hooks/useWeather";
 import './globals.scss'
@@ -11,13 +11,13 @@ export default async function RootLayout({ children }: LayoutProps) {
   const weatherData = await getWeatherData();
   return (
     <html lang="en">
-      <body>
-        <main className="flex min-h-screen flex-col items-center justify-between p-24 main">
-          <Navbar weather={weatherData.weather}/>
-          {children}
-          <Footer />
-        </main>
-      </body>
+    <body>
+    <main className="flex min-h-screen flex-col items-center justify-between p-24 main">
+      <DefaultNavbar weather={weatherData.weather} main={weatherData.main}/>
+      {children}
+      <Footer />
+    </main>
+    </body>
     </html>
   )
-}
+};
