@@ -13,7 +13,7 @@ export default async function RootLayout({ children }: LayoutProps) {
     <html lang="en">
     <body>
     <main className="flex min-h-screen flex-col items-center justify-between p-24 main">
-      <DefaultNavbar weather={weatherData.weather}/>
+      <DefaultNavbar weather={weatherData.weather} main={weatherData.main}/>
       {children}
       <Footer />
     </main>
