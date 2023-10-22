@@ -4,6 +4,7 @@ export const getWeatherData = async () => {
   try {
     const response = await fetch(apiUrl, {
       method: 'GET',
+      cache: 'no-store',
       headers: {
         'Content-Type': 'application/json'
       }
