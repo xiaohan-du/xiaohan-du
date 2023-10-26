@@ -1,11 +1,8 @@
-import {IWeatherCardProps} from "@/app/interfaces/IWeatherCard";
 import {ILocationProps} from "@/app/interfaces/ILocation";
-export const getWeatherData = async ({lon, lat}: ILocationProps): Promise<IWeatherCardProps> => {
 
-  const apiKey: string = '5d0b93558a2b542213e8cf1a3d39eff2';
-  const apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}&units=metric`;
+export const getUserLocation = async (): Promise<ILocationProps> => {
   try {
-    const response = await fetch(apiUrl, {
+    const response = await fetch('http://ip-api.com/json/', {
       method: 'GET',
       cache: 'no-store',
       headers: {

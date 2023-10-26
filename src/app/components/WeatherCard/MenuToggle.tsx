@@ -3,12 +3,14 @@ import {Button} from "flowbite-react";
 import styles from './WeatherCard.module.scss';
 import {IToggleProps} from "@/app/interfaces/IToggle";
 
-export const MenuToggle = ({ toggle, image }: IToggleProps) => (
+export const MenuToggle = ({ toggle, image, city }: IToggleProps) => (
   <Button
-    onMouseEnter={toggle} onMouseLeave={toggle}
+    onMouseEnter={toggle}
+    onMouseLeave={toggle}
     className={`${styles.weatherCardBtn} focus:ring-0 p-0`}
     color='light'
   >
+    {city}
     {image}
   </Button>
 );
