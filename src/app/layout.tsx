@@ -3,17 +3,24 @@ import { DefaultNavbar } from "@/app/components/Navbar/navbar";
 import { Footer } from "@/app/components/Footer/footer";
 import {getWeatherData} from "@/app/hooks/useWeather";
 import './globals.scss'
+import {getUserLocation} from "@/app/hooks/useLocation";
+import {ILocationProps} from "@/app/interfaces/ILocation";
+import {IWeatherCardProps} from "@/app/interfaces/IWeatherCard";
 
 interface LayoutProps {
   children: React.ReactNode;
 }
 export default async function RootLayout({ children }: LayoutProps) {
-  const weatherData = await getWeatherData();
+
+  const locationData: ILocationProps = await getUserLocation();
+  const { lat = 51.5, lon = 0.127, city = 'London' } = locationData || {};
+  const weatherData: IWeatherCardProps = await getWeatherData({lat: lat, lon: lon, city: city});
+
   return (
     <html lang="en">
     <body>
     <main className="flex min-h-screen flex-col items-center justify-between p-24 main">
-      <DefaultNavbar weather={weatherData.weather} main={weatherData.main}/>
+      <DefaultNavbar weather={weatherData.weather} main={weatherData.main} city={city}/>
       {children}
       <Footer />
     </main>
