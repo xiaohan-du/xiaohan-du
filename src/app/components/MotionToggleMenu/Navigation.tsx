@@ -1,7 +1,7 @@
 import * as React from "react";
 import { motion } from "framer-motion";
 import { MenuItem } from "./MenuItem";
-import styles from './WeatherCard.module.scss';
+import styles from '../WeatherCard/WeatherCard.module.scss';
 import {INavigationProps} from "@/app/interfaces/INavigation";
 
 const variants = {

@@ -2,8 +2,8 @@ import {IWeatherCardProps} from "@/app/interfaces/IWeatherCard";
 import {ILocationProps} from "@/app/interfaces/ILocation";
 export const getWeatherData = async ({lon, lat}: ILocationProps): Promise<IWeatherCardProps> => {
 
-  const apiKey: string = '5d0b93558a2b542213e8cf1a3d39eff2';
-  const apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}&units=metric`;
+  const apiKey: string | undefined = process.env.API_KEY_WEATHER;
+  const apiUrl = `${process.env.API_URL_WEATHER}?lat=${lat}&lon=${lon}&appid=${apiKey}&units=metric`;
   try {
     const response = await fetch(apiUrl, {
       method: 'GET',
@@ -14,7 +14,8 @@ export const getWeatherData = async ({lon, lat}: ILocationProps): Promise<IWeath
     });
 
     if (!response.ok) {
-      throw new Error('Response error');
+      console.log('error fetching weather data, fallback to London')
+
     };
 
     const responseData = await response.json();

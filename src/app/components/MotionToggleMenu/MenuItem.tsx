@@ -1,6 +1,6 @@
 import * as React from "react";
 import { motion } from "framer-motion";
-import styles from './WeatherCard.module.scss';
+import styles from '../WeatherCard/WeatherCard.module.scss';
 import {IMenuItemProps} from "@/app/interfaces/IMenuItem";
 
 const variants = {

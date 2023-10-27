@@ -4,8 +4,8 @@ import {useRef} from "react";
 import fieldMappings from './WeatherCard.json'
 import {useDimensions} from "@/app/hooks/useDimensions";
 import {motion, useCycle} from "framer-motion";
-import {MenuToggle} from "./MenuToggle";
-import {Navigation} from "./Navigation";
+import {MenuToggle} from "../MotionToggleMenu/MenuToggle";
+import {Navigation} from "../MotionToggleMenu/Navigation";
 import styles from './WeatherCard.module.scss';
 import {IWeatherProps} from "@/app/interfaces/IWeather";
 
