@@ -35,8 +35,8 @@ export const WeatherCard = ({weather, main, city}: IWeatherCardProps) => {
           <motion.div className={styles.weatherCardBg}/>
           <Navigation content={navContents}/>
           <MenuToggle toggle={() => toggleOpen()} image={
-            <Image src={`https://openweathermap.org/img/wn/${weather[0].icon}@2x.png`} alt="Weather Icon" width={100}
-                   height={100}/>
+            <Image src={`https://openweathermap.org/img/wn/${weather[0].icon}@2x.png`} alt="Weather Icon" width={50}
+                   height={50}/>
           } city={city}/>
         </motion.nav>
       </div>

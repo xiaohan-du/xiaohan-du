@@ -2,10 +2,9 @@
 import Link from "next/link";
 import Image from "next/image";
 import {Navbar} from "flowbite-react";
-import {INavbarProps} from "@/app/interfaces/INavbar";
-import {WeatherCard} from "@/app/components/WeatherCard/WeatherCard";
+import {ReactNode} from "react";
 
-export const DefaultNavbar = ({weather, main, city}: INavbarProps) => {
+export const DefaultNavbar = (): ReactNode => {
   return (
     <Navbar fluid rounded className='w-full'>
       <Navbar.Brand as={Link} href="/">
@@ -21,7 +20,6 @@ export const DefaultNavbar = ({weather, main, city}: INavbarProps) => {
         <Navbar.Link as={Link} href="/services">Services</Navbar.Link>
         <Navbar.Link as={Link} href="/contact">Contact</Navbar.Link>
       </Navbar.Collapse>
-      <WeatherCard weather={weather} main={main} city={city}/>
     </Navbar>
   )
 };
