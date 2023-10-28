@@ -1,6 +1,6 @@
 export const getCryptoData = async () => {
   const apiKey: string | undefined = process.env.API_KEY_CRYPTO;
-  const apiUrl: string = `${process.env.API_URL_CRYPTO}?id=1&convert=GBP`;
+  const apiUrl: string = `${process.env.API_URL_CRYPTO}?id=1,1027,2010,74,512&convert=GBP`;
 
   try {
     const headers = apiKey
@@ -10,7 +10,7 @@ export const getCryptoData = async () => {
     const response = await fetch(apiUrl, {
       method: 'GET',
       cache: 'no-store',
-      headers,
+      headers
     });
 
     if (!response.ok) {

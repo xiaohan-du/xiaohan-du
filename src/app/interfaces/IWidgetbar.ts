@@ -1,5 +1,6 @@
 import {IWeatherCardProps} from "@/app/interfaces/IWeatherCard";
 
-export interface INavbarProps extends IWeatherCardProps{
+export interface IWidgetbarProps extends IWeatherCardProps{
   city: string;
+  gbpPrices: GbpPrices;
 };

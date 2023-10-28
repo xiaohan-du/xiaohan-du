@@ -1,6 +1,6 @@
-import {IWeatherProps} from "@/app/interfaces/IWeather";
+import {IToggleItemProps} from "@/app/interfaces/IToggleItem";
 
 export interface IMenuItemProps {
   i: number;
-  content: IWeatherProps;
+  content: IToggleItemProps;
 };

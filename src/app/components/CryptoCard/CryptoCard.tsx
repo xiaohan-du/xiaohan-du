@@ -5,46 +5,21 @@ import {motion, useCycle} from "framer-motion";
 import {MenuToggle} from "@/app/components/MotionToggleMenu/MenuToggle";
 import {Navigation} from "@/app/components/MotionToggleMenu/Navigation";
 import styles from './CryptoCard.module.scss';
+import fieldMappings from './CryptoCard.json';
+import {IToggleItemProps} from "@/app/interfaces/IToggleItem";
+import {ICryptoCard} from "@/app/interfaces/ICryptoCard";
 
-const fieldMappings = [
-  {
-    "field_key": "temp",
-    "name": "Temperature",
-    "unit": "°C"
-  },
-  {
-    "field_key": "feels_like",
-    "name": "Feels like",
-    "unit": "°C"
-  },
-  {
-    "field_key": "temp_min",
-    "name": "Min",
-    "unit": "°C"
-  },
-  {
-    "field_key": "temp_max",
-    "name": "Max",
-    "unit": "°C"
-  },
-  {
-    "field_key": "pressure",
-    "name": "Pressure",
-    "unit": "hPa"
-  }
-]
-
-export const CryptoCard = () => {
+export const CryptoCard = ({gbpPrices}: ICryptoCard) => {
   const [isOpen, toggleOpen] = useCycle(false, true);
   const containerRef = useRef(null);
   const {height} = useDimensions(containerRef);
-  const navContents = fieldMappings.map(item => {
+  const navContents: IToggleItemProps[] = fieldMappings.map(item => {
     const {field_key, name, unit} = item;
     return {
       field_key,
       name,
       unit,
-      value: 20
+      value: gbpPrices[field_key as keyof GbpPrices]
     }
   });
   return (
@@ -60,9 +35,9 @@ export const CryptoCard = () => {
           <motion.div className={styles.cryptoCardBg}/>
           <Navigation content={navContents}/>
           <MenuToggle toggle={() => toggleOpen()} image={
-            <Image src={'https://openweathermap.org/img/wn/10d@2x.png'} alt="Crypto Icon" width={50}
-                   height={50}/>
-          } city={'Cardiff'}/>
+            <Image src={'/icons/crypto.svg'} alt="Crypto Icon" width={40}
+                   height={40} className={'ml-2'}/>
+          } text={'Crypto'}/>
         </motion.nav>
       </div>
     </>

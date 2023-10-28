@@ -7,13 +7,13 @@ import {motion, useCycle} from "framer-motion";
 import {MenuToggle} from "../MotionToggleMenu/MenuToggle";
 import {Navigation} from "../MotionToggleMenu/Navigation";
 import styles from './WeatherCard.module.scss';
-import {IWeatherProps} from "@/app/interfaces/IWeather";
+import {IToggleItemProps} from "@/app/interfaces/IToggleItem";
 
 export const WeatherCard = ({weather, main, city}: IWeatherCardProps) => {
   const [isOpen, toggleOpen] = useCycle(false, true);
   const containerRef = useRef(null);
   const {height} = useDimensions(containerRef);
-  const navContents: IWeatherProps[] = fieldMappings.map(item => {
+  const navContents: IToggleItemProps[] = fieldMappings.map(item => {
     const {field_key, name, unit} = item;
     return {
       field_key,
@@ -37,7 +37,7 @@ export const WeatherCard = ({weather, main, city}: IWeatherCardProps) => {
           <MenuToggle toggle={() => toggleOpen()} image={
             <Image src={`https://openweathermap.org/img/wn/${weather[0].icon}@2x.png`} alt="Weather Icon" width={50}
                    height={50}/>
-          } city={city}/>
+          } text={city}/>
         </motion.nav>
       </div>
     </>
