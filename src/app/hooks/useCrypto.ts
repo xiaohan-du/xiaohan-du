@@ -1,4 +1,6 @@
-export const getCryptoData = async () => {
+import {ICryptoProps} from "@/app/interfaces/ICrypto";
+
+export const getCryptoData = async (): Promise<ICryptoProps> => {
   const apiKey: string | undefined = process.env.API_KEY_CRYPTO;
   const apiUrl: string = `${process.env.API_URL_CRYPTO}?id=1,1027,2010,74,512&convert=GBP`;
 

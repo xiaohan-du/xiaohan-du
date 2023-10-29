@@ -1,18 +1,18 @@
 'use client';
-import {WeatherCard} from "@/app/components/WeatherCard/WeatherCard";
-import {CryptoCard} from "@/app/components/CryptoCard/CryptoCard";
 import {IToggleMenuProps} from "@/app/interfaces/IToggleMenu";
 import {ReactNode} from "react";
+import {ToggleMenu} from "@/app/components/ToggleMenu/ToggleMenu";
+
 export const WidgetBar = (widgetBarData: {
   weatherData: IToggleMenuProps;
   cryptoData: IToggleMenuProps;
 }): ReactNode => {
-  const { icon, main, text, mappings } = widgetBarData.weatherData;
-  const { icon: icon2, main: gbpPrices, text: text2, mappings: cryptoMappings } = widgetBarData.cryptoData;
+  const { icon: iconW, main: weatherMain, text: textW, mappings: weatherMappings } = widgetBarData.weatherData;
+  const { icon: iconC, main: gbpPrices, text: textC, mappings: cryptoMappings } = widgetBarData.cryptoData;
   return (
     <div className={'bg-slate-50 w-full p-2 flex flex-row'}>
-      <WeatherCard icon={`https://openweathermap.org/img/wn/${icon}@2x.png`} main={main} text={text} mappings={mappings} iconSize={50} iconClasses={''}/>
-      <CryptoCard icon={icon2} main={gbpPrices} text={text2} mappings={cryptoMappings} iconSize={30} iconClasses={'ml-2'}/>
+      <ToggleMenu icon={`https://openweathermap.org/img/wn/${iconW}@2x.png`} main={weatherMain} text={textW} mappings={weatherMappings} iconSize={50} iconClasses={''} />
+      <ToggleMenu icon={iconC} main={gbpPrices} text={textC} mappings={cryptoMappings} iconSize={30} iconClasses={'ml-2'} />
     </div>
   )
 };

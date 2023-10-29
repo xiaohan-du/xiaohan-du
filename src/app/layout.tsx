@@ -11,6 +11,7 @@ import {ICryptoProps} from "@/app/interfaces/ICrypto";
 import {IToggleMenuProps} from "@/app/interfaces/IToggleMenu";
 import weatherMappings from "@/app/mappings/WeatherMappings.json";
 import cryptoMappings from "@/app/mappings/CryptoMappings.json";
+import {IWeatherProps} from "@/app/interfaces/IWeather";
 interface LayoutProps {
   children: React.ReactNode;
 }
@@ -18,7 +19,7 @@ export default async function RootLayout({ children }: LayoutProps) {
 
   const locationData: ILocationProps = await getUserLocation();
   const { lat = 51.5, lon = 0.127, city = 'London' } = locationData || {};
-  const weatherData = await getWeatherData({lat: lat, lon: lon, city: city});
+  const weatherData: IWeatherProps = await getWeatherData({lat: lat, lon: lon, city: city});
   const cryptoData: ICryptoProps = await getCryptoData();
   const gbpPrices = Object.values(cryptoData.data).reduce((result, item) => {
     result[item.symbol] = item.quote.GBP.price.toString().substring(0, 9);

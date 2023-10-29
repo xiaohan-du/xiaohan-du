@@ -4,11 +4,11 @@ import {useDimensions} from "@/app/hooks/useDimensions";
 import {motion, useCycle} from "framer-motion";
 import {MenuToggle} from "../MotionToggleMenu/MenuToggle";
 import {Navigation} from "../MotionToggleMenu/Navigation";
-import styles from './WeatherCard.module.scss';
+import styles from './ToggleMenu.module.scss';
 import {IToggleItemProps} from "@/app/interfaces/IToggleItem";
 import {IToggleMenuProps} from "@/app/interfaces/IToggleMenu";
 
-export const WeatherCard = ({icon, main, text, mappings, iconSize, iconClasses}: IToggleMenuProps) => {
+export const ToggleMenu = ({icon, main, text, mappings, iconSize, iconClasses}: IToggleMenuProps) => {
   const [isOpen, toggleOpen] = useCycle(false, true);
   const containerRef = useRef(null);
   const {height} = useDimensions(containerRef);
@@ -29,12 +29,12 @@ export const WeatherCard = ({icon, main, text, mappings, iconSize, iconClasses}:
           animate={isOpen ? "open" : "closed"}
           custom={height}
           ref={containerRef}
-          className={styles.weatherCardNav}
+          className={styles.toggleMenuNav}
         >
-          <motion.div className={styles.weatherCardBg}/>
+          <motion.div className={styles.toggleMenuBg}/>
           <Navigation content={navContents}/>
           <MenuToggle toggle={() => toggleOpen()} image={
-            <Image src={icon} alt="Weather Icon" width={iconSize} height={iconSize} className={iconClasses}/>
+            <Image src={icon} alt="Menu Icon" width={iconSize} height={iconSize} className={iconClasses}/>
           } text={text}/>
         </motion.nav>
       </div>
