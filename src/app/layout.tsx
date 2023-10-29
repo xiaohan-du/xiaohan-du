@@ -1,4 +1,3 @@
-'use server';
 import { DefaultNavbar } from "@/app/components/Navbar/Navbar";
 import { Footer } from "@/app/components/Footer/Footer";
 import {getWeatherData} from "@/app/hooks/useWeather";
@@ -12,6 +11,13 @@ import {IToggleMenuProps} from "@/app/interfaces/IToggleMenu";
 import weatherMappings from "@/app/mappings/WeatherMappings.json";
 import cryptoMappings from "@/app/mappings/CryptoMappings.json";
 import {IWeatherProps} from "@/app/interfaces/IWeather";
+import { Poppins } from 'next/font/google'
+
+const poppins = Poppins({
+  weight: '400',
+  subsets: ['latin']
+});
+
 interface LayoutProps {
   children: React.ReactNode;
 }
@@ -53,7 +59,7 @@ export default async function RootLayout({ children }: LayoutProps) {
   };
 
   return (
-    <html lang="en">
+    <html lang="en" className={poppins.className}>
     <body>
     <main className="flex min-h-screen flex-col items-center justify-between p-24 main">
       <DefaultNavbar />
