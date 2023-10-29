@@ -1,7 +1,7 @@
 import * as React from "react";
 import { motion } from "framer-motion";
 import { MenuItem } from "./MenuItem";
-import styles from './WeatherCard.module.scss';
+import styles from '../ToggleMenu/ToggleMenu.module.scss';
 import {INavigationProps} from "@/app/interfaces/INavigation";
 
 const variants = {
@@ -14,7 +14,7 @@ const variants = {
 };
 
 export const Navigation = ({ content }: INavigationProps) => (
-  <motion.ul variants={variants} className={styles.weatherCardUl}>
+  <motion.ul variants={variants} className={styles.toggleMenuUl}>
     {content.map((content, index) => (
       <MenuItem i={index} key={index} content={content} />
     ))}

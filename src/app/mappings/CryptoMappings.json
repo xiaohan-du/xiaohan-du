@@ -1,0 +1,32 @@
+[
+  {
+    "cmc_id": 1,
+    "field_key": "BTC",
+    "name": "BTC",
+    "unit": "GBP"
+  },
+  {
+    "cmc_id": 1027,
+    "field_key": "ETH",
+    "name": "ETH",
+    "unit": "GBP"
+  },
+  {
+    "cmc_id": 2010,
+    "field_key": "ADA",
+    "name": "ADA",
+    "unit": "GBP"
+  },
+  {
+    "cmc_id": 74,
+    "field_key": "DOGE",
+    "name": "DOGE",
+    "unit": "GBP"
+  },
+  {
+    "cmc_id": 512,
+    "field_key": "XLM",
+    "name": "XLM",
+    "unit": "GBP"
+  }
+]

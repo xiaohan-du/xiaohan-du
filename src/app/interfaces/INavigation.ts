@@ -1,5 +1,5 @@
-import {IWeatherProps} from "@/app/interfaces/IWeather";
+import {IToggleItemProps} from "@/app/interfaces/IToggleItem";
 
 export interface INavigationProps {
-  content: IWeatherProps[];
+  content: IToggleItemProps[];
 };

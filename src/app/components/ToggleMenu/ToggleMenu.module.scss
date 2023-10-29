@@ -1,11 +1,11 @@
-$card-width: 9.375rem;
-.weatherCard {
+$menu-width: 9.375rem;
+.toggleMenu {
   &Nav {
     position: relative;
     top: 0;
     right: 0;
     bottom: 0;
-    min-width: $card-width;
+    min-width: $menu-width;
   }
 
   &Placeholder {
@@ -20,9 +20,9 @@ $card-width: 9.375rem;
 
   &Ul {
     position: absolute;
-    top: 7.5rem;
+    top: 5.5rem;
     right: 0;
-    min-width: $card-width;
+    min-width: $menu-width;
   }
 
   &Li {

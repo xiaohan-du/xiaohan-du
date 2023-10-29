@@ -1,6 +1,6 @@
 import * as React from "react";
 import { motion } from "framer-motion";
-import styles from './WeatherCard.module.scss';
+import styles from '../ToggleMenu/ToggleMenu.module.scss';
 import {IMenuItemProps} from "@/app/interfaces/IMenuItem";
 
 const variants = {
@@ -28,9 +28,9 @@ export const MenuItem = ({ i , content}: IMenuItemProps) => {
       variants={variants}
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.95 }}
-      className={styles.weatherCardLi}
+      className={styles.toggleMenuLi}
     >
-      <div className={styles.weatherCardPlaceholderText} style={style}>
+      <div className={styles.toggleMenuPlaceholderText} style={style}>
         <div>{content.name}:&nbsp;</div>
         <div>{content.value}</div>
         <div>{content.unit}</div>
