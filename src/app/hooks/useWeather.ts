@@ -1,6 +1,5 @@
-import {IWeatherCardProps} from "@/app/interfaces/IWeatherCard";
 import {ILocationProps} from "@/app/interfaces/ILocation";
-export const getWeatherData = async ({lon, lat}: ILocationProps): Promise<IWeatherCardProps> => {
+export const getWeatherData = async ({lon, lat}: ILocationProps) => {
 
   const apiKey: string | undefined = process.env.API_KEY_WEATHER;
   const apiUrl = `${process.env.API_URL_WEATHER}?lat=${lat}&lon=${lon}&appid=${apiKey}&units=metric`;

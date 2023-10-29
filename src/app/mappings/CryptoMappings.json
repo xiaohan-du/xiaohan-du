@@ -2,31 +2,31 @@
   {
     "cmc_id": 1,
     "field_key": "BTC",
-    "name": "Bitcoin",
+    "name": "BTC",
     "unit": "GBP"
   },
   {
     "cmc_id": 1027,
     "field_key": "ETH",
-    "name": "Ethereum",
+    "name": "ETH",
     "unit": "GBP"
   },
   {
     "cmc_id": 2010,
     "field_key": "ADA",
-    "name": "Cardano",
+    "name": "ADA",
     "unit": "GBP"
   },
   {
     "cmc_id": 74,
     "field_key": "DOGE",
-    "name": "Dogecoin",
+    "name": "DOGE",
     "unit": "GBP"
   },
   {
     "cmc_id": 512,
     "field_key": "XLM",
-    "name": "Stellar",
+    "name": "XLM",
     "unit": "GBP"
   }
 ]

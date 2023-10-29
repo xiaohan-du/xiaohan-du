@@ -1,5 +1,5 @@
 export interface IWeatherCardProps {
-  weather: Weather[];
+  icon: string;
   main: Main;
-  city: string;
+  text: string;
 };

@@ -1,19 +1,18 @@
-import {IWeatherCardProps} from "@/app/interfaces/IWeatherCard";
 import Image from "next/image";
 import {useRef} from "react";
-import fieldMappings from './WeatherCard.json'
 import {useDimensions} from "@/app/hooks/useDimensions";
 import {motion, useCycle} from "framer-motion";
 import {MenuToggle} from "../MotionToggleMenu/MenuToggle";
 import {Navigation} from "../MotionToggleMenu/Navigation";
 import styles from './WeatherCard.module.scss';
 import {IToggleItemProps} from "@/app/interfaces/IToggleItem";
+import {IToggleMenuProps} from "@/app/interfaces/IToggleMenu";
 
-export const WeatherCard = ({weather, main, city}: IWeatherCardProps) => {
+export const WeatherCard = ({icon, main, text, mappings, iconSize, iconClasses}: IToggleMenuProps) => {
   const [isOpen, toggleOpen] = useCycle(false, true);
   const containerRef = useRef(null);
   const {height} = useDimensions(containerRef);
-  const navContents: IToggleItemProps[] = fieldMappings.map(item => {
+  const navContents: IToggleItemProps[] = mappings.map(item => {
     const {field_key, name, unit} = item;
     return {
       field_key,
@@ -35,9 +34,8 @@ export const WeatherCard = ({weather, main, city}: IWeatherCardProps) => {
           <motion.div className={styles.weatherCardBg}/>
           <Navigation content={navContents}/>
           <MenuToggle toggle={() => toggleOpen()} image={
-            <Image src={`https://openweathermap.org/img/wn/${weather[0].icon}@2x.png`} alt="Weather Icon" width={50}
-                   height={50}/>
-          } text={city}/>
+            <Image src={icon} alt="Weather Icon" width={iconSize} height={iconSize} className={iconClasses}/>
+          } text={text}/>
         </motion.nav>
       </div>
     </>

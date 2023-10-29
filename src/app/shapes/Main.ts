@@ -1,7 +1,1 @@
-type Main = {
-  temp: number;
-  feels_like: number;
-  temp_min: number;
-  temp_max: number;
-  pressure: number;
-};
+type Main = GbpPrices | Weather
