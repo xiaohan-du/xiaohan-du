@@ -61,7 +61,7 @@ export default async function RootLayout({ children }: LayoutProps) {
   return (
     <html lang="en" className={poppins.className}>
     <body>
-    <main className="flex min-h-screen flex-col items-center justify-between p-24 main">
+    <main className="flex min-h-screen flex-col items-center p-24 main">
       <DefaultNavbar />
       <WidgetBar {...widgetBarData} />
       {children}
