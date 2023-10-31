@@ -23,7 +23,7 @@ export const ToggleMenu = ({icon, main, text, mappings, iconSize, iconClasses}: 
   });
   return (
     <>
-      <div className={'flex flex-row'}>
+      <div className={'flex flex-row mx-1'}>
         <motion.nav
           initial={false}
           animate={isOpen ? "open" : "closed"}
