@@ -1,7 +1,6 @@
 const finnhub = require('finnhub');
 
 export const getStockData = async () => {
-  let output;
   const api_key = finnhub.ApiClient.instance.authentications['api_key'];
   api_key.apiKey = process.env.API_KEY_FINNHUB;
   const finnhubClient = new finnhub.DefaultApi()

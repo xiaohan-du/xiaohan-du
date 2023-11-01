@@ -15,6 +15,9 @@ import { Poppins } from 'next/font/google'
 import {getStockData} from "@/app/hooks/useStock";
 import {IStockProps} from "@/app/interfaces/IStock";
 import stockMappings from "@/app/mappings/StockMappings.json";
+import {getCurrencyData} from "@/app/hooks/useCurrency";
+import currencyMappings from "@/app/mappings/CurrencyMappings.json";
+import {ICurrencyProps} from "@/app/interfaces/ICurrency";
 
 const poppins = Poppins({
   weight: '400',
@@ -33,7 +36,13 @@ export default async function RootLayout({ children }: LayoutProps) {
   const cryptoPrices = Object.values(cryptoData.data).reduce((result, item) => {
     result[item.symbol] = item.quote.GBP.price.toString().substring(0, 9);
     return result;
-  }, {});
+  }, {
+    BTC: 0,
+    DOGE: 0,
+    XLM: 0,
+    ETH: 0,
+    ADA: 0
+  });
 
   const stockData: IStockProps = await getStockData();
   const stockPrices: Stock = Object.keys(stockData).reduce((result, symbol) => {
@@ -46,6 +55,17 @@ export default async function RootLayout({ children }: LayoutProps) {
     META: 0,
     NVDA: 0
   });
+
+  const currencyData: ICurrencyProps = await getCurrencyData();
+
+  const toggleMenuDataCurrency: IToggleMenuProps = {
+    icon: '/icons/currency.svg',
+    main: currencyData.rates,
+    text: 'USD to',
+    mappings: currencyMappings,
+    iconSize: 30,
+    iconClasses: 'ml-2'
+  };
 
   const toggleMenuDataWeather: IToggleMenuProps = {
     icon: weatherData.weather[0].icon,
@@ -78,10 +98,12 @@ export default async function RootLayout({ children }: LayoutProps) {
     weatherData: IToggleMenuProps;
     cryptoData: IToggleMenuProps;
     stockData: IToggleMenuProps;
+    currencyData: IToggleMenuProps;
   } = {
     weatherData: toggleMenuDataWeather,
     cryptoData: toggleMenuDataCrypto,
-    stockData: toggleMenuDataStock
+    stockData: toggleMenuDataStock,
+    currencyData: toggleMenuDataCurrency
   };
 
   return (

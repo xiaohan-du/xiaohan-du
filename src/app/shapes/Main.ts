@@ -1,1 +1,1 @@
-type Main = Cryptos | Weather | Quote | Stock
+type Main = Cryptos | Weather | Quote | Stock | Currency
