@@ -1,7 +1,7 @@
-import {ILocationProps} from "@/app/interfaces/ILocation";
+export const getCurrencyData = async () => {
+  const apiKey: string | undefined = process.env.API_KEY_OPEN_EXCHANGE_RATES;
+  const apiUrl: string = `${process.env.API_URL_OPEN_EXCHANGE_RATES}?app_id=${apiKey}`;
 
-export const getUserLocation = async (): Promise<ILocationProps> => {
-  const apiUrl: URL = process.env.API_URL_LOCATION as unknown as URL;
   try {
     const response = await fetch(apiUrl, {
       method: 'GET',
@@ -12,7 +12,8 @@ export const getUserLocation = async (): Promise<ILocationProps> => {
     });
 
     if (!response.ok) {
-      throw new Error('Response error');
+      console.log('error fetching currency data')
+
     };
 
     const responseData = await response.json();

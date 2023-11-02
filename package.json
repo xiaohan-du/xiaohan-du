@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "finnhub": "^1.2.18",
     "flowbite": "^1.8.1",
     "flowbite-react": "^0.6.4",
     "framer-motion": "^10.16.4",

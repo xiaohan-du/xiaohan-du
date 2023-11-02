@@ -1,0 +1,22 @@
+[
+  {
+    "field_key": "AAPL",
+    "name": "AAPL"
+  },
+  {
+    "field_key": "MSFT",
+    "name": "MSFT"
+  },
+  {
+    "field_key": "AMZN",
+    "name": "AMZN"
+  },
+  {
+    "field_key": "META",
+    "name": "META"
+  },
+  {
+    "field_key": "NVDA",
+    "name": "NVDA"
+  }
+]

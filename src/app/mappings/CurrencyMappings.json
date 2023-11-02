@@ -1,0 +1,22 @@
+[
+  {
+    "field_key": "GBP",
+    "name": "GBP"
+  },
+  {
+    "field_key": "CAD",
+    "name": "CAD"
+  },
+  {
+    "field_key": "JPY",
+    "name": "JPY"
+  },
+  {
+    "field_key": "AUD",
+    "name": "AUD"
+  },
+  {
+    "field_key": "EUR",
+    "name": "EUR"
+  }
+]

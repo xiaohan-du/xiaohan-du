@@ -1,7 +1,7 @@
-import {ILocationProps} from "@/app/interfaces/ILocation";
+export const getMetalData = async () => {
 
-export const getUserLocation = async (): Promise<ILocationProps> => {
-  const apiUrl: URL = process.env.API_URL_LOCATION as unknown as URL;
+  const apiKey: string | undefined = process.env.API_KEY_METALPRICE;
+  const apiUrl: string = `${process.env.API_URL_METALPRICE}?api_key=${apiKey}&base=USD&currencies=XAU,XAG,XPT,XCU,ZNC`;
   try {
     const response = await fetch(apiUrl, {
       method: 'GET',
@@ -12,7 +12,8 @@ export const getUserLocation = async (): Promise<ILocationProps> => {
     });
 
     if (!response.ok) {
-      throw new Error('Response error');
+      console.log('error fetching metal price data')
+
     };
 
     const responseData = await response.json();

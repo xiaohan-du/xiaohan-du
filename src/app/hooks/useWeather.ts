@@ -3,7 +3,7 @@ import {IWeatherProps} from "@/app/interfaces/IWeather";
 export const getWeatherData = async ({lon, lat}: ILocationProps): Promise<IWeatherProps> => {
 
   const apiKey: string | undefined = process.env.API_KEY_WEATHER;
-  const apiUrl = `${process.env.API_URL_WEATHER}?lat=${lat}&lon=${lon}&appid=${apiKey}&units=metric`;
+  const apiUrl: string = `${process.env.API_URL_WEATHER}?lat=${lat}&lon=${lon}&appid=${apiKey}&units=metric`;
   try {
     const response = await fetch(apiUrl, {
       method: 'GET',

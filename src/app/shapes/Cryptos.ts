@@ -1,4 +1,4 @@
-type GbpPrices = {
+type Cryptos = {
   BTC: number;
   DOGE: number;
   XLM: number;
