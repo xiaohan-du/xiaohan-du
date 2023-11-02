@@ -1,7 +1,7 @@
-export const getCurrencyData = async () => {
-  const apiKey: string | undefined = process.env.API_KEY_OPEN_EXCHANGE_RATES;
-  const apiUrl: string = `${process.env.API_URL_OPEN_EXCHANGE_RATES}?app_id=${apiKey}`;
+export const getMetalData = async () => {
 
+  const apiKey: string | undefined = process.env.API_KEY_METALPRICE;
+  const apiUrl: string = `${process.env.API_URL_METALPRICE}?api_key=${apiKey}&base=USD&currencies=XAU,XAG,XPT,XCU,ZNC`;
   try {
     const response = await fetch(apiUrl, {
       method: 'GET',
@@ -12,7 +12,7 @@ export const getCurrencyData = async () => {
     });
 
     if (!response.ok) {
-      console.log('error fetching currency data')
+      console.log('error fetching metal price data')
 
     };
 

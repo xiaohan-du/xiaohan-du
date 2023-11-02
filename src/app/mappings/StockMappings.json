@@ -1,27 +1,22 @@
 [
   {
     "field_key": "AAPL",
-    "name": "AAPL",
-    "unit": "USD"
+    "name": "AAPL"
   },
   {
     "field_key": "MSFT",
-    "name": "MSFT",
-    "unit": "USD"
+    "name": "MSFT"
   },
   {
     "field_key": "AMZN",
-    "name": "AMZN",
-    "unit": "USD"
+    "name": "AMZN"
   },
   {
     "field_key": "META",
-    "name": "META",
-    "unit": "USD"
+    "name": "META"
   },
   {
     "field_key": "NVDA",
-    "name": "NVDA",
-    "unit": "USD"
+    "name": "NVDA"
   }
 ]

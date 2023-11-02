@@ -1,0 +1,22 @@
+[
+  {
+    "field_key": "XAG",
+    "name": "Silver"
+  },
+  {
+    "field_key": "XAU",
+    "name": "Gold"
+  },
+  {
+    "field_key": "XCU",
+    "name": "Copper"
+  },
+  {
+    "field_key": "XPT",
+    "name": "Platinum"
+  },
+  {
+    "field_key": "ZNC",
+    "name": "Zinc"
+  }
+]

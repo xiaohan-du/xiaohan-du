@@ -1,27 +1,22 @@
 [
   {
     "field_key": "GBP",
-    "name": "GBP",
-    "unit": ""
+    "name": "GBP"
   },
   {
     "field_key": "CAD",
-    "name": "CAD",
-    "unit": ""
+    "name": "CAD"
   },
   {
     "field_key": "JPY",
-    "name": "JPY",
-    "unit": ""
+    "name": "JPY"
   },
   {
     "field_key": "AUD",
-    "name": "AUD",
-    "unit": ""
+    "name": "AUD"
   },
   {
     "field_key": "EUR",
-    "name": "EUR ",
-    "unit": ""
+    "name": "EUR"
   }
 ]

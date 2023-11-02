@@ -1,5 +1,5 @@
-import { DefaultNavbar } from "@/app/components/Navbar/Navbar";
-import { Footer } from "@/app/components/Footer/Footer";
+import {DefaultNavbar} from "@/app/components/Navbar/Navbar";
+import {Footer} from "@/app/components/Footer/Footer";
 import {getWeatherData} from "@/app/hooks/useWeather";
 import './globals.scss'
 import {getUserLocation} from "@/app/hooks/useLocation";
@@ -11,13 +11,16 @@ import {IToggleMenuProps} from "@/app/interfaces/IToggleMenu";
 import weatherMappings from "@/app/mappings/WeatherMappings.json";
 import cryptoMappings from "@/app/mappings/CryptoMappings.json";
 import {IWeatherProps} from "@/app/interfaces/IWeather";
-import { Poppins } from 'next/font/google'
+import {Poppins} from 'next/font/google'
 import {getStockData} from "@/app/hooks/useStock";
 import {IStockProps} from "@/app/interfaces/IStock";
 import stockMappings from "@/app/mappings/StockMappings.json";
 import {getCurrencyData} from "@/app/hooks/useCurrency";
 import currencyMappings from "@/app/mappings/CurrencyMappings.json";
 import {ICurrencyProps} from "@/app/interfaces/ICurrency";
+import {getMetalData} from "@/app/hooks/useMetal";
+import metalMappings from "@/app/mappings/MetalMappings.json";
+import {IMetalProps} from "@/app/interfaces/IMetal";
 
 const poppins = Poppins({
   weight: '400',
@@ -27,14 +30,15 @@ const poppins = Poppins({
 interface LayoutProps {
   children: React.ReactNode;
 }
-export default async function RootLayout({ children }: LayoutProps) {
+
+export default async function RootLayout({children}: LayoutProps) {
 
   const locationData: ILocationProps = await getUserLocation();
-  const { lat = 51.5, lon = 0.127, city = 'London' } = locationData || {};
+  const {lat = 51.5, lon = 0.127, city = 'London'} = locationData || {};
   const weatherData: IWeatherProps = await getWeatherData({lat: lat, lon: lon, city: city});
   const cryptoData: ICryptoProps = await getCryptoData();
-  const cryptoPrices = Object.values(cryptoData.data).reduce((result, item) => {
-    result[item.symbol] = item.quote.GBP.price.toString().substring(0, 9);
+  const cryptoPrices: Cryptos = Object.values(cryptoData.data).reduce((result, item) => {
+    result[item.symbol] = item.quote.USD.price.toString().substring(0, 9);
     return result;
   }, {
     BTC: 0,
@@ -58,6 +62,24 @@ export default async function RootLayout({ children }: LayoutProps) {
 
   const currencyData: ICurrencyProps = await getCurrencyData();
 
+  const metalPriceData: IMetalProps = await getMetalData();
+  const metalPriceDataPerOz: Partial<Metal> = Object.keys(metalPriceData.rates).reduce((result, symbol) => {
+    const key = symbol as keyof Metal;
+    return {
+      ...result,
+      [key]: (1 / (metalPriceData.rates[key] as unknown as number)).toString().substring(0, 8)
+    };
+  }, {});
+
+  const toggleMenuDataMetal: IToggleMenuProps = {
+    icon: '/icons/gold.svg',
+    main: metalPriceDataPerOz,
+    text: 'Metal (USD/oz)',
+    mappings: metalMappings,
+    iconSize: 30,
+    iconClasses: 'ml-2'
+  };
+
   const toggleMenuDataCurrency: IToggleMenuProps = {
     icon: '/icons/currency.svg',
     main: currencyData.rates,
@@ -79,7 +101,7 @@ export default async function RootLayout({ children }: LayoutProps) {
   const toggleMenuDataCrypto: IToggleMenuProps = {
     icon: '/icons/crypto.svg',
     main: cryptoPrices,
-    text: 'Crypto',
+    text: 'Crypto (USD)',
     mappings: cryptoMappings,
     iconSize: 30,
     iconClasses: 'ml-2'
@@ -88,7 +110,7 @@ export default async function RootLayout({ children }: LayoutProps) {
   const toggleMenuDataStock: IToggleMenuProps = {
     icon: '/icons/stock.svg',
     main: stockPrices,
-    text: 'Stock',
+    text: 'Stock (USD)',
     mappings: stockMappings,
     iconSize: 30,
     iconClasses: 'ml-2'
@@ -99,21 +121,23 @@ export default async function RootLayout({ children }: LayoutProps) {
     cryptoData: IToggleMenuProps;
     stockData: IToggleMenuProps;
     currencyData: IToggleMenuProps;
+    metalData: IToggleMenuProps;
   } = {
     weatherData: toggleMenuDataWeather,
     cryptoData: toggleMenuDataCrypto,
     stockData: toggleMenuDataStock,
-    currencyData: toggleMenuDataCurrency
+    currencyData: toggleMenuDataCurrency,
+    metalData: toggleMenuDataMetal
   };
 
   return (
     <html lang="en" className={poppins.className}>
     <body>
     <main className="flex min-h-screen flex-col items-center p-24 main">
-      <DefaultNavbar />
+      <DefaultNavbar/>
       <WidgetBar {...widgetBarData} />
       {children}
-      <Footer />
+      <Footer/>
     </main>
     </body>
     </html>

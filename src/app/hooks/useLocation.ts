@@ -1,8 +1,9 @@
 import {ILocationProps} from "@/app/interfaces/ILocation";
 
 export const getUserLocation = async (): Promise<ILocationProps> => {
+  const apiUrl: URL = process.env.API_URL_LOCATION as unknown as URL;
   try {
-    const response = await fetch('http://ip-api.com/json/', {
+    const response = await fetch(apiUrl, {
       method: 'GET',
       cache: 'no-store',
       headers: {
