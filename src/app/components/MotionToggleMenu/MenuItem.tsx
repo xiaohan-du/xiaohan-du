@@ -28,7 +28,7 @@ export const MenuItem = ({ i , content}: IMenuItemProps) => {
       variants={variants}
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.95 }}
-      className={styles.toggleMenuLi}
+      className={`${styles.toggleMenuLi} z-20 relative`}
     >
       <div className={styles.toggleMenuPlaceholderText} style={style}>
         <div>{content.name}:&nbsp;</div>
