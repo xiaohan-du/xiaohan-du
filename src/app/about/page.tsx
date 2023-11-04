@@ -1,5 +1,5 @@
 import GlobalPageLayout from "@/app/globalPageLayout";
-import about from '../../../public/texts/about.json';
+import about from '../data/about.json';
 
 export default function About() {
   return (
@@ -10,6 +10,7 @@ export default function About() {
       title={about.title}
       subTitle={about.subTitle}
       content={about.content}
+      animatedIconData={about.animatedIcon}
     />
   )
 };

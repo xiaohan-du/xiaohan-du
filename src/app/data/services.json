@@ -1,0 +1,23 @@
+{
+  "bgImage": "/images/thumbup.png",
+  "bgSize": "80%",
+  "bgVerticalPosition": "",
+  "title": "My Services",
+  "subTitle": "Yes",
+  "content": "It's My Services",
+  "animatedIcon": [
+    {
+      "hiddenX": 190,
+      "hiddenY": -290,
+      "visibleX": 0,
+      "visibleY": -530,
+      "duration": 1.5,
+      "delay": 0,
+      "imageSrc": "/icons/nextjs.svg",
+      "classNames": "shadow-xl rounded-full",
+      "title": "NextJS",
+      "alt": "NextJS Logo",
+      "width": 120
+    }
+  ]
+}

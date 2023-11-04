@@ -1,5 +1,5 @@
 import GlobalPageLayout from "@/app/globalPageLayout";
-import services from "../../../public/texts/services.json";
+import services from "../data/services.json";
 
 export default function Services() {
   return (
@@ -10,6 +10,7 @@ export default function Services() {
       title={services.title}
       subTitle={services.subTitle}
       content={services.content}
+      animatedIconData={services.animatedIcon}
     />
   )
 };

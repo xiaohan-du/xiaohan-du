@@ -1,5 +1,5 @@
 import GlobalPageLayout from "@/app/globalPageLayout";
-import demos from "../../../public/texts/demos.json";
+import demos from "../data/demos.json";
 
 export default function Demos() {
   return (
@@ -10,6 +10,7 @@ export default function Demos() {
       title={demos.title}
       subTitle={demos.subTitle}
       content={demos.content}
+      animatedIconData={demos.animatedIcon}
     />
   )
 };

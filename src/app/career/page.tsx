@@ -1,5 +1,5 @@
 import GlobalPageLayout from "@/app/globalPageLayout";
-import career from "../../../public/texts/career.json";
+import career from "../data/career.json";
 
 export default function Career() {
   return (
@@ -10,6 +10,7 @@ export default function Career() {
       title={career.title}
       subTitle={career.subTitle}
       content={career.content}
+      animatedIconData={career.animatedIcon}
     />
   )
 };
