@@ -3,21 +3,56 @@
   "bgSize": "80%",
   "bgVerticalPosition": "",
   "title": "My Services",
-  "subTitle": "Yes",
-  "content": "It's My Services",
+  "subTitle": "I offer website development services",
+  "content": "",
   "animatedIcon": [
     {
-      "hiddenX": 190,
+      "hiddenX": 200,
       "hiddenY": -290,
-      "visibleX": 0,
-      "visibleY": -530,
+      "visibleX": -20,
+      "visibleY": -480,
       "duration": 1.5,
       "delay": 0,
-      "imageSrc": "/icons/nextjs.svg",
-      "classNames": "shadow-xl rounded-full",
-      "title": "NextJS",
-      "alt": "NextJS Logo",
-      "width": 120
+      "imageSrc": "/icons/html.png",
+      "title": "HTML",
+      "alt": "HTML Logo",
+      "width": 100
+    },
+    {
+      "hiddenX": 180,
+      "hiddenY": -410,
+      "visibleX": -20,
+      "visibleY": -200,
+      "duration": 1.5,
+      "delay": 1,
+      "imageSrc": "/icons/js.svg",
+      "title": "JavaScript",
+      "alt": "JavaScript Logo",
+      "width": 140
+    },
+    {
+      "hiddenX": 190,
+      "hiddenY": -520,
+      "visibleX": 390,
+      "visibleY": -290,
+      "duration": 1.5,
+      "delay": 0.5,
+      "imageSrc": "/icons/css.png",
+      "title": "CSS",
+      "alt": "CSS Logo",
+      "width": 100
+    },
+    {
+      "hiddenX": 170,
+      "hiddenY": -660,
+      "visibleX": 390,
+      "visibleY": -775,
+      "duration": 1.5,
+      "delay": 1.5,
+      "imageSrc": "/icons/website.png",
+      "title": "Website",
+      "alt": "Website Logo",
+      "width": 160
     }
   ]
 }

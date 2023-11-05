@@ -3,21 +3,59 @@
   "bgSize": "80%",
   "bgVerticalPosition": "1rem",
   "title": "My Career",
-  "subTitle": "Yes",
-  "content": "It's My Career",
+  "subTitle": "Software development, financial services, insurance, and digital agency",
+  "content": "",
   "animatedIcon": [
     {
-      "hiddenX": 190,
-      "hiddenY": -290,
-      "visibleX": 0,
-      "visibleY": -530,
+      "hiddenX": 180,
+      "hiddenY": -300,
+      "visibleX": 180,
+      "visibleY": -580,
       "duration": 1.5,
       "delay": 0,
-      "imageSrc": "/icons/nextjs.svg",
+      "imageSrc": "/icons/fintech.png",
       "classNames": "shadow-xl rounded-full",
-      "title": "NextJS",
-      "alt": "NextJS Logo",
+      "title": "Fintech",
+      "alt": "Fintech Logo",
       "width": 120
+    },
+    {
+      "hiddenX": 180,
+      "hiddenY": -420,
+      "visibleX": -100,
+      "visibleY": -420,
+      "duration": 1.5,
+      "delay": 0.5,
+      "imageSrc": "/icons/house.png",
+      "title": "Software House",
+      "alt": "Software House Logo",
+      "width": 120
+    },
+    {
+      "hiddenX": 185,
+      "hiddenY": -530,
+      "visibleX": 185,
+      "visibleY": -250,
+      "duration": 1.5,
+      "delay": 1,
+      "imageSrc": "/icons/insurance.png",
+      "classNames": "shadow-xl rounded-full",
+      "title": "Insurance",
+      "alt": "Insurance Logo",
+      "width": 110
+    },
+    {
+      "hiddenX": 185,
+      "hiddenY": -645,
+      "visibleX": 465,
+      "visibleY": -640,
+      "duration": 1.5,
+      "delay": 1.5,
+      "imageSrc": "/icons/agency.svg",
+      "classNames": "shadow-xl rounded-full",
+      "title": "Digital Agency",
+      "alt": "Digital Agency Logo",
+      "width": 110
     }
   ]
 }

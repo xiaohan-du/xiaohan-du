@@ -4,7 +4,7 @@
   "bgVerticalPosition": "",
   "title": "Software Engineer",
   "subTitle": "Xiaohan Du",
-  "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+  "content": "",
   "animatedIcon": [
     {
       "hiddenX": 190,
@@ -25,7 +25,7 @@
       "visibleX": 400,
       "visibleY": -600,
       "duration": 1.5,
-      "delay": 0.5,
+      "delay": 0,
       "imageSrc": "/icons/react.svg",
       "classNames": "shadow-xl rounded-full",
       "title": "React",
@@ -38,7 +38,7 @@
       "visibleX": -80,
       "visibleY": -600,
       "duration": 1.5,
-      "delay": 2,
+      "delay": 1,
       "imageSrc": "/icons/java.svg",
       "title": "Java",
       "alt": "Java Logo",
@@ -50,7 +50,7 @@
       "visibleX": 250,
       "visibleY": -890,
       "duration": 1.5,
-      "delay": 2,
+      "delay": 1,
       "imageSrc": "/icons/sql.png",
       "title": "SQL",
       "alt": "SQL Logo",
@@ -62,7 +62,7 @@
       "visibleX": -40,
       "visibleY": -550,
       "duration": 1.5,
-      "delay": 1.5,
+      "delay": 0,
       "imageSrc": "/icons/tailwind.png",
       "title": "Tailwind CSS",
       "alt": "Tailwind Logo",
@@ -74,7 +74,7 @@
       "visibleX": 330,
       "visibleY": -560,
       "duration": 1.5,
-      "delay": 1,
+      "delay": 0,
       "imageSrc": "/icons/springboot.svg",
       "classNames": "shadow-xl rounded-full",
       "title": "Springboot",
@@ -87,7 +87,7 @@
       "visibleX": 140,
       "visibleY": -610,
       "duration": 1.5,
-      "delay": 2,
+      "delay": 1,
       "imageSrc": "/icons/devops.png",
       "classNames": "shadow-xl rounded-full",
       "title": "DevOps",
@@ -100,7 +100,7 @@
       "visibleX": 470,
       "visibleY": -900,
       "duration": 1.5,
-      "delay": 2,
+      "delay": 1,
       "imageSrc": "/icons/testing.png",
       "title": "React-testing-library",
       "alt": "React-testing-library Logo",
@@ -108,3 +108,4 @@
     }
   ]
 }
+

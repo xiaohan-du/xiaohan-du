@@ -15,7 +15,7 @@ export const PushSwitch = ({bgImage, bgVerticalPosition, bgSize, animatedIconDat
   return (
     <div className={`${styles.pushSwitchContainer}`}>
       <div>
-        <input type="checkbox" className={`${styles.pushSwitch} z-10`} style={pushSwitchStyle}/>
+        <input type="checkbox" className={`${styles.pushSwitch} z-10`} style={pushSwitchStyle} disabled />
         {animatedIconData.map((item: IMotionAnimatedIconProps, index: number): ReactNode => {
           return (
             <MotionAnimatedIcon
