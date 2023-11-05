@@ -1,0 +1,58 @@
+{
+  "bgImage": "/images/callme.png",
+  "bgSize": "80%",
+  "bgVerticalPosition": "2rem",
+  "title": "Contact Me",
+  "subTitle": "Interested in a chat? Pick one of the options below.",
+  "content": "",
+  "animatedIcon": [
+    {
+      "hiddenX": 200,
+      "hiddenY": -290,
+      "visibleX": -80,
+      "visibleY": -280,
+      "duration": 1.5,
+      "delay": 0,
+      "imageSrc": "/icons/email.svg",
+      "title": "Email",
+      "alt": "Email Logo",
+      "width": 100
+    },
+    {
+      "hiddenX": 180,
+      "hiddenY": -410,
+      "visibleX": 20,
+      "visibleY": -180,
+      "duration": 1.5,
+      "delay": 0,
+      "imageSrc": "/icons/phone.svg",
+      "title": "Phone",
+      "alt": "Phone Logo",
+      "width": 140
+    },
+    {
+      "hiddenX": 190,
+      "hiddenY": -520,
+      "visibleX": 420,
+      "visibleY": -320,
+      "duration": 1.5,
+      "delay": 0,
+      "imageSrc": "/icons/instagram.jpg",
+      "title": "Instagram",
+      "alt": "Instagram Logo",
+      "width": 100
+    },
+    {
+      "hiddenX": 170,
+      "hiddenY": -660,
+      "visibleX": 290,
+      "visibleY": -880,
+      "duration": 1.5,
+      "delay": 0,
+      "imageSrc": "/icons/linkedin.svg",
+      "title": "Linkedin",
+      "alt": "Linkedin Logo",
+      "width": 160
+    }
+  ]
+}

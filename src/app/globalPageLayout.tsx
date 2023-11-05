@@ -8,7 +8,8 @@ export default function GlobalPageLayout(
     bgVerticalPosition,
     title,
     subTitle,
-    content
+    content,
+    animatedIconData
   }: IGlobalPageLayoutProps): React.ReactNode {
   return (
     <div className={'flex h-160 w-full'}>
@@ -16,12 +17,14 @@ export default function GlobalPageLayout(
         <PushSwitch
           bgImage={bgImage}
           bgSize={bgSize}
-          bgVerticalPosition={bgVerticalPosition}/>
+          bgVerticalPosition={bgVerticalPosition}
+          animatedIconData={animatedIconData}
+        />
       </div>
       <div className={'flex flex-col items-start justify-start w-1/2 mt-36'}>
         <div>
-          <p className={'text-lg'}>{title}</p>
-          <p className={'text-4xl font-bold'}>{subTitle}</p>
+          <p className={'text-lg text-gray-400'}>{title}</p>
+          <p className={'text-4xl font-bold mt-4'}>{subTitle}</p>
         </div>
         <div className={'mt-16'}>
           {content}

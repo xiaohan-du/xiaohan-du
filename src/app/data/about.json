@@ -1,0 +1,84 @@
+{
+  "bgImage": "/images/heart.png",
+  "bgSize": "80%",
+  "bgVerticalPosition": "4.5rem",
+  "title": "Coding, CrossFit, Motorcycle",
+  "subTitle": "Passionate software engineer diving into tech, coding enthusiast, CrossFit lover, adventurous",
+  "content": "",
+  "animatedIcon": [
+    {
+      "hiddenX": 180,
+      "hiddenY": -300,
+      "visibleX": 180,
+      "visibleY": -580,
+      "duration": 1.5,
+      "delay": 0,
+      "imageSrc": "/icons/coding.svg",
+      "classNames": "shadow-xl rounded-full",
+      "title": "Coding",
+      "alt": "Coding Logo",
+      "width": 120
+    },
+    {
+      "hiddenX": 180,
+      "hiddenY": -420,
+      "visibleX": -75,
+      "visibleY": -300,
+      "duration": 1.5,
+      "delay": 0,
+      "imageSrc": "/icons/helmet.png",
+      "classNames": "shadow-xl rounded-full",
+      "title": "Helmet",
+      "alt": "Helmet Logo",
+      "width": 120
+    },
+    {
+      "hiddenX": 200,
+      "hiddenY": -530,
+      "visibleX": 203,
+      "visibleY": -250,
+      "duration": 1.5,
+      "delay": 1,
+      "imageSrc": "/icons/game.png",
+      "title": "Gaming",
+      "alt": "Gaming Logo",
+      "width": 80
+    },
+    {
+      "hiddenX": 200,
+      "hiddenY": -600,
+      "visibleX": -40,
+      "visibleY": -750,
+      "duration": 1.5,
+      "delay": 1,
+      "imageSrc": "/icons/astronomy.svg",
+      "title": "Astronomy",
+      "alt": "Astronomy Logo",
+      "width": 80
+    },
+    {
+      "hiddenX": 180,
+      "hiddenY": -700,
+      "visibleX": 430,
+      "visibleY": -570,
+      "duration": 1.5,
+      "delay": 0,
+      "imageSrc": "/icons/crossfit.svg",
+      "title": "CrossFit",
+      "alt": "CrossFit Logo",
+      "width": 120
+    },
+    {
+      "hiddenX": 205,
+      "hiddenY": -800,
+      "visibleX": 435,
+      "visibleY": -940,
+      "duration": 1.5,
+      "delay": 1,
+      "imageSrc": "/icons/printer.png",
+      "title": "3D Printer",
+      "alt": "3D Printer Logo",
+      "width": 70
+    }
+  ]
+}

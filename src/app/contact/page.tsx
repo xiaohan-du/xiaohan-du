@@ -1,5 +1,5 @@
 import GlobalPageLayout from "@/app/globalPageLayout";
-import contact from "../../../public/texts/contact.json";
+import contact from "../data/contact.json";
 
 export default function Contact() {
   return (
@@ -10,6 +10,7 @@ export default function Contact() {
       title={contact.title}
       subTitle={contact.subTitle}
       content={contact.content}
+      animatedIconData={contact.animatedIcon}
     />
   )
 };

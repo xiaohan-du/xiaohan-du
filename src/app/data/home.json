@@ -1,0 +1,111 @@
+{
+  "bgImage": "/images/hello.png",
+  "bgSize": "90%",
+  "bgVerticalPosition": "",
+  "title": "Software Engineer",
+  "subTitle": "Xiaohan Du",
+  "content": "",
+  "animatedIcon": [
+    {
+      "hiddenX": 190,
+      "hiddenY": -290,
+      "visibleX": 0,
+      "visibleY": -530,
+      "duration": 1.5,
+      "delay": 0,
+      "imageSrc": "/icons/nextjs.svg",
+      "classNames": "shadow-xl rounded-full",
+      "title": "NextJS",
+      "alt": "NextJS Logo",
+      "width": 120
+    },
+    {
+      "hiddenX": 200,
+      "hiddenY": -400,
+      "visibleX": 400,
+      "visibleY": -600,
+      "duration": 1.5,
+      "delay": 0,
+      "imageSrc": "/icons/react.svg",
+      "classNames": "shadow-xl rounded-full",
+      "title": "React",
+      "alt": "React Logo",
+      "width": 100
+    },
+    {
+      "hiddenX": 210,
+      "hiddenY": -500,
+      "visibleX": -80,
+      "visibleY": -600,
+      "duration": 1.5,
+      "delay": 1,
+      "imageSrc": "/icons/java.svg",
+      "title": "Java",
+      "alt": "Java Logo",
+      "width": 80
+    },
+    {
+      "hiddenX": 210,
+      "hiddenY": -600,
+      "visibleX": 250,
+      "visibleY": -890,
+      "duration": 1.5,
+      "delay": 1,
+      "imageSrc": "/icons/sql.png",
+      "title": "SQL",
+      "alt": "SQL Logo",
+      "width": 80
+    },
+    {
+      "hiddenX": 200,
+      "hiddenY": -690,
+      "visibleX": -40,
+      "visibleY": -550,
+      "duration": 1.5,
+      "delay": 0,
+      "imageSrc": "/icons/tailwind.png",
+      "title": "Tailwind CSS",
+      "alt": "Tailwind Logo",
+      "width": 100
+    },
+    {
+      "hiddenX": 200,
+      "hiddenY": -790,
+      "visibleX": 330,
+      "visibleY": -560,
+      "duration": 1.5,
+      "delay": 0,
+      "imageSrc": "/icons/springboot.svg",
+      "classNames": "shadow-xl rounded-full",
+      "title": "Springboot",
+      "alt": "Springboot Logo",
+      "width": 100
+    },
+    {
+      "hiddenX": 215,
+      "hiddenY": -875,
+      "visibleX": 140,
+      "visibleY": -610,
+      "duration": 1.5,
+      "delay": 1,
+      "imageSrc": "/icons/devops.png",
+      "classNames": "shadow-xl rounded-full",
+      "title": "DevOps",
+      "alt": "DevOps Logo",
+      "width": 70
+    },
+    {
+      "hiddenX": 215,
+      "hiddenY": -945,
+      "visibleX": 470,
+      "visibleY": -900,
+      "duration": 1.5,
+      "delay": 1,
+      "imageSrc": "/icons/testing.png",
+      "title": "React-testing-library",
+      "alt": "React-testing-library Logo",
+      "width": 70
+    }
+  ]
+}
+

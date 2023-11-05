@@ -1,5 +1,5 @@
 import GlobalPageLayout from "@/app/globalPageLayout";
-import home from '../../public/texts/home.json';
+import home from './data/home.json';
 
 export default function Home() {
   return (
@@ -10,6 +10,7 @@ export default function Home() {
       title={home.title}
       subTitle={home.subTitle}
       content={home.content}
+      animatedIconData={home.animatedIcon}
     />
   )
 };

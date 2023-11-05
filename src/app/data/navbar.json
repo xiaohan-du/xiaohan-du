@@ -1,0 +1,40 @@
+{
+  "brand": {
+    "logo": "/images/logo.png",
+    "classNames": "h-12 w-12 mr-3",
+    "alt": "Flowbite Logo",
+    "width": 100,
+    "name": "Xiaohan Du",
+    "defaultHref": "/"
+  },
+  "links": {
+    "default": "text-gray-400",
+    "checked": "text-black font-semibold",
+    "contents": [
+      {
+        "href": "/",
+        "title": "Home"
+      },
+      {
+        "href": "/about",
+        "title": "About Me"
+      },
+      {
+        "href": "/career",
+        "title": "Career"
+      },
+      {
+        "href": "/demos",
+        "title": "Demos"
+      },
+      {
+        "href": "/services",
+        "title": "Services"
+      },
+      {
+        "href": "/contact",
+        "title": "Contact"
+      }
+    ]
+  }
+}
