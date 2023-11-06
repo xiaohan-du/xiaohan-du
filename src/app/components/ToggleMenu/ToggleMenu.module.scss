@@ -47,4 +47,10 @@ $menu-width: 9.375rem;
     border-radius: 50%;
     background: transparent;
   }
+  &Show {
+    display: block;
+  }
+  &Hide {
+    display: none;
+  }
 }
