@@ -9,7 +9,6 @@ export default function Contact() {
       bgVerticalPosition={contact.bgVerticalPosition}
       title={contact.title}
       subTitle={contact.subTitle}
-      content={contact.content}
       animatedIconData={contact.animatedIcon}
     />
   )

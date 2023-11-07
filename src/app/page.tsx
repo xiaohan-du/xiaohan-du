@@ -9,7 +9,6 @@ export default function Home() {
       bgVerticalPosition={home.bgVerticalPosition}
       title={home.title}
       subTitle={home.subTitle}
-      content={home.content}
       animatedIconData={home.animatedIcon}
     />
   )

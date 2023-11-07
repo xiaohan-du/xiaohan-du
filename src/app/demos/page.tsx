@@ -9,7 +9,6 @@ export default function Demos() {
       bgVerticalPosition={demos.bgVerticalPosition}
       title={demos.title}
       subTitle={demos.subTitle}
-      content={demos.content}
       animatedIconData={demos.animatedIcon}
     />
   )

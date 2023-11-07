@@ -9,7 +9,6 @@ export default function Career() {
       bgVerticalPosition={career.bgVerticalPosition}
       title={career.title}
       subTitle={career.subTitle}
-      content={career.content}
       animatedIconData={career.animatedIcon}
     />
   )

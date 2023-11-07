@@ -4,7 +4,6 @@
   "bgVerticalPosition": "",
   "title": "Software Engineer",
   "subTitle": "Xiaohan Du",
-  "content": "",
   "animatedIcon": [
     {
       "hiddenX": 190,
@@ -35,20 +34,21 @@
     {
       "hiddenX": 210,
       "hiddenY": -500,
-      "visibleX": -80,
-      "visibleY": -600,
+      "visibleX": -90,
+      "visibleY": -560,
       "duration": 1.5,
       "delay": 1,
-      "imageSrc": "/icons/java.svg",
-      "title": "Java",
-      "alt": "Java Logo",
-      "width": 80
+      "imageSrc": "/icons/framer.png",
+      "classNames": "shadow-xl rounded-full",
+      "title": "Framer Motion",
+      "alt": "Framer Motion Logo",
+      "width": 120
     },
     {
       "hiddenX": 210,
       "hiddenY": -600,
       "visibleX": 250,
-      "visibleY": -890,
+      "visibleY": -850,
       "duration": 1.5,
       "delay": 1,
       "imageSrc": "/icons/sql.png",
@@ -72,7 +72,7 @@
       "hiddenX": 200,
       "hiddenY": -790,
       "visibleX": 330,
-      "visibleY": -560,
+      "visibleY": -540,
       "duration": 1.5,
       "delay": 0,
       "imageSrc": "/icons/springboot.svg",
@@ -85,13 +85,13 @@
       "hiddenX": 215,
       "hiddenY": -875,
       "visibleX": 140,
-      "visibleY": -610,
+      "visibleY": -600,
       "duration": 1.5,
       "delay": 1,
-      "imageSrc": "/icons/devops.png",
+      "imageSrc": "/icons/typescript.png",
       "classNames": "shadow-xl rounded-full",
-      "title": "DevOps",
-      "alt": "DevOps Logo",
+      "title": "TypeScript",
+      "alt": "TypeScript Logo",
       "width": 70
     },
     {

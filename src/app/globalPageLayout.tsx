@@ -1,5 +1,6 @@
 import {PushSwitch} from "@/app/components/PushSwitch/PushSwitch";
 import {IGlobalPageLayoutProps} from "@/app/interfaces/IGlobalPageLayout";
+import {LayoutCards} from "@/app/components/MotionAnimatedCard/MotionAnimatedCard";
 
 export default function GlobalPageLayout(
   {
@@ -8,7 +9,6 @@ export default function GlobalPageLayout(
     bgVerticalPosition,
     title,
     subTitle,
-    content,
     animatedIconData
   }: IGlobalPageLayoutProps): React.ReactNode {
   return (
@@ -26,9 +26,7 @@ export default function GlobalPageLayout(
           <p className={'text-lg text-gray-400'}>{title}</p>
           <p className={'text-4xl font-bold mt-4'}>{subTitle}</p>
         </div>
-        <div className={'mt-16'}>
-          {content}
-        </div>
+        <LayoutCards />
       </div>
     </div>
   )

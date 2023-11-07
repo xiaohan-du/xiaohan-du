@@ -9,7 +9,6 @@ export default function About() {
       bgVerticalPosition={about.bgVerticalPosition}
       title={about.title}
       subTitle={about.subTitle}
-      content={about.content}
       animatedIconData={about.animatedIcon}
     />
   )
