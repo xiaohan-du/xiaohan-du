@@ -20,7 +20,7 @@ const variants = {
   }
 };
 
-const colors = ["#FF008C", "#D309E1", "#9C1AFF", "#7700FF", "#4400FF"];
+const colors = ["#92FE9D", "#83FB33", "#5CEA75", "#36D9B7", "#00C9FF"];
 export const MenuItem = ({ i , content}: IMenuItemProps) => {
   const style = { border: `0.125rem solid ${colors[i]}` };
   return (

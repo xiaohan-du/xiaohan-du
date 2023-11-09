@@ -1,6 +1,6 @@
 import {PushSwitch} from "@/app/components/PushSwitch/PushSwitch";
 import {IGlobalPageLayoutProps} from "@/app/interfaces/IGlobalPageLayout";
-import {LayoutCards} from "@/app/components/MotionAnimatedCard/MotionAnimatedCard";
+import {MotionAnimatedCard} from "@/app/components/MotionAnimatedCard/MotionAnimatedCard";
 
 export default function GlobalPageLayout(
   {
@@ -21,12 +21,12 @@ export default function GlobalPageLayout(
           animatedIconData={animatedIconData}
         />
       </div>
-      <div className={'flex flex-col items-start justify-start w-1/2 mt-36'}>
+      <div className={'flex flex-col items-start justify-start w-1/2 my-16'}>
         <div>
-          <p className={'text-lg text-gray-400'}>{title}</p>
-          <p className={'text-4xl font-bold mt-4'}>{subTitle}</p>
+          <p className={'text-lg text-gray-400 cursor-default'}>{title}</p>
+          <p className={'text-4xl font-bold mt-4 cursor-default'}>{subTitle}</p>
         </div>
-        <LayoutCards />
+        <MotionAnimatedCard />
       </div>
     </div>
   )
