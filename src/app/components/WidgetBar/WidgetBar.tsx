@@ -16,7 +16,7 @@ export const WidgetBar = (widgetBarData: {
   const { icon: iconCU, main: currencyPrices, text: textCU, mappings: currencyMappings } = widgetBarData.currencyData;
   const { icon: iconM, main: metalPrices, text: textM, mappings: metalMappings } = widgetBarData.metalData;
   return (
-    <div className={'bg-slate-50 w-full p-2 flex flex-row justify-between'}>
+    <div className={'bg-slate-50 w-full p-2 flex flex-row justify-between mb-4'}>
       <ToggleMenu icon={`https://openweathermap.org/img/wn/${iconW}@2x.png`} main={weatherMain} text={textW} mappings={weatherMappings} iconSize={50} iconClasses={''} />
       <ToggleMenu icon={iconC} main={cryptoPrices} text={textC} mappings={cryptoMappings} iconSize={30} iconClasses={'ml-2'} />
       <ToggleMenu icon={iconS} main={stockPrices} text={textS} mappings={stockMappings} iconSize={30} iconClasses={'ml-2'} />

@@ -10,6 +10,7 @@ export default function Career() {
       title={career.title}
       subTitle={career.subTitle}
       animatedIconData={career.animatedIcon}
+      animatedCardsData={career.animatedCards}
     />
   )
 };

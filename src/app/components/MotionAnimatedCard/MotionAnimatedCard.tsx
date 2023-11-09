@@ -5,90 +5,7 @@ import styles from './MotionAnimatedCard.module.scss';
 import Image from "next/image";
 import {IMotionAnimatedCard} from "@/app/interfaces/IMotionAnimatedCard";
 
-const cardsData = [
-  {
-    "title": "Frontend",
-    "contents": {
-      "iconWidth": 100,
-      "title": "As a highly skilled and creative front-end developer, I am passionate about crafting exceptional user experiences on the web.",
-      "text": [
-        "My day to day work could be ⬇️",
-        "Building reusable components, connect to backend services",
-        "Writing unit tests",
-        "Deploying code to QA environments and assist testers",
-        "Or it could be ⬇️",
-        "Creating visually stunning and animated interfaces from scratch",
-        "Mentoring junior developers",
-        "Learning and applying new technologies in real-world projects"
-      ]
-    },
-    "icon": {
-      "imageSrc": "/icons/code.svg",
-      "alt": "Frontend",
-      "width": 45
-    }
-  },
-  {
-    "title": "Backend",
-    "contents": {
-      "iconWidth": 100,
-      "title": "Java, Spring Boot MVC, and SQL expertise for efficient backend development",
-      "text": [
-        "Proficient in Java programming",
-        "Experienced in implementing comprehensive unit tests",
-        "Establish a Spring Boot MVC framework to develop RESTful APIs",
-        "Familiarity with Spring Boot's auto-configuration",
-        "Familiarity with SQL for effective database querying and manipulation"
-      ]
-    },
-    "icon": {
-      "imageSrc": "/icons/terminal.svg",
-      "alt": "Backend",
-      "width": 30
-    }
-  },
-  {
-    "title": "Agile",
-    "contents": {
-      "iconWidth": 100,
-      "title": "In my professional journey, I have embraced and thrived in Agile methodologies. ",
-      "text": [
-        "Regular Agile meetings",
-        "N-week sprints",
-        "Sprint Planning",
-        "Daily Stand-Up",
-        "Sprint Retrospective",
-        "Backlog Refinement",
-        "Ad-Hoc Collaboration",
-        "Cross-Functional Problem Solving"
-      ]
-    },
-    "icon": {
-      "imageSrc": "/icons/loop.svg",
-      "alt": "Agile",
-      "width": 30
-    }
-  },
-  {
-    "title": "Full Stack",
-    "contents": {
-      "iconWidth": 100,
-      "title": "Full Stack Development for seamless end-to-end application development",
-      "text": [
-        "High level understanding of software architecture principles",
-        "Independently developing full stack applications transforming raw data to eye-pleasing UI",
-        "Proven ability to analyze and solve complex problems in the development process"
-      ]
-    },
-    "icon": {
-      "imageSrc": "/icons/stack.svg",
-      "alt": "Full Stack",
-      "width": 45
-    }
-  }
-];
-
-export const MotionAnimatedCard = () => {
+export const MotionAnimatedCard = (animatedCardsData: IMotionAnimatedCard): React.ReactNode => {
   const [selectedId, setSelectedId] = useState(null);
   const handleCardClick = (card: any): void => {
     setSelectedId(selectedId === card ? null : card);
@@ -132,7 +49,7 @@ export const MotionAnimatedCard = () => {
     grid
     grid-cols-3
     grid-rows-2`}>
-      {cardsData.map((value: IMotionAnimatedCard, index: number) => (
+      {animatedCardsData.content.map((value:CardData, index: number) => (
         <motion.div
           className={selectedId === value.title ? openCardStyles : `${styles.card} ${cardStyles}`}
           key={index}

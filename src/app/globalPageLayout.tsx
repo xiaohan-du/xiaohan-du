@@ -9,7 +9,8 @@ export default function GlobalPageLayout(
     bgVerticalPosition,
     title,
     subTitle,
-    animatedIconData
+    animatedIconData,
+    animatedCardsData
   }: IGlobalPageLayoutProps): React.ReactNode {
   return (
     <div className={'flex h-160 w-full'}>
@@ -26,7 +27,7 @@ export default function GlobalPageLayout(
           <p className={'text-lg text-gray-400 cursor-default'}>{title}</p>
           <p className={'text-4xl font-bold mt-4 cursor-default'}>{subTitle}</p>
         </div>
-        <MotionAnimatedCard />
+        <MotionAnimatedCard content={animatedCardsData.content} />
       </div>
     </div>
   )

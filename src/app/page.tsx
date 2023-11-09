@@ -10,6 +10,7 @@ export default function Home() {
       title={home.title}
       subTitle={home.subTitle}
       animatedIconData={home.animatedIcon}
+      animatedCardsData={home.animatedCards}
     />
   )
 };

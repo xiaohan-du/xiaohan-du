@@ -6,5 +6,5 @@ export interface IGlobalPageLayoutProps extends IPushSwitchProps{
   title: string;
   subTitle: string;
   animatedIconData: IMotionAnimatedIconProps[];
-  animatedCardData: IMotionAnimatedCard;
+  animatedCardsData: IMotionAnimatedCard;
 };

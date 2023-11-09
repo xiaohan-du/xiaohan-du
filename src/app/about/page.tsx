@@ -10,6 +10,7 @@ export default function About() {
       title={about.title}
       subTitle={about.subTitle}
       animatedIconData={about.animatedIcon}
+      animatedCardsData={about.animatedCards}
     />
   )
 };

@@ -12,7 +12,7 @@
       "visibleY": -480,
       "duration": 1.5,
       "delay": 0,
-      "imageSrc": "/icons/html.png",
+      "imageSrc": "/icons/logos/services/html.png",
       "title": "HTML",
       "alt": "HTML Logo",
       "width": 100
@@ -24,7 +24,7 @@
       "visibleY": -200,
       "duration": 1.5,
       "delay": 1,
-      "imageSrc": "/icons/js.svg",
+      "imageSrc": "/icons/logos/services/js.svg",
       "title": "JavaScript",
       "alt": "JavaScript Logo",
       "width": 140
@@ -36,7 +36,7 @@
       "visibleY": -290,
       "duration": 1.5,
       "delay": 0.5,
-      "imageSrc": "/icons/css.png",
+      "imageSrc": "/icons/logos/services/css.png",
       "title": "CSS",
       "alt": "CSS Logo",
       "width": 100
@@ -48,10 +48,94 @@
       "visibleY": -775,
       "duration": 1.5,
       "delay": 1.5,
-      "imageSrc": "/icons/website.png",
+      "imageSrc": "/icons/logos/services/website.png",
       "title": "Website",
       "alt": "Website Logo",
       "width": 160
     }
-  ]
+  ],
+  "animatedCards": {
+    "content": [
+      {
+        "title": "Design",
+        "contents": {
+          "iconWidth": 100,
+          "title": "As a highly skilled and creative front-end developer, I am passionate about crafting exceptional user experiences on the web.",
+          "text": [
+            "My day to day work could be ⬇️",
+            "Building reusable components, connect to backend services",
+            "Writing unit tests",
+            "Deploying code to QA environments and assist testers",
+            "Or it could be ⬇️",
+            "Creating visually stunning and animated interfaces from scratch",
+            "Mentoring junior developers",
+            "Learning and applying new technologies in real-world projects"
+          ]
+        },
+        "icon": {
+          "imageSrc": "/icons/pixel/services/pencil-ruler.svg",
+          "alt": "Design",
+          "width": 45
+        }
+      },
+      {
+        "title": "Development",
+        "contents": {
+          "iconWidth": 100,
+          "title": "Java, Spring Boot MVC, and SQL expertise for efficient backend development",
+          "text": [
+            "Proficient in Java programming",
+            "Experienced in implementing comprehensive unit tests",
+            "Establish a Spring Boot MVC framework to develop RESTful APIs",
+            "Familiarity with Spring Boot's auto-configuration",
+            "Familiarity with SQL for effective database querying and manipulation"
+          ]
+        },
+        "icon": {
+          "imageSrc": "/icons/pixel/services/react.svg",
+          "alt": "Development",
+          "width": 30
+        }
+      },
+      {
+        "title": "Agile",
+        "contents": {
+          "iconWidth": 100,
+          "title": "In my professional journey, I have embraced and thrived in Agile methodologies",
+          "text": [
+            "Regular Agile meetings",
+            "N-week sprints",
+            "Sprint Planning",
+            "Daily Stand-Up",
+            "Sprint Retrospective",
+            "Backlog Refinement",
+            "Ad-Hoc Collaboration",
+            "Cross-Functional Problem Solving"
+          ]
+        },
+        "icon": {
+          "imageSrc": "/icons/loop.svg",
+          "alt": "Agile",
+          "width": 30
+        }
+      },
+      {
+        "title": "Deployment",
+        "contents": {
+          "iconWidth": 100,
+          "title": "Full Stack Development for seamless end-to-end application development",
+          "text": [
+            "High level understanding of software architecture principles",
+            "Independently developing full stack applications transforming raw data to eye-pleasing UI",
+            "Proven ability to analyze and solve complex problems in the development process"
+          ]
+        },
+        "icon": {
+          "imageSrc": "/icons/pixel/services/rocket.svg",
+          "alt": "Deployment",
+          "width": 45
+        }
+      }
+    ]
+  }
 }

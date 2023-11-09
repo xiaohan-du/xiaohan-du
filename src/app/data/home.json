@@ -12,7 +12,7 @@
       "visibleY": -530,
       "duration": 1.5,
       "delay": 0,
-      "imageSrc": "/icons/nextjs.svg",
+      "imageSrc": "/icons/logos/home/nextjs.svg",
       "classNames": "shadow-xl rounded-full",
       "title": "NextJS",
       "alt": "NextJS Logo",
@@ -25,7 +25,7 @@
       "visibleY": -600,
       "duration": 1.5,
       "delay": 0,
-      "imageSrc": "/icons/react.svg",
+      "imageSrc": "/icons/logos/home/react.svg",
       "classNames": "shadow-xl rounded-full",
       "title": "React",
       "alt": "React Logo",
@@ -38,7 +38,7 @@
       "visibleY": -560,
       "duration": 1.5,
       "delay": 1,
-      "imageSrc": "/icons/framer.png",
+      "imageSrc": "/icons/logos/home/framer.png",
       "classNames": "shadow-xl rounded-full",
       "title": "Framer Motion",
       "alt": "Framer Motion Logo",
@@ -51,7 +51,7 @@
       "visibleY": -850,
       "duration": 1.5,
       "delay": 1,
-      "imageSrc": "/icons/sql.png",
+      "imageSrc": "/icons/logos/home/sql.png",
       "title": "SQL",
       "alt": "SQL Logo",
       "width": 80
@@ -63,7 +63,7 @@
       "visibleY": -550,
       "duration": 1.5,
       "delay": 0,
-      "imageSrc": "/icons/tailwind.png",
+      "imageSrc": "/icons/logos/home/tailwind.png",
       "title": "Tailwind CSS",
       "alt": "Tailwind Logo",
       "width": 100
@@ -75,7 +75,7 @@
       "visibleY": -540,
       "duration": 1.5,
       "delay": 0,
-      "imageSrc": "/icons/springboot.svg",
+      "imageSrc": "/icons/logos/home/springboot.svg",
       "classNames": "shadow-xl rounded-full",
       "title": "Springboot",
       "alt": "Springboot Logo",
@@ -88,7 +88,7 @@
       "visibleY": -600,
       "duration": 1.5,
       "delay": 1,
-      "imageSrc": "/icons/typescript.png",
+      "imageSrc": "/icons/logos/home/typescript.png",
       "classNames": "shadow-xl rounded-full",
       "title": "TypeScript",
       "alt": "TypeScript Logo",
@@ -101,11 +101,95 @@
       "visibleY": -900,
       "duration": 1.5,
       "delay": 1,
-      "imageSrc": "/icons/testing.png",
+      "imageSrc": "/icons/logos/home/testing.png",
       "title": "React-testing-library",
       "alt": "React-testing-library Logo",
       "width": 70
     }
-  ]
+  ],
+  "animatedCards": {
+    "content": [
+      {
+        "title": "Frontend",
+        "contents": {
+          "iconWidth": 100,
+          "title": "As a highly skilled and creative front-end developer, I am passionate about crafting exceptional user experiences on the web",
+          "text": [
+            "My day to day work could be ⬇️",
+            "Building reusable components, connect to backend services",
+            "Writing unit tests",
+            "Deploying code to QA environments and assist testers",
+            "Or it could be ⬇️",
+            "Creating visually stunning and animated interfaces from scratch",
+            "Mentoring junior developers",
+            "Learning and applying new technologies in real-world projects"
+          ]
+        },
+        "icon": {
+          "imageSrc": "/icons/pixel/home/code.svg",
+          "alt": "Frontend",
+          "width": 45
+        }
+      },
+      {
+        "title": "Backend",
+        "contents": {
+          "iconWidth": 100,
+          "title": "Java, Spring Boot MVC, and SQL expertise for efficient backend development",
+          "text": [
+            "Proficient in Java programming",
+            "Experienced in implementing comprehensive unit tests",
+            "Establish a Spring Boot MVC framework to develop RESTful APIs",
+            "Familiarity with Spring Boot's auto-configuration",
+            "Familiarity with SQL for effective database querying and manipulation"
+          ]
+        },
+        "icon": {
+          "imageSrc": "/icons/pixel/home/terminal.svg",
+          "alt": "Backend",
+          "width": 30
+        }
+      },
+      {
+        "title": "Agile",
+        "contents": {
+          "iconWidth": 100,
+          "title": "In my professional journey, I have embraced and thrived in Agile methodologies",
+          "text": [
+            "Regular Agile meetings",
+            "N-week sprints",
+            "Sprint Planning",
+            "Daily Stand-Up",
+            "Sprint Retrospective",
+            "Backlog Refinement",
+            "Ad-Hoc Collaboration",
+            "Cross-Functional Problem Solving"
+          ]
+        },
+        "icon": {
+          "imageSrc": "/icons/pixel/home/loop.svg",
+          "alt": "Agile",
+          "width": 30
+        }
+      },
+      {
+        "title": "Full Stack",
+        "contents": {
+          "iconWidth": 100,
+          "title": "Full Stack Development for seamless end-to-end application development",
+          "text": [
+            "High level understanding of software architecture principles",
+            "Independently developing full stack applications transforming raw data to eye-pleasing UI",
+            "Proven ability to analyze and solve complex problems in the development process"
+          ]
+        },
+        "icon": {
+          "imageSrc": "/icons/pixel/home/stack.svg",
+          "alt": "Full Stack",
+          "width": 45
+        }
+      }
+    ]
+  }
 }
 

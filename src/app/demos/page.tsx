@@ -10,6 +10,7 @@ export default function Demos() {
       title={demos.title}
       subTitle={demos.subTitle}
       animatedIconData={demos.animatedIcon}
+      animatedCardsData={demos.animatedCards}
     />
   )
 };

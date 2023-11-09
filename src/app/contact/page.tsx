@@ -10,6 +10,7 @@ export default function Contact() {
       title={contact.title}
       subTitle={contact.subTitle}
       animatedIconData={contact.animatedIcon}
+      animatedCardsData={contact.animatedCards}
     />
   )
 };

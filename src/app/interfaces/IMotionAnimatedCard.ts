@@ -1,13 +1,15 @@
 export interface IMotionAnimatedCard {
-  title: string;
-  contents: {
-    iconWidth: number;
+  content: {
     title: string;
-    text: string[];
-  };
-  icon: {
-    imageSrc: string;
-    alt: string;
-    width: number;
-  }
-};
+    contents: {
+      iconWidth: number;
+      title: string;
+      text: string[];
+    };
+    icon: {
+      imageSrc: string;
+      alt: string;
+      width: number;
+    };
+  }[];
+}

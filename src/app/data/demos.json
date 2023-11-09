@@ -2,8 +2,92 @@
   "bgImage": "/images/bulb.png",
   "bgSize": "90%",
   "bgVerticalPosition": "-0rem",
-  "title": "Demos",
+  "title": "My Demos",
   "subTitle": "Please take a look at my demo projects",
   "animatedIcon": [
-  ]
+  ],
+  "animatedCards": {
+    "content": [
+      {
+        "title": "Portfolio",
+        "contents": {
+          "iconWidth": 100,
+          "title": "As a highly skilled and creative front-end developer, I am passionate about crafting exceptional user experiences on the web.",
+          "text": [
+            "My day to day work could be ⬇️",
+            "Building reusable components, connect to backend services",
+            "Writing unit tests",
+            "Deploying code to QA environments and assist testers",
+            "Or it could be ⬇️",
+            "Creating visually stunning and animated interfaces from scratch",
+            "Mentoring junior developers",
+            "Learning and applying new technologies in real-world projects"
+          ]
+        },
+        "icon": {
+          "imageSrc": "/icons/pixel/demos/folder-user.svg",
+          "alt": "Portfolio",
+          "width": 45
+        }
+      },
+      {
+        "title": "Gitlab-Webhook",
+        "contents": {
+          "iconWidth": 100,
+          "title": "Java, Spring Boot MVC, and SQL expertise for efficient backend development",
+          "text": [
+            "Proficient in Java programming",
+            "Experienced in implementing comprehensive unit tests",
+            "Establish a Spring Boot MVC framework to develop RESTful APIs",
+            "Familiarity with Spring Boot's auto-configuration",
+            "Familiarity with SQL for effective database querying and manipulation"
+          ]
+        },
+        "icon": {
+          "imageSrc": "/icons/pixel/demos/donut.svg",
+          "alt": "Gitlab-Webhook",
+          "width": 30
+        }
+      },
+      {
+        "title": "Sanctum-Wellbeing",
+        "contents": {
+          "iconWidth": 100,
+          "title": "In my professional journey, I have embraced and thrived in Agile methodologies. ",
+          "text": [
+            "Regular Agile meetings",
+            "N-week sprints",
+            "Sprint Planning",
+            "Daily Stand-Up",
+            "Sprint Retrospective",
+            "Backlog Refinement",
+            "Ad-Hoc Collaboration",
+            "Cross-Functional Problem Solving"
+          ]
+        },
+        "icon": {
+          "imageSrc": "/icons/pixel/demos/hand-heart.svg",
+          "alt": "Sanctum-Wellbeing",
+          "width": 30
+        }
+      },
+      {
+        "title": "Audience Activation",
+        "contents": {
+          "iconWidth": 100,
+          "title": "Full Stack Development for seamless end-to-end application development",
+          "text": [
+            "High level understanding of software architecture principles",
+            "Independently developing full stack applications transforming raw data to eye-pleasing UI",
+            "Proven ability to analyze and solve complex problems in the development process"
+          ]
+        },
+        "icon": {
+          "imageSrc": "/icons/pixel/demos/chat-voice.svg",
+          "alt": "Audience Activation",
+          "width": 45
+        }
+      }
+    ]
+  }
 }

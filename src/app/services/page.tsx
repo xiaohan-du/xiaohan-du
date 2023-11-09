@@ -10,6 +10,7 @@ export default function Services() {
       title={services.title}
       subTitle={services.subTitle}
       animatedIconData={services.animatedIcon}
+      animatedCardsData={services.animatedCards}
     />
   )
 };

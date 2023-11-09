@@ -2,8 +2,8 @@
   "bgImage": "/images/heart.png",
   "bgSize": "80%",
   "bgVerticalPosition": "4.5rem",
-  "title": "Coding, CrossFit, Motorcycle",
-  "subTitle": "Passionate software engineer diving into tech, coding enthusiast, CrossFit lover, adventurous",
+  "title": "About Myself",
+  "subTitle": "Collaborative, Professional and Passionate",
   "animatedIcon": [
     {
       "hiddenX": 180,
@@ -12,7 +12,7 @@
       "visibleY": -580,
       "duration": 1.5,
       "delay": 0,
-      "imageSrc": "/icons/coding.svg",
+      "imageSrc": "/icons/logos/about/coding.svg",
       "classNames": "shadow-xl rounded-full",
       "title": "Coding",
       "alt": "Coding Logo",
@@ -25,7 +25,7 @@
       "visibleY": -300,
       "duration": 1.5,
       "delay": 0,
-      "imageSrc": "/icons/helmet.png",
+      "imageSrc": "/icons/logos/about/helmet.png",
       "classNames": "shadow-xl rounded-full",
       "title": "Helmet",
       "alt": "Helmet Logo",
@@ -38,7 +38,7 @@
       "visibleY": -250,
       "duration": 1.5,
       "delay": 1,
-      "imageSrc": "/icons/game.png",
+      "imageSrc": "/icons/logos/about/game.png",
       "title": "Gaming",
       "alt": "Gaming Logo",
       "width": 80
@@ -50,7 +50,7 @@
       "visibleY": -750,
       "duration": 1.5,
       "delay": 1,
-      "imageSrc": "/icons/astronomy.svg",
+      "imageSrc": "/icons/logos/about/astronomy.svg",
       "title": "Astronomy",
       "alt": "Astronomy Logo",
       "width": 80
@@ -62,7 +62,7 @@
       "visibleY": -570,
       "duration": 1.5,
       "delay": 0,
-      "imageSrc": "/icons/crossfit.svg",
+      "imageSrc": "/icons/logos/about/crossfit.svg",
       "title": "CrossFit",
       "alt": "CrossFit Logo",
       "width": 120
@@ -74,10 +74,94 @@
       "visibleY": -940,
       "duration": 1.5,
       "delay": 1,
-      "imageSrc": "/icons/printer.png",
+      "imageSrc": "/icons/logos/about/printer.png",
       "title": "3D Printer",
       "alt": "3D Printer Logo",
       "width": 70
     }
-  ]
+  ],
+  "animatedCards": {
+    "content": [
+      {
+        "title": "Team Player",
+        "contents": {
+          "iconWidth": 100,
+          "title": "As a highly skilled and creative front-end developer, I am passionate about crafting exceptional user experiences on the web.",
+          "text": [
+            "My day to day work could be ⬇️",
+            "Building reusable components, connect to backend services",
+            "Writing unit tests",
+            "Deploying code to QA environments and assist testers",
+            "Or it could be ⬇️",
+            "Creating visually stunning and animated interfaces from scratch",
+            "Mentoring junior developers",
+            "Learning and applying new technologies in real-world projects"
+          ]
+        },
+        "icon": {
+          "imageSrc": "/icons/pixel/about/team.svg",
+          "alt": "Team Player",
+          "width": 45
+        }
+      },
+      {
+        "title": "Hobbies",
+        "contents": {
+          "iconWidth": 100,
+          "title": "Java, Spring Boot MVC, and SQL expertise for efficient backend development",
+          "text": [
+            "Proficient in Java programming",
+            "Experienced in implementing comprehensive unit tests",
+            "Establish a Spring Boot MVC framework to develop RESTful APIs",
+            "Familiarity with Spring Boot's auto-configuration",
+            "Familiarity with SQL for effective database querying and manipulation"
+          ]
+        },
+        "icon": {
+          "imageSrc": "/icons/pixel/about/headphone.svg",
+          "alt": "Hobbies",
+          "width": 30
+        }
+      },
+      {
+        "title": "Goals",
+        "contents": {
+          "iconWidth": 100,
+          "title": "In my professional journey, I have embraced and thrived in Agile methodologies",
+          "text": [
+            "Regular Agile meetings",
+            "N-week sprints",
+            "Sprint Planning",
+            "Daily Stand-Up",
+            "Sprint Retrospective",
+            "Backlog Refinement",
+            "Ad-Hoc Collaboration",
+            "Cross-Functional Problem Solving"
+          ]
+        },
+        "icon": {
+          "imageSrc": "/icons/pixel/about/focus.svg",
+          "alt": "Goals",
+          "width": 30
+        }
+      },
+      {
+        "title": "Full Stack",
+        "contents": {
+          "iconWidth": 100,
+          "title": "Full Stack Development for seamless end-to-end application development",
+          "text": [
+            "High level understanding of software architecture principles",
+            "Independently developing full stack applications transforming raw data to eye-pleasing UI",
+            "Proven ability to analyze and solve complex problems in the development process"
+          ]
+        },
+        "icon": {
+          "imageSrc": "/icons/stack.svg",
+          "alt": "Full Stack",
+          "width": 45
+        }
+      }
+    ]
+  }
 }
