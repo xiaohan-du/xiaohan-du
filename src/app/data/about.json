@@ -3,7 +3,7 @@
   "bgSize": "80%",
   "bgVerticalPosition": "4.5rem",
   "title": "About Myself",
-  "subTitle": "Collaborative, Professional and Passionate",
+  "subTitle": "Collaborative, Professional and Passionate, see what others say",
   "animatedIcon": [
     {
       "hiddenX": 180,
@@ -83,6 +83,7 @@
   "animatedCards": {
     "content": [
       {
+        "classNames": "grid-cols-1 col-span-3 text-4xl",
         "title": "Team Player",
         "contents": {
           "iconWidth": 100,
@@ -101,10 +102,11 @@
         "icon": {
           "imageSrc": "/icons/pixel/about/team.svg",
           "alt": "Team Player",
-          "width": 45
+          "width": 40
         }
       },
       {
+        "classNames": "text-2xl",
         "title": "Hobbies",
         "contents": {
           "iconWidth": 100,
@@ -124,6 +126,7 @@
         }
       },
       {
+        "classNames": "grid-cols-2 col-span-2 text-4xl",
         "title": "Goals",
         "contents": {
           "iconWidth": 100,
@@ -143,23 +146,6 @@
           "imageSrc": "/icons/pixel/about/focus.svg",
           "alt": "Goals",
           "width": 30
-        }
-      },
-      {
-        "title": "Full Stack",
-        "contents": {
-          "iconWidth": 100,
-          "title": "Full Stack Development for seamless end-to-end application development",
-          "text": [
-            "High level understanding of software architecture principles",
-            "Independently developing full stack applications transforming raw data to eye-pleasing UI",
-            "Proven ability to analyze and solve complex problems in the development process"
-          ]
-        },
-        "icon": {
-          "imageSrc": "/icons/stack.svg",
-          "alt": "Full Stack",
-          "width": 45
         }
       }
     ]

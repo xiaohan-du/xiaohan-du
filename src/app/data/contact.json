@@ -57,6 +57,27 @@
   "animatedCards": {
     "content": [
       {
+        "classNames": "grid-cols-3 text-4xl",
+        "title": "Email",
+        "contents": {
+          "iconWidth": 100,
+          "title": "Java, Spring Boot MVC, and SQL expertise for efficient backend development",
+          "text": [
+            "Proficient in Java programming",
+            "Experienced in implementing comprehensive unit tests",
+            "Establish a Spring Boot MVC framework to develop RESTful APIs",
+            "Familiarity with Spring Boot's auto-configuration",
+            "Familiarity with SQL for effective database querying and manipulation"
+          ]
+        },
+        "icon": {
+          "imageSrc": "/icons/pixel/contact/email-box.svg",
+          "alt": "Email",
+          "width": 35
+        }
+      },
+      {
+        "classNames": "grid-cols-1 col-span-2 text-4xl",
         "title": "Linkedin",
         "contents": {
           "iconWidth": 100,
@@ -75,29 +96,29 @@
         "icon": {
           "imageSrc": "/icons/pixel/contact/linkedin-box.svg",
           "alt": "Linkedin",
-          "width": 45
+          "width": 40
         }
       },
       {
-        "title": "Email",
+        "classNames": "grid-cols-2 col-span-2 text-4xl",
+        "title": "Instagram",
         "contents": {
           "iconWidth": 100,
-          "title": "Java, Spring Boot MVC, and SQL expertise for efficient backend development",
+          "title": "Full Stack Development for seamless end-to-end application development",
           "text": [
-            "Proficient in Java programming",
-            "Experienced in implementing comprehensive unit tests",
-            "Establish a Spring Boot MVC framework to develop RESTful APIs",
-            "Familiarity with Spring Boot's auto-configuration",
-            "Familiarity with SQL for effective database querying and manipulation"
+            "High level understanding of software architecture principles",
+            "Independently developing full stack applications transforming raw data to eye-pleasing UI",
+            "Proven ability to analyze and solve complex problems in the development process"
           ]
         },
         "icon": {
-          "imageSrc": "/icons/pixel/contact/email-box.svg",
-          "alt": "Email",
-          "width": 30
+          "imageSrc": "/icons/pixel/contact/instagram-fill.svg",
+          "alt": "Instagram",
+          "width": 40
         }
       },
       {
+        "classNames": "grid-cols-1 text-4xl",
         "title": "Call",
         "contents": {
           "iconWidth": 100,
@@ -116,24 +137,7 @@
         "icon": {
           "imageSrc": "/icons/pixel/contact/phone-fill.svg",
           "alt": "Call",
-          "width": 30
-        }
-      },
-      {
-        "title": "Instagram",
-        "contents": {
-          "iconWidth": 100,
-          "title": "Full Stack Development for seamless end-to-end application development",
-          "text": [
-            "High level understanding of software architecture principles",
-            "Independently developing full stack applications transforming raw data to eye-pleasing UI",
-            "Proven ability to analyze and solve complex problems in the development process"
-          ]
-        },
-        "icon": {
-          "imageSrc": "/icons/pixel/contact/instagram-fill.svg",
-          "alt": "Instagram",
-          "width": 45
+          "width": 35
         }
       }
     ]

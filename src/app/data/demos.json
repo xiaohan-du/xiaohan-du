@@ -9,6 +9,7 @@
   "animatedCards": {
     "content": [
       {
+        "classNames": "grid-cols-1 col-span-2 text-4xl",
         "title": "Portfolio",
         "contents": {
           "iconWidth": 100,
@@ -27,29 +28,29 @@
         "icon": {
           "imageSrc": "/icons/pixel/demos/folder-user.svg",
           "alt": "Portfolio",
-          "width": 45
+          "width": 40
         }
       },
       {
-        "title": "Gitlab-Webhook",
+        "classNames": "grid-cols-2 col-span-1 text-4xl",
+        "title": "Snapi",
         "contents": {
           "iconWidth": 100,
-          "title": "Java, Spring Boot MVC, and SQL expertise for efficient backend development",
+          "title": "Full Stack Development for seamless end-to-end application development",
           "text": [
-            "Proficient in Java programming",
-            "Experienced in implementing comprehensive unit tests",
-            "Establish a Spring Boot MVC framework to develop RESTful APIs",
-            "Familiarity with Spring Boot's auto-configuration",
-            "Familiarity with SQL for effective database querying and manipulation"
+            "High level understanding of software architecture principles",
+            "Independently developing full stack applications transforming raw data to eye-pleasing UI",
+            "Proven ability to analyze and solve complex problems in the development process"
           ]
         },
         "icon": {
-          "imageSrc": "/icons/pixel/demos/donut.svg",
-          "alt": "Gitlab-Webhook",
-          "width": 30
+          "imageSrc": "/icons/pixel/demos/chat-voice.svg",
+          "alt": "Snapi",
+          "width": 40
         }
       },
       {
+        "classNames": "grid-cols-3 text-2xl",
         "title": "Sanctum-Wellbeing",
         "contents": {
           "iconWidth": 100,
@@ -72,20 +73,23 @@
         }
       },
       {
-        "title": "Audience Activation",
+        "classNames": "grid-cols-1 col-span-2 text-4xl",
+        "title": "Gitlab-Webhook",
         "contents": {
           "iconWidth": 100,
-          "title": "Full Stack Development for seamless end-to-end application development",
+          "title": "Java, Spring Boot MVC, and SQL expertise for efficient backend development",
           "text": [
-            "High level understanding of software architecture principles",
-            "Independently developing full stack applications transforming raw data to eye-pleasing UI",
-            "Proven ability to analyze and solve complex problems in the development process"
+            "Proficient in Java programming",
+            "Experienced in implementing comprehensive unit tests",
+            "Establish a Spring Boot MVC framework to develop RESTful APIs",
+            "Familiarity with Spring Boot's auto-configuration",
+            "Familiarity with SQL for effective database querying and manipulation"
           ]
         },
         "icon": {
-          "imageSrc": "/icons/pixel/demos/chat-voice.svg",
-          "alt": "Audience Activation",
-          "width": 45
+          "imageSrc": "/icons/pixel/demos/donut.svg",
+          "alt": "Gitlab-Webhook",
+          "width": 30
         }
       }
     ]

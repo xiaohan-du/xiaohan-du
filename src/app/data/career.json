@@ -60,6 +60,7 @@
   "animatedCards": {
     "content": [
       {
+        "classNames": "grid-cols-1 col-span-2 text-4xl",
         "title": "Insurance",
         "contents": {
           "iconWidth": 100,
@@ -78,11 +79,12 @@
         "icon": {
           "imageSrc": "/icons/pixel/career/payment.svg",
           "alt": "Insurance",
-          "width": 45
+          "width": 40
         }
       },
       {
-        "title": "Digital Agency",
+        "classNames": "grid-cols-3 text-2xl",
+        "title": "Agency",
         "contents": {
           "iconWidth": 100,
           "title": "Java, Spring Boot MVC, and SQL expertise for efficient backend development",
@@ -101,7 +103,8 @@
         }
       },
       {
-        "title": "RegTech",
+        "classNames": "grid-cols-1 text-2xl",
+        "title": "Consultancy",
         "contents": {
           "iconWidth": 100,
           "title": "In my professional journey, I have embraced and thrived in Agile methodologies. ",
@@ -117,13 +120,14 @@
           ]
         },
         "icon": {
-          "imageSrc": "/icons/pixel/career/profile.svg",
-          "alt": "RegTech",
+          "imageSrc": "/icons/pixel/career/question-answer.svg",
+          "alt": "Consultancy",
           "width": 30
         }
       },
       {
-        "title": "Software House",
+        "classNames": "grid-cols-2 col-span-2 text-4xl",
+        "title": "RegTech",
         "contents": {
           "iconWidth": 100,
           "title": "Full Stack Development for seamless end-to-end application development",
@@ -134,9 +138,9 @@
           ]
         },
         "icon": {
-          "imageSrc": "/icons/pixel/career/terminal.svg",
-          "alt": "Software House",
-          "width": 45
+          "imageSrc": "/icons/pixel/career/profile.svg",
+          "alt": "RegTech",
+          "width": 40
         }
       }
     ]
