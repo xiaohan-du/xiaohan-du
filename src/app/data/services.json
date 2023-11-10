@@ -3,7 +3,7 @@
   "bgSize": "80%",
   "bgVerticalPosition": "",
   "title": "My Services",
-  "subTitle": "I offer website development services",
+  "subTitle": "I specialize in transforming innovative concepts into fully realized web solutions",
   "animatedIcon": [
     {
       "hiddenX": 200,
@@ -61,13 +61,14 @@
         "title": "Development",
         "contents": {
           "iconWidth": 100,
-          "title": "Java, Spring Boot MVC, and SQL expertise for efficient backend development",
+          "title": "From your brilliant idea to amazing website:",
           "text": [
-            "Proficient in Java programming",
-            "Experienced in implementing comprehensive unit tests",
-            "Establish a Spring Boot MVC framework to develop RESTful APIs",
-            "Familiarity with Spring Boot's auto-configuration",
-            "Familiarity with SQL for effective database querying and manipulation"
+            "Building eye-pleasing UI from prototype",
+            "Harnessing the power of cutting-edge technologies like NextJS and Tailwind CSS",
+            "Domain acquisition on your behalf",
+            "Third-Party API integration",
+            "Social media Integration",
+            "Responsive web design"
           ]
         },
         "icon": {
@@ -81,16 +82,12 @@
         "title": "Design",
         "contents": {
           "iconWidth": 100,
-          "title": "As a highly skilled and creative front-end developer, I am passionate about crafting exceptional user experiences on the web.",
+          "title": "Elevate your website with a captivating UI that leaves a lasting impression:",
           "text": [
-            "My day to day work could be ⬇️",
-            "Building reusable components, connect to backend services",
-            "Writing unit tests",
-            "Deploying code to QA environments and assist testers",
-            "Or it could be ⬇️",
-            "Creating visually stunning and animated interfaces from scratch",
-            "Mentoring junior developers",
-            "Learning and applying new technologies in real-world projects"
+            "Transform Your Online Presence with Stunning UI Design",
+            "Crafting user-friendly websites tailored to your brand",
+            "Keeping visitors engaged and encourage exploration",
+            "Responsive design to ensure amazing look on every device"
           ]
         },
         "icon": {
@@ -104,11 +101,11 @@
         "title": "Deployment",
         "contents": {
           "iconWidth": 100,
-          "title": "Full Stack Development for seamless end-to-end application development",
+          "title": "Professional deployment on your chosen domain:",
           "text": [
-            "High level understanding of software architecture principles",
-            "Independently developing full stack applications transforming raw data to eye-pleasing UI",
-            "Proven ability to analyze and solve complex problems in the development process"
+            "Seamless Deployment: I offer a smooth and hassle-free process to make your website live",
+            "Not sure which design is better? I offer multiple links for you to preview for free!",
+            "Your website, your domain – I tailor the deployment to suit your unique needs"
           ]
         },
         "icon": {

@@ -3,7 +3,7 @@
   "bgSize": "90%",
   "bgVerticalPosition": "-0rem",
   "title": "My Demos",
-  "subTitle": "Please take a look at my demo projects",
+  "subTitle": "Demo projects speak louder than words",
   "animatedIcon": [
   ],
   "animatedCards": {
@@ -13,16 +13,15 @@
         "title": "Portfolio",
         "contents": {
           "iconWidth": 100,
-          "title": "As a highly skilled and creative front-end developer, I am passionate about crafting exceptional user experiences on the web.",
+          "title": "This portfolio is crafted using the latest NextJS 13 + TypeScript + Tailwind CSS+ Flowbite React + Framer Motion:",
           "text": [
-            "My day to day work could be ⬇️",
-            "Building reusable components, connect to backend services",
-            "Writing unit tests",
-            "Deploying code to QA environments and assist testers",
-            "Or it could be ⬇️",
-            "Creating visually stunning and animated interfaces from scratch",
-            "Mentoring junior developers",
-            "Learning and applying new technologies in real-world projects"
+            "Aesthetically pleasing UI with clean code",
+            "Data separation to ensure scalability",
+            "High-level architectural thinking throughout",
+            "Server-side rendering using NextJS 13",
+            "Dynamic animations powered by Framer Motion",
+            "Reusable page layout and out-of-box components",
+            "Responsive design"
           ]
         },
         "icon": {
@@ -36,11 +35,11 @@
         "title": "Snapi",
         "contents": {
           "iconWidth": 100,
-          "title": "Full Stack Development for seamless end-to-end application development",
+          "title": "I worked on an audience activation and engagement project called Snapi:",
           "text": [
-            "High level understanding of software architecture principles",
-            "Independently developing full stack applications transforming raw data to eye-pleasing UI",
-            "Proven ability to analyze and solve complex problems in the development process"
+            "Built by NextJS, TypeScript, Redux, Chakra UI and Framer Motion",
+            "Crafted an aesthetically pleasing UI",
+            "Efficient consumption of the Node.js API"
           ]
         },
         "icon": {
@@ -54,16 +53,14 @@
         "title": "Sanctum-Wellbeing",
         "contents": {
           "iconWidth": 100,
-          "title": "In my professional journey, I have embraced and thrived in Agile methodologies. ",
+          "title": "A front-end website I built for my private client:",
           "text": [
-            "Regular Agile meetings",
-            "N-week sprints",
-            "Sprint Planning",
-            "Daily Stand-Up",
-            "Sprint Retrospective",
-            "Backlog Refinement",
-            "Ad-Hoc Collaboration",
-            "Cross-Functional Problem Solving"
+            "Minimalist and elegant UI",
+            "Clear project scope",
+            "Effective communication",
+            "NextJS + Tailwind CSS + TypeScript",
+            "Netlify Deployment",
+            "Post-launch support"
           ]
         },
         "icon": {
@@ -77,13 +74,13 @@
         "title": "Gitlab-Webhook",
         "contents": {
           "iconWidth": 100,
-          "title": "Java, Spring Boot MVC, and SQL expertise for efficient backend development",
+          "title": "An ongoing full-stack project designed to alleviate the workload for educators:",
           "text": [
-            "Proficient in Java programming",
-            "Experienced in implementing comprehensive unit tests",
-            "Establish a Spring Boot MVC framework to develop RESTful APIs",
-            "Familiarity with Spring Boot's auto-configuration",
-            "Familiarity with SQL for effective database querying and manipulation"
+            "Webhook call to Gitlab",
+            "RESTful APIs were built to be consumed by NextJS Server components",
+            "Front end: Next JS + Tailwind CSS",
+            "Back end: Spring Boot + MariaDB",
+            "Full MVC architecture"
           ]
         },
         "icon": {

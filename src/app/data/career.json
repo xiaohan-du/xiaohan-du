@@ -64,16 +64,15 @@
         "title": "Insurance",
         "contents": {
           "iconWidth": 100,
-          "title": "As a highly skilled and creative front-end developer, I am passionate about crafting exceptional user experiences on the web.",
+          "title": "I have experience working in one of the largest insurance companies in the UK:",
           "text": [
-            "My day to day work could be ⬇️",
-            "Building reusable components, connect to backend services",
-            "Writing unit tests",
-            "Deploying code to QA environments and assist testers",
-            "Or it could be ⬇️",
-            "Creating visually stunning and animated interfaces from scratch",
-            "Mentoring junior developers",
-            "Learning and applying new technologies in real-world projects"
+            "Working on customer portal using React for quick and iterative development",
+            "Deploying and publishing portal applications",
+            "Conducting unit tests using Jest and React-testing-library",
+            "Professionally utilizing GitHub and regularly reviewing code",
+            "Collaborating closely with Product Owners and Business Analysts",
+            "Supporting team members throughout the development process",
+            "Utilizing agile Scrum methodology for efficient project management"
           ]
         },
         "icon": {
@@ -87,13 +86,11 @@
         "title": "Agency",
         "contents": {
           "iconWidth": 100,
-          "title": "Java, Spring Boot MVC, and SQL expertise for efficient backend development",
+          "title": "Developed the front-end of a booking website that catered to the pandemic:",
           "text": [
-            "Proficient in Java programming",
-            "Experienced in implementing comprehensive unit tests",
-            "Establish a Spring Boot MVC framework to develop RESTful APIs",
-            "Familiarity with Spring Boot's auto-configuration",
-            "Familiarity with SQL for effective database querying and manipulation"
+            "Front end working experience using Blazor framework",
+            "Proficient responsive website design experience with Blazorise (Bulma Framework)",
+            "Closely worked with UX/UI designer, tester and focused on precisely achieving the design as well as delivering a friendly UX"
           ]
         },
         "icon": {
@@ -107,16 +104,11 @@
         "title": "Consultancy",
         "contents": {
           "iconWidth": 100,
-          "title": "In my professional journey, I have embraced and thrived in Agile methodologies. ",
+          "title": "Trainee Product Consultant with a primary focus on front-end web development:",
           "text": [
-            "Regular Agile meetings",
-            "N-week sprints",
-            "Sprint Planning",
-            "Daily Stand-Up",
-            "Sprint Retrospective",
-            "Backlog Refinement",
-            "Ad-Hoc Collaboration",
-            "Cross-Functional Problem Solving"
+            "Individually worked on an application form project using Object-oriented JavaScript combined with HTML/CSS and database",
+            "Widget design by jQuery and HTML",
+            "Bootstrap 4 and SVN"
           ]
         },
         "icon": {
@@ -130,11 +122,12 @@
         "title": "RegTech",
         "contents": {
           "iconWidth": 100,
-          "title": "Full Stack Development for seamless end-to-end application development",
+          "title": " Front-End Software Engineering with a focus on data:",
           "text": [
-            "High level understanding of software architecture principles",
-            "Independently developing full stack applications transforming raw data to eye-pleasing UI",
-            "Proven ability to analyze and solve complex problems in the development process"
+            "Front end experience with HTML, CSS/SCSS, Bootstrap 4 in .NET MVC framework",
+            "Working on multiple projects and support tickets using JavaScript (jQuery)",
+            "CI/CD experience with Azure DevOps",
+            "Worked in an agile environment with a good understanding of Scrum/Kanban"
           ]
         },
         "icon": {

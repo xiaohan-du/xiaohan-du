@@ -87,16 +87,13 @@
         "title": "Team Player",
         "contents": {
           "iconWidth": 100,
-          "title": "As a highly skilled and creative front-end developer, I am passionate about crafting exceptional user experiences on the web.",
+          "title": "Hire for character, not just resume:",
           "text": [
-            "My day to day work could be ⬇️",
-            "Building reusable components, connect to backend services",
-            "Writing unit tests",
-            "Deploying code to QA environments and assist testers",
-            "Or it could be ⬇️",
-            "Creating visually stunning and animated interfaces from scratch",
-            "Mentoring junior developers",
-            "Learning and applying new technologies in real-world projects"
+            "Team fit matters, a person with the right attitude brings more to your team",
+            "I am dedicated to nurturing workplace friendships",
+            "I focus on fostering a positive work environment",
+            "I actively support team success",
+            "I firmly believe in the power of collaboration"
           ]
         },
         "icon": {
@@ -110,13 +107,11 @@
         "title": "Hobbies",
         "contents": {
           "iconWidth": 100,
-          "title": "Java, Spring Boot MVC, and SQL expertise for efficient backend development",
+          "title": "I have a wide range of hobbies to maintain a healthy lifestyle:",
           "text": [
-            "Proficient in Java programming",
-            "Experienced in implementing comprehensive unit tests",
-            "Establish a Spring Boot MVC framework to develop RESTful APIs",
-            "Familiarity with Spring Boot's auto-configuration",
-            "Familiarity with SQL for effective database querying and manipulation"
+            "I commit to physical fitness by engaging in CrossFit on a regular basis",
+            "Riding my motorcycle serves as a positive experience, allowing me to return to tasks with a refreshed mind",
+            "I find joy in stargazing through my telescope"
           ]
         },
         "icon": {
@@ -130,16 +125,12 @@
         "title": "Goals",
         "contents": {
           "iconWidth": 100,
-          "title": "In my professional journey, I have embraced and thrived in Agile methodologies",
+          "title": "I have clear career goals:",
           "text": [
-            "Regular Agile meetings",
-            "N-week sprints",
-            "Sprint Planning",
-            "Daily Stand-Up",
-            "Sprint Retrospective",
-            "Backlog Refinement",
-            "Ad-Hoc Collaboration",
-            "Cross-Functional Problem Solving"
+            "Aspiring to excel as a senior full-stack engineer",
+            "Cultivating a high-level technical and critical mindset",
+            "Crafting a diverse and impressive portfolio, showcasing proven skills",
+            "Proficiency in multiple languages, selecting the optimal solution for efficient problem-solving"
           ]
         },
         "icon": {
