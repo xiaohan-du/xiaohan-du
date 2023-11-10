@@ -9,8 +9,8 @@ export default function Services() {
       bgSize={services.bgSize}
       title={services.title}
       subTitle={services.subTitle}
-      content={services.content}
       animatedIconData={services.animatedIcon}
+      animatedCardsData={services.animatedCards}
     />
   )
 };

@@ -2,9 +2,93 @@
   "bgImage": "/images/bulb.png",
   "bgSize": "90%",
   "bgVerticalPosition": "-0rem",
-  "title": "Demos",
-  "subTitle": "Please take a look at my demo projects",
-  "content": "",
+  "title": "My Demos",
+  "subTitle": "Demo projects speak louder than words",
   "animatedIcon": [
-  ]
+  ],
+  "animatedCards": {
+    "content": [
+      {
+        "classNames": "grid-cols-1 col-span-2 text-4xl",
+        "title": "Portfolio",
+        "contents": {
+          "iconWidth": 100,
+          "title": "This portfolio is crafted using the latest NextJS 13 + TypeScript + Tailwind CSS+ Flowbite React + Framer Motion:",
+          "text": [
+            "Aesthetically pleasing UI with clean code",
+            "Data separation to ensure scalability",
+            "High-level architectural thinking throughout",
+            "Server-side rendering using NextJS 13",
+            "Dynamic animations powered by Framer Motion",
+            "Reusable page layout and out-of-box components",
+            "Responsive design"
+          ]
+        },
+        "icon": {
+          "imageSrc": "/icons/pixel/demos/folder-user.svg",
+          "alt": "Portfolio",
+          "width": 40
+        }
+      },
+      {
+        "classNames": "grid-cols-2 col-span-1 text-4xl",
+        "title": "Snapi",
+        "contents": {
+          "iconWidth": 100,
+          "title": "I worked on an audience activation and engagement project called Snapi:",
+          "text": [
+            "Built by NextJS, TypeScript, Redux, Chakra UI and Framer Motion",
+            "Crafted an aesthetically pleasing UI",
+            "Efficient consumption of the Node.js API"
+          ]
+        },
+        "icon": {
+          "imageSrc": "/icons/pixel/demos/chat-voice.svg",
+          "alt": "Snapi",
+          "width": 40
+        }
+      },
+      {
+        "classNames": "grid-cols-3 text-2xl",
+        "title": "Sanctum-Wellbeing",
+        "contents": {
+          "iconWidth": 100,
+          "title": "A front-end website I built for my private client:",
+          "text": [
+            "Minimalist and elegant UI",
+            "Clear project scope",
+            "Effective communication",
+            "NextJS + Tailwind CSS + TypeScript",
+            "Netlify Deployment",
+            "Post-launch support"
+          ]
+        },
+        "icon": {
+          "imageSrc": "/icons/pixel/demos/hand-heart.svg",
+          "alt": "Sanctum-Wellbeing",
+          "width": 30
+        }
+      },
+      {
+        "classNames": "grid-cols-1 col-span-2 text-4xl",
+        "title": "Gitlab-Webhook",
+        "contents": {
+          "iconWidth": 100,
+          "title": "An ongoing full-stack project designed to alleviate the workload for educators:",
+          "text": [
+            "Webhook call to Gitlab",
+            "RESTful APIs were built to be consumed by NextJS Server components",
+            "Front end: Next JS + Tailwind CSS",
+            "Back end: Spring Boot + MariaDB",
+            "Full MVC architecture"
+          ]
+        },
+        "icon": {
+          "imageSrc": "/icons/pixel/demos/donut.svg",
+          "alt": "Gitlab-Webhook",
+          "width": 30
+        }
+      }
+    ]
+  }
 }

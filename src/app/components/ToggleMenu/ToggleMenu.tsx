@@ -31,11 +31,10 @@ export const ToggleMenu = ({icon, main, text, mappings, iconSize, iconClasses}: 
           ref={containerRef}
           className={styles.toggleMenuNav}
         >
-          <motion.div className={styles.toggleMenuBg}/>
-          <Navigation content={navContents}/>
           <MenuToggle toggle={() => toggleOpen()} image={
             <Image src={icon} alt="Menu Icon" width={iconSize} height={iconSize} className={iconClasses}/>
           } text={text}/>
+          <Navigation content={navContents} isOpen={isOpen}/>
         </motion.nav>
       </div>
     </>

@@ -3,8 +3,7 @@
   "bgSize": "80%",
   "bgVerticalPosition": "2rem",
   "title": "Contact Me",
-  "subTitle": "Interested in a chat? Pick one of the options below.",
-  "content": "",
+  "subTitle": "Interested in a chat? Pick one of the options below",
   "animatedIcon": [
     {
       "hiddenX": 200,
@@ -13,7 +12,7 @@
       "visibleY": -280,
       "duration": 1.5,
       "delay": 0,
-      "imageSrc": "/icons/email.svg",
+      "imageSrc": "/icons/logos/contact/email.svg",
       "title": "Email",
       "alt": "Email Logo",
       "width": 100
@@ -25,7 +24,7 @@
       "visibleY": -180,
       "duration": 1.5,
       "delay": 0,
-      "imageSrc": "/icons/phone.svg",
+      "imageSrc": "/icons/logos/contact/phone.svg",
       "title": "Phone",
       "alt": "Phone Logo",
       "width": 140
@@ -37,7 +36,7 @@
       "visibleY": -320,
       "duration": 1.5,
       "delay": 0,
-      "imageSrc": "/icons/instagram.jpg",
+      "imageSrc": "/icons/logos/contact/instagram.jpg",
       "title": "Instagram",
       "alt": "Instagram Logo",
       "width": 100
@@ -49,10 +48,74 @@
       "visibleY": -880,
       "duration": 1.5,
       "delay": 0,
-      "imageSrc": "/icons/linkedin.svg",
+      "imageSrc": "/icons/logos/contact/linkedin.svg",
       "title": "Linkedin",
       "alt": "Linkedin Logo",
       "width": 160
     }
-  ]
+  ],
+  "animatedCards": {
+    "content": [
+      {
+        "classNames": "grid-cols-3 text-4xl",
+        "title": "Email",
+        "contents": {
+          "iconWidth": 100,
+          "title": "",
+          "text": [
+          ]
+        },
+        "icon": {
+          "imageSrc": "/icons/pixel/contact/email-box.svg",
+          "alt": "Email",
+          "width": 35
+        }
+      },
+      {
+        "classNames": "grid-cols-1 col-span-2 text-4xl",
+        "title": "Linkedin",
+        "contents": {
+          "iconWidth": 100,
+          "title": "",
+          "text": [
+          ]
+        },
+        "icon": {
+          "imageSrc": "/icons/pixel/contact/linkedin-box.svg",
+          "alt": "Linkedin",
+          "width": 40
+        }
+      },
+      {
+        "classNames": "grid-cols-2 col-span-2 text-4xl",
+        "title": "Instagram",
+        "contents": {
+          "iconWidth": 100,
+          "title": "",
+          "text": [
+          ]
+        },
+        "icon": {
+          "imageSrc": "/icons/pixel/contact/instagram-fill.svg",
+          "alt": "Instagram",
+          "width": 40
+        }
+      },
+      {
+        "classNames": "grid-cols-1 text-4xl",
+        "title": "Call",
+        "contents": {
+          "iconWidth": 100,
+          "title": "",
+          "text": [
+          ]
+        },
+        "icon": {
+          "imageSrc": "/icons/pixel/contact/phone-fill.svg",
+          "alt": "Call",
+          "width": 35
+        }
+      }
+    ]
+  }
 }

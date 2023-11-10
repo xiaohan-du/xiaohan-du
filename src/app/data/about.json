@@ -2,9 +2,8 @@
   "bgImage": "/images/heart.png",
   "bgSize": "80%",
   "bgVerticalPosition": "4.5rem",
-  "title": "Coding, CrossFit, Motorcycle",
-  "subTitle": "Passionate software engineer diving into tech, coding enthusiast, CrossFit lover, adventurous",
-  "content": "",
+  "title": "About Myself",
+  "subTitle": "Collaborative, Professional and Passionate, see what others say",
   "animatedIcon": [
     {
       "hiddenX": 180,
@@ -13,7 +12,7 @@
       "visibleY": -580,
       "duration": 1.5,
       "delay": 0,
-      "imageSrc": "/icons/coding.svg",
+      "imageSrc": "/icons/logos/about/coding.svg",
       "classNames": "shadow-xl rounded-full",
       "title": "Coding",
       "alt": "Coding Logo",
@@ -26,7 +25,7 @@
       "visibleY": -300,
       "duration": 1.5,
       "delay": 0,
-      "imageSrc": "/icons/helmet.png",
+      "imageSrc": "/icons/logos/about/helmet.png",
       "classNames": "shadow-xl rounded-full",
       "title": "Helmet",
       "alt": "Helmet Logo",
@@ -39,7 +38,7 @@
       "visibleY": -250,
       "duration": 1.5,
       "delay": 1,
-      "imageSrc": "/icons/game.png",
+      "imageSrc": "/icons/logos/about/game.png",
       "title": "Gaming",
       "alt": "Gaming Logo",
       "width": 80
@@ -51,7 +50,7 @@
       "visibleY": -750,
       "duration": 1.5,
       "delay": 1,
-      "imageSrc": "/icons/astronomy.svg",
+      "imageSrc": "/icons/logos/about/astronomy.svg",
       "title": "Astronomy",
       "alt": "Astronomy Logo",
       "width": 80
@@ -63,7 +62,7 @@
       "visibleY": -570,
       "duration": 1.5,
       "delay": 0,
-      "imageSrc": "/icons/crossfit.svg",
+      "imageSrc": "/icons/logos/about/crossfit.svg",
       "title": "CrossFit",
       "alt": "CrossFit Logo",
       "width": 120
@@ -75,10 +74,71 @@
       "visibleY": -940,
       "duration": 1.5,
       "delay": 1,
-      "imageSrc": "/icons/printer.png",
+      "imageSrc": "/icons/logos/about/printer.png",
       "title": "3D Printer",
       "alt": "3D Printer Logo",
       "width": 70
     }
-  ]
+  ],
+  "animatedCards": {
+    "content": [
+      {
+        "classNames": "grid-cols-1 col-span-3 text-4xl",
+        "title": "Team Player",
+        "contents": {
+          "iconWidth": 100,
+          "title": "Hire for character, not just resume:",
+          "text": [
+            "Team fit matters, a person with the right attitude brings more to your team",
+            "I am dedicated to nurturing workplace friendships",
+            "I focus on fostering a positive work environment",
+            "I actively support team success",
+            "I firmly believe in the power of collaboration"
+          ]
+        },
+        "icon": {
+          "imageSrc": "/icons/pixel/about/team.svg",
+          "alt": "Team Player",
+          "width": 40
+        }
+      },
+      {
+        "classNames": "text-2xl",
+        "title": "Hobbies",
+        "contents": {
+          "iconWidth": 100,
+          "title": "I have a wide range of hobbies to maintain a healthy lifestyle:",
+          "text": [
+            "I commit to physical fitness by engaging in CrossFit on a regular basis",
+            "Riding my motorcycle serves as a positive experience, allowing me to return to tasks with a refreshed mind",
+            "I find joy in stargazing through my telescope"
+          ]
+        },
+        "icon": {
+          "imageSrc": "/icons/pixel/about/headphone.svg",
+          "alt": "Hobbies",
+          "width": 30
+        }
+      },
+      {
+        "classNames": "grid-cols-2 col-span-2 text-4xl",
+        "title": "Goals",
+        "contents": {
+          "iconWidth": 100,
+          "title": "I have clear career goals:",
+          "text": [
+            "Aspiring to excel as a senior full-stack engineer",
+            "Cultivating a high-level technical and critical mindset",
+            "Crafting a diverse and impressive portfolio, showcasing proven skills",
+            "Proficiency in multiple languages, selecting the optimal solution for efficient problem-solving"
+          ]
+        },
+        "icon": {
+          "imageSrc": "/icons/pixel/about/focus.svg",
+          "alt": "Goals",
+          "width": 30
+        }
+      }
+    ]
+  }
 }

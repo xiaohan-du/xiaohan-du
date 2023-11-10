@@ -3,8 +3,7 @@
   "bgSize": "80%",
   "bgVerticalPosition": "1rem",
   "title": "My Career",
-  "subTitle": "Software development, financial services, insurance, and digital agency",
-  "content": "",
+  "subTitle": "Diverse and dynamic career across multiple industries",
   "animatedIcon": [
     {
       "hiddenX": 180,
@@ -13,7 +12,7 @@
       "visibleY": -580,
       "duration": 1.5,
       "delay": 0,
-      "imageSrc": "/icons/fintech.png",
+      "imageSrc": "/icons/logos/career/fintech.png",
       "classNames": "shadow-xl rounded-full",
       "title": "Fintech",
       "alt": "Fintech Logo",
@@ -26,7 +25,7 @@
       "visibleY": -420,
       "duration": 1.5,
       "delay": 0.5,
-      "imageSrc": "/icons/house.png",
+      "imageSrc": "/icons/logos/career/house.png",
       "title": "Software House",
       "alt": "Software House Logo",
       "width": 120
@@ -38,7 +37,7 @@
       "visibleY": -250,
       "duration": 1.5,
       "delay": 1,
-      "imageSrc": "/icons/insurance.png",
+      "imageSrc": "/icons/logos/career/insurance.png",
       "classNames": "shadow-xl rounded-full",
       "title": "Insurance",
       "alt": "Insurance Logo",
@@ -51,11 +50,92 @@
       "visibleY": -640,
       "duration": 1.5,
       "delay": 1.5,
-      "imageSrc": "/icons/agency.svg",
+      "imageSrc": "/icons/logos/career/agency.svg",
       "classNames": "shadow-xl rounded-full",
       "title": "Digital Agency",
       "alt": "Digital Agency Logo",
       "width": 110
     }
-  ]
+  ],
+  "animatedCards": {
+    "content": [
+      {
+        "classNames": "grid-cols-1 col-span-2 text-4xl",
+        "title": "Insurance",
+        "contents": {
+          "iconWidth": 100,
+          "title": "I have experience working in one of the largest insurance companies in the UK:",
+          "text": [
+            "Working on customer portal using React for quick and iterative development",
+            "Deploying and publishing portal applications",
+            "Conducting unit tests using Jest and React-testing-library",
+            "Professionally utilizing GitHub and regularly reviewing code",
+            "Collaborating closely with Product Owners and Business Analysts",
+            "Supporting team members throughout the development process",
+            "Utilizing agile Scrum methodology for efficient project management"
+          ]
+        },
+        "icon": {
+          "imageSrc": "/icons/pixel/career/payment.svg",
+          "alt": "Insurance",
+          "width": 40
+        }
+      },
+      {
+        "classNames": "grid-cols-3 text-2xl",
+        "title": "Agency",
+        "contents": {
+          "iconWidth": 100,
+          "title": "Developed the front-end of a booking website that catered to the pandemic:",
+          "text": [
+            "Front end working experience using Blazor framework",
+            "Proficient responsive website design experience with Blazorise (Bulma Framework)",
+            "Closely worked with UX/UI designer, tester and focused on precisely achieving the design as well as delivering a friendly UX"
+          ]
+        },
+        "icon": {
+          "imageSrc": "/icons/pixel/career/mac.svg",
+          "alt": "Digital Agency",
+          "width": 30
+        }
+      },
+      {
+        "classNames": "grid-cols-1 text-2xl",
+        "title": "Consultancy",
+        "contents": {
+          "iconWidth": 100,
+          "title": "Trainee Product Consultant with a primary focus on front-end web development:",
+          "text": [
+            "Individually worked on an application form project using Object-oriented JavaScript combined with HTML/CSS and database",
+            "Widget design by jQuery and HTML",
+            "Bootstrap 4 and SVN"
+          ]
+        },
+        "icon": {
+          "imageSrc": "/icons/pixel/career/question-answer.svg",
+          "alt": "Consultancy",
+          "width": 30
+        }
+      },
+      {
+        "classNames": "grid-cols-2 col-span-2 text-4xl",
+        "title": "RegTech",
+        "contents": {
+          "iconWidth": 100,
+          "title": " Front-End Software Engineering with a focus on data:",
+          "text": [
+            "Front end experience with HTML, CSS/SCSS, Bootstrap 4 in .NET MVC framework",
+            "Working on multiple projects and support tickets using JavaScript (jQuery)",
+            "CI/CD experience with Azure DevOps",
+            "Worked in an agile environment with a good understanding of Scrum/Kanban"
+          ]
+        },
+        "icon": {
+          "imageSrc": "/icons/pixel/career/profile.svg",
+          "alt": "RegTech",
+          "width": 40
+        }
+      }
+    ]
+  }
 }

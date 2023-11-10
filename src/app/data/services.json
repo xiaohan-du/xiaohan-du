@@ -3,8 +3,7 @@
   "bgSize": "80%",
   "bgVerticalPosition": "",
   "title": "My Services",
-  "subTitle": "I offer website development services",
-  "content": "",
+  "subTitle": "I specialize in transforming innovative concepts into fully realized web solutions",
   "animatedIcon": [
     {
       "hiddenX": 200,
@@ -13,7 +12,7 @@
       "visibleY": -480,
       "duration": 1.5,
       "delay": 0,
-      "imageSrc": "/icons/html.png",
+      "imageSrc": "/icons/logos/services/html.png",
       "title": "HTML",
       "alt": "HTML Logo",
       "width": 100
@@ -25,7 +24,7 @@
       "visibleY": -200,
       "duration": 1.5,
       "delay": 1,
-      "imageSrc": "/icons/js.svg",
+      "imageSrc": "/icons/logos/services/js.svg",
       "title": "JavaScript",
       "alt": "JavaScript Logo",
       "width": 140
@@ -37,7 +36,7 @@
       "visibleY": -290,
       "duration": 1.5,
       "delay": 0.5,
-      "imageSrc": "/icons/css.png",
+      "imageSrc": "/icons/logos/services/css.png",
       "title": "CSS",
       "alt": "CSS Logo",
       "width": 100
@@ -49,10 +48,72 @@
       "visibleY": -775,
       "duration": 1.5,
       "delay": 1.5,
-      "imageSrc": "/icons/website.png",
+      "imageSrc": "/icons/logos/services/website.png",
       "title": "Website",
       "alt": "Website Logo",
       "width": 160
     }
-  ]
+  ],
+  "animatedCards": {
+    "content": [
+      {
+        "classNames": "grid-cols-1 col-span-3 text-4xl",
+        "title": "Development",
+        "contents": {
+          "iconWidth": 100,
+          "title": "From your brilliant idea to amazing website:",
+          "text": [
+            "Building eye-pleasing UI from prototype",
+            "Harnessing the power of cutting-edge technologies like NextJS and Tailwind CSS",
+            "Domain acquisition on your behalf",
+            "Third-Party API integration",
+            "Social media Integration",
+            "Responsive web design"
+          ]
+        },
+        "icon": {
+          "imageSrc": "/icons/pixel/services/react.svg",
+          "alt": "Development",
+          "width": 40
+        }
+      },
+      {
+        "classNames": "col-span-2 text-4xl",
+        "title": "Design",
+        "contents": {
+          "iconWidth": 100,
+          "title": "Elevate your website with a captivating UI that leaves a lasting impression:",
+          "text": [
+            "Transform Your Online Presence with Stunning UI Design",
+            "Crafting user-friendly websites tailored to your brand",
+            "Keeping visitors engaged and encourage exploration",
+            "Responsive design to ensure amazing look on every device"
+          ]
+        },
+        "icon": {
+          "imageSrc": "/icons/pixel/services/pencil-ruler.svg",
+          "alt": "Design",
+          "width": 40
+        }
+      },
+      {
+        "classNames": "grid-cols-3 col-span-1 text-2xl",
+        "title": "Deployment",
+        "contents": {
+          "iconWidth": 100,
+          "title": "Professional deployment on your chosen domain:",
+          "text": [
+            "Seamless Deployment: I offer a smooth and hassle-free process to make your website live",
+            "Not sure which design is better? I offer multiple links for you to preview for free!",
+            "Your website, your domain – I tailor the deployment to suit your unique needs"
+          ]
+        },
+        "icon": {
+          "imageSrc": "/icons/pixel/services/rocket.svg",
+          "alt": "Deployment",
+          "width": 25
+        }
+      }
+    ]
+  }
 }
