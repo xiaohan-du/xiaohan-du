@@ -1,9 +1,10 @@
 {
   "bgImage": "/images/thumbup.png",
   "bgSize": "80%",
-  "bgVerticalPosition": "",
+  "bgHorizontalPosition": "4.5rem",
+  "bgVerticalPosition": "4rem",
   "title": "My Services",
-  "subTitle": "I specialize in transforming innovative concepts into fully realized web solutions",
+  "subTitle": "Transforming innovative concepts into web solutions",
   "animatedIcon": [
     {
       "hiddenX": 200,
@@ -78,6 +79,24 @@
         }
       },
       {
+        "classNames": "grid-cols-3 col-span-1 text-2xl",
+        "title": "Deployment",
+        "contents": {
+          "iconWidth": 100,
+          "title": "Professional deployment on your chosen domain:",
+          "text": [
+            "Seamless Deployment: I offer a smooth and hassle-free process to make your website live",
+            "Not sure which design is better? I offer multiple links for you to preview for free!",
+            "Your website, your domain – I tailor the deployment to suit your unique needs"
+          ]
+        },
+        "icon": {
+          "imageSrc": "/icons/pixel/services/rocket.svg",
+          "alt": "Deployment",
+          "width": 25
+        }
+      },
+      {
         "classNames": "col-span-2 text-4xl",
         "title": "Design",
         "contents": {
@@ -94,24 +113,6 @@
           "imageSrc": "/icons/pixel/services/pencil-ruler.svg",
           "alt": "Design",
           "width": 40
-        }
-      },
-      {
-        "classNames": "grid-cols-3 col-span-1 text-2xl",
-        "title": "Deployment",
-        "contents": {
-          "iconWidth": 100,
-          "title": "Professional deployment on your chosen domain:",
-          "text": [
-            "Seamless Deployment: I offer a smooth and hassle-free process to make your website live",
-            "Not sure which design is better? I offer multiple links for you to preview for free!",
-            "Your website, your domain – I tailor the deployment to suit your unique needs"
-          ]
-        },
-        "icon": {
-          "imageSrc": "/icons/pixel/services/rocket.svg",
-          "alt": "Deployment",
-          "width": 25
         }
       }
     ]

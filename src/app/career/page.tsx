@@ -6,6 +6,7 @@ export default function Career() {
     <GlobalPageLayout
       bgImage={career.bgImage}
       bgSize={career.bgSize}
+      bgHorizontalPosition={career.bgHorizontalPosition}
       bgVerticalPosition={career.bgVerticalPosition}
       title={career.title}
       subTitle={career.subTitle}

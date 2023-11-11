@@ -1,6 +1,7 @@
 {
   "bgImage": "/images/hello.png",
   "bgSize": "90%",
+  "bgHorizontalPosition": "0",
   "bgVerticalPosition": "",
   "title": "Software Engineer",
   "subTitle": "Xiaohan Du",
@@ -114,7 +115,7 @@
         "title": "Frontend",
         "contents": {
           "iconWidth": 100,
-          "title": "As a highly skilled and creative front end developer, I am passionate about crafting exceptional user experiences on the web:",
+          "title": "Highly skilled and creative, I am passionate about crafting exceptional user experiences on the web:",
           "text": [
             "My day to day work could be ⬇️",
             "Building reusable components, connect to backend services",

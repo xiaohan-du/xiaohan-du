@@ -4,11 +4,11 @@ import styles from './PushSwitch.module.scss';
 import {IPushSwitchProps} from "@/app/interfaces/IPushSwitch";
 import {MotionAnimatedIcon} from "@/app/components/MotionAnimatedIcon/MotionAnimatedIcon";
 import {IMotionAnimatedIconProps} from "@/app/interfaces/IMotionAnimatedIcon";
-export const PushSwitch = ({bgImage, bgVerticalPosition, bgSize, animatedIconData}: IPushSwitchProps): ReactNode => {
+export const PushSwitch = ({bgImage, bgHorizontalPosition, bgVerticalPosition, bgSize, animatedIconData}: IPushSwitchProps): ReactNode => {
   const pushSwitchStyle: PushSwitch = {
     backgroundImage: `url(${bgImage})`,
     backgroundSize: `${bgSize} auto`,
-    backgroundPosition: `center ${bgVerticalPosition}`
+    backgroundPosition: `${bgHorizontalPosition} ${bgVerticalPosition}`
   };
   // increase x = move right
   // increase y = move down

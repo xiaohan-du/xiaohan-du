@@ -6,6 +6,7 @@ export default function Home() {
     <GlobalPageLayout
       bgImage={home.bgImage}
       bgSize={home.bgSize}
+      bgHorizontalPosition={home.bgHorizontalPosition}
       bgVerticalPosition={home.bgVerticalPosition}
       title={home.title}
       subTitle={home.subTitle}

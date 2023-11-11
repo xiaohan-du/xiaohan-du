@@ -6,6 +6,7 @@ export default function GlobalPageLayout(
   {
     bgImage,
     bgSize,
+    bgHorizontalPosition,
     bgVerticalPosition,
     title,
     subTitle,
@@ -18,6 +19,7 @@ export default function GlobalPageLayout(
         <PushSwitch
           bgImage={bgImage}
           bgSize={bgSize}
+          bgHorizontalPosition={bgHorizontalPosition}
           bgVerticalPosition={bgVerticalPosition}
           animatedIconData={animatedIconData}
         />

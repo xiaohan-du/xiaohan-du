@@ -1,10 +1,10 @@
 {
-  "bgImage": "/images/heart.png",
+  "bgImage": "/images/here.png",
   "bgSize": "80%",
-  "bgHorizontalPosition": "3.3rem",
-  "bgVerticalPosition": "4.5rem",
-  "title": "About Myself",
-  "subTitle": "Collaborative, Professional and Passionate",
+  "bgHorizontalPosition": "4.7rem",
+  "bgVerticalPosition": "4rem",
+  "title": "Testimonials",
+  "subTitle": "From colleagues to clients, see what others say",
   "animatedIcon": [
     {
       "hiddenX": 180,
@@ -85,58 +85,49 @@
     "content": [
       {
         "classNames": "grid-cols-1 col-span-3 text-4xl",
-        "title": "Team Player",
+        "title": "Alex",
         "contents": {
           "iconWidth": 100,
-          "title": "Hire for character, not just resume:",
+          "title": "\"Xiaohan is an enthusiastic frontend developer with a keen eye for detail\"",
           "text": [
-            "Team fit matters, a person with the right attitude brings more to your team",
-            "I am dedicated to nurturing workplace friendships",
-            "I focus on fostering a positive work environment",
-            "I actively support team success",
-            "I firmly believe in the power of collaboration"
+            "Always looking to learn and sharpen his skillset. Xiaohan has demonstrated great potential with a hunger to progress quickly in a pressured environment. He does all this with an approachable attitude and a positive outlook. A great hire. "
           ]
         },
         "icon": {
-          "imageSrc": "/icons/pixel/about/team.svg",
-          "alt": "Team Player",
+          "imageSrc": "/icons/pixel/reviews/user-heart.svg",
+          "alt": "user-heart",
           "width": 40
         }
       },
       {
-        "classNames": "text-2xl",
-        "title": "Hobbies",
+        "classNames": "grid-cols-1 col-span-1 text-4xl",
+        "title": "Louise",
         "contents": {
           "iconWidth": 100,
-          "title": "I have a wide range of hobbies to maintain a healthy lifestyle:",
+          "title": "\"Xiaohan has been very helpful and professional and came up with lot's of great ideas\"",
           "text": [
-            "I commit to physical fitness by engaging in CrossFit on a regular basis",
-            "Riding my motorcycle serves as a positive experience, allowing me to return to tasks with a refreshed mind",
-            "I find joy in stargazing through my telescope"
+            "Thank you Xiaohan, I love it. Xiaohan has been very helpful and professional and came up with lot's of great ideas. I highly recommend \uD83D\uDC4D\uD83E\uDEF6"
           ]
         },
         "icon": {
-          "imageSrc": "/icons/pixel/about/headphone.svg",
-          "alt": "Hobbies",
+          "imageSrc": "/icons/pixel/reviews/user-heart.svg",
+          "alt": "user-heart",
           "width": 30
         }
       },
       {
-        "classNames": "grid-cols-2 col-span-2 text-4xl",
-        "title": "Goals",
+        "classNames": "col-span-2 text-2xl",
+        "title": "Neil",
         "contents": {
           "iconWidth": 100,
-          "title": "I have clear career goals:",
+          "title": "\"On a professional level Xiaohan is an enthusiastic and dedicated front end developer with a real passion for his work\"",
           "text": [
-            "Aspiring to excel as a senior full-stack engineer",
-            "Cultivating a high-level technical and critical mindset",
-            "Crafting a diverse and impressive portfolio, showcasing proven skills",
-            "Proficiency in multiple languages, selecting the optimal solution for efficient problem-solving"
+            "I worked with Xiaohan during his time at W2 Global Data. I can say this, on a professional level Xiaohan is an enthusiastic and dedicated front end developer with a real passion for his work. He has the potential to become a rising star in this field, with a thirst for knowledge and a willingness to better himself. On a personal level, he is a joy to be around and an asset to any team who is lucky enough to have him as a member. I would not hesitate to either employ him or work with him again in the future."
           ]
         },
         "icon": {
-          "imageSrc": "/icons/pixel/about/focus.svg",
-          "alt": "Goals",
+          "imageSrc": "/icons/pixel/reviews/user-heart.svg",
+          "alt": "user-heart",
           "width": 30
         }
       }
