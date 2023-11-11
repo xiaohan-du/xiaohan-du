@@ -6,6 +6,7 @@ export default function About() {
     <GlobalPageLayout
       bgImage={about.bgImage}
       bgSize={about.bgSize}
+      bgHorizontalPosition={about.bgHorizontalPosition}
       bgVerticalPosition={about.bgVerticalPosition}
       title={about.title}
       subTitle={about.subTitle}

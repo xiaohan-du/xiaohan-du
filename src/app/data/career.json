@@ -1,6 +1,7 @@
 {
   "bgImage": "/images/laptop.png",
   "bgSize": "80%",
+  "bgHorizontalPosition": "3.3rem",
   "bgVerticalPosition": "1rem",
   "title": "My Career",
   "subTitle": "Diverse and dynamic career across multiple industries",

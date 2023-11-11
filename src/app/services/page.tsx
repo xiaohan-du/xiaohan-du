@@ -5,6 +5,7 @@ export default function Services() {
   return (
     <GlobalPageLayout
       bgImage={services.bgImage}
+      bgHorizontalPosition={services.bgHorizontalPosition}
       bgVerticalPosition={services.bgVerticalPosition}
       bgSize={services.bgSize}
       title={services.title}

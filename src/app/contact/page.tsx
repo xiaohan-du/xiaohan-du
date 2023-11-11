@@ -6,6 +6,7 @@ export default function Contact() {
     <GlobalPageLayout
       bgImage={contact.bgImage}
       bgSize={contact.bgSize}
+      bgHorizontalPosition={contact.bgHorizontalPosition}
       bgVerticalPosition={contact.bgVerticalPosition}
       title={contact.title}
       subTitle={contact.subTitle}

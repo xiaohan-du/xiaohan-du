@@ -6,6 +6,7 @@ export default function Demos() {
     <GlobalPageLayout
       bgImage={demos.bgImage}
       bgSize={demos.bgSize}
+      bgHorizontalPosition={demos.bgHorizontalPosition}
       bgVerticalPosition={demos.bgVerticalPosition}
       title={demos.title}
       subTitle={demos.subTitle}

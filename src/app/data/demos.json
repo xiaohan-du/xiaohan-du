@@ -1,10 +1,71 @@
 {
   "bgImage": "/images/bulb.png",
   "bgSize": "90%",
-  "bgVerticalPosition": "-0rem",
+  "bgHorizontalPosition": "2rem",
+  "bgVerticalPosition": "0.5rem",
   "title": "My Demos",
-  "subTitle": "Demo projects speak louder than words",
+  "subTitle": "Demos speak louder than words",
   "animatedIcon": [
+    {
+      "hiddenX": 200,
+      "hiddenY": -290,
+      "visibleX": 400,
+      "visibleY": -480,
+      "duration": 1.5,
+      "delay": 0,
+      "imageSrc": "/icons/logos/demos/portfolio.png",
+      "title": "Portfolio",
+      "alt": "Portfolio Logo",
+      "width": 120
+    },
+    {
+      "hiddenX": 180,
+      "hiddenY": -410,
+      "visibleX": -20,
+      "visibleY": -600,
+      "duration": 1.5,
+      "delay": 1,
+      "imageSrc": "/icons/logos/demos/sound.png",
+      "title": "Audience Activation",
+      "alt": "Audience Activation Logo",
+      "width": 140
+    },
+    {
+      "hiddenX": 190,
+      "hiddenY": -520,
+      "visibleX": 330,
+      "visibleY": -290,
+      "duration": 1.5,
+      "delay": 0.5,
+      "imageSrc": "/icons/logos/demos/meditation.png",
+      "title": "Sanctum Wellbeing",
+      "alt": "Sanctum Wellbeing Logo",
+      "width": 100
+    },
+    {
+      "hiddenX": 170,
+      "hiddenY": -660,
+      "visibleX": -30,
+      "visibleY": -480,
+      "duration": 1.5,
+      "delay": 1.5,
+      "imageSrc": "/icons/logos/demos/gitlab.svg",
+      "title": "Gitlab",
+      "alt": "Gitlab Logo",
+      "width": 160
+    },
+    {
+      "hiddenX": 170,
+      "hiddenY": -800,
+      "visibleX": -90,
+      "visibleY": -750,
+      "duration": 1.5,
+      "delay": 1.5,
+      "imageSrc": "/icons/logos/demos/webhook.png",
+      "title": "Webhook",
+      "alt": "Webhook Logo",
+      "width": 160
+    }
   ],
   "animatedCards": {
     "content": [
@@ -13,10 +74,10 @@
         "title": "Portfolio",
         "contents": {
           "iconWidth": 100,
-          "title": "This portfolio is crafted using the latest NextJS 13 + TypeScript + Tailwind CSS+ Flowbite React + Framer Motion:",
+          "title": "This portfolio is crafted using the latest NextJS 13 + TypeScript + Tailwind CSS + Flowbite React + Framer Motion:",
           "text": [
             "Aesthetically pleasing UI with clean code",
-            "Data separation to ensure scalability",
+            "Separation of data and UI to ensure scalability and testability",
             "High-level architectural thinking throughout",
             "Server-side rendering using NextJS 13",
             "Dynamic animations powered by Framer Motion",
@@ -49,6 +110,26 @@
         }
       },
       {
+        "classNames": "grid-cols-1 col-span-2 text-4xl",
+        "title": "Gitlab-Webhook",
+        "contents": {
+          "iconWidth": 100,
+          "title": "An ongoing full-stack project designed to alleviate the workload for educators:",
+          "text": [
+            "Webhook call to Gitlab",
+            "RESTful APIs were built to be consumed by NextJS Server components",
+            "Front end: Next JS + Tailwind CSS",
+            "Back end: Spring Boot + MariaDB",
+            "Full MVC architecture"
+          ]
+        },
+        "icon": {
+          "imageSrc": "/icons/pixel/demos/donut.svg",
+          "alt": "Gitlab-Webhook",
+          "width": 30
+        }
+      },
+      {
         "classNames": "grid-cols-3 text-2xl",
         "title": "Sanctum-Wellbeing",
         "contents": {
@@ -66,26 +147,6 @@
         "icon": {
           "imageSrc": "/icons/pixel/demos/hand-heart.svg",
           "alt": "Sanctum-Wellbeing",
-          "width": 30
-        }
-      },
-      {
-        "classNames": "grid-cols-1 col-span-2 text-4xl",
-        "title": "Gitlab-Webhook",
-        "contents": {
-          "iconWidth": 100,
-          "title": "An ongoing full-stack project designed to alleviate the workload for educators:",
-          "text": [
-            "Webhook call to Gitlab",
-            "RESTful APIs were built to be consumed by NextJS Server components",
-            "Front end: Next JS + Tailwind CSS",
-            "Back end: Spring Boot + MariaDB",
-            "Full MVC architecture"
-          ]
-        },
-        "icon": {
-          "imageSrc": "/icons/pixel/demos/donut.svg",
-          "alt": "Gitlab-Webhook",
           "width": 30
         }
       }
