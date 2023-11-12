@@ -131,7 +131,8 @@
           "imageSrc": "/icons/pixel/home/code.svg",
           "alt": "Frontend",
           "width": 45
-        }
+        },
+        "isShowLinks": false
       },
       {
         "classNames": "grid-cols-3 text-2xl",
@@ -151,7 +152,8 @@
           "imageSrc": "/icons/pixel/home/terminal.svg",
           "alt": "Backend",
           "width": 30
-        }
+        },
+        "isShowLinks": false
       },
       {
         "classNames": "grid-cols-1 text-2xl",
@@ -174,7 +176,8 @@
           "imageSrc": "/icons/pixel/home/loop.svg",
           "alt": "Agile",
           "width": 30
-        }
+        },
+        "isShowLinks": false
       },
       {
         "classNames": "grid-cols-2 col-span-2 text-4xl",
@@ -192,7 +195,8 @@
           "imageSrc": "/icons/pixel/home/stack.svg",
           "alt": "Full Stack",
           "width": 40
-        }
+        },
+        "isShowLinks": false
       }
     ]
   }

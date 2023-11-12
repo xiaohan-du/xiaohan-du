@@ -101,7 +101,8 @@
           "imageSrc": "/icons/pixel/about/team.svg",
           "alt": "Team Player",
           "width": 40
-        }
+        },
+        "isShowLinks": false
       },
       {
         "classNames": "text-2xl",
@@ -119,7 +120,8 @@
           "imageSrc": "/icons/pixel/about/headphone.svg",
           "alt": "Hobbies",
           "width": 30
-        }
+        },
+        "isShowLinks": false
       },
       {
         "classNames": "grid-cols-2 col-span-2 text-4xl",
@@ -138,7 +140,8 @@
           "imageSrc": "/icons/pixel/about/focus.svg",
           "alt": "Goals",
           "width": 30
-        }
+        },
+        "isShowLinks": false
       }
     ]
   }

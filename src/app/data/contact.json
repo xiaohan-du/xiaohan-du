@@ -58,22 +58,7 @@
   "animatedCards": {
     "content": [
       {
-        "classNames": "grid-cols-3 text-4xl",
-        "title": "Email",
-        "contents": {
-          "iconWidth": 100,
-          "title": "",
-          "text": [
-          ]
-        },
-        "icon": {
-          "imageSrc": "/icons/pixel/contact/email-box.svg",
-          "alt": "Email",
-          "width": 35
-        }
-      },
-      {
-        "classNames": "grid-cols-1 col-span-2 text-4xl",
+        "classNames": "grid-cols-1 col-span-3 text-4xl",
         "title": "Linkedin",
         "contents": {
           "iconWidth": 100,
@@ -85,7 +70,19 @@
           "imageSrc": "/icons/pixel/contact/linkedin-box.svg",
           "alt": "Linkedin",
           "width": 40
-        }
+        },
+        "isShowLinks": true,
+        "btn": [
+          {
+            "text":  "Visit My Linkedin",
+            "url": "https://www.linkedin.com/in/xiaohan-du-055a0713a/",
+            "icon": {
+              "imageSrc": "/icons/links/linkedin.svg",
+              "alt": "Linkedin",
+              "width": 35
+            }
+          }
+        ]
       },
       {
         "classNames": "grid-cols-2 col-span-2 text-4xl",
@@ -100,7 +97,19 @@
           "imageSrc": "/icons/pixel/contact/instagram-fill.svg",
           "alt": "Instagram",
           "width": 40
-        }
+        },
+        "isShowLinks": true,
+        "btn": [
+          {
+            "text":  "Visit My Instagram",
+            "url": "https://www.instagram.com/xiaohan_du/",
+            "icon": {
+              "imageSrc": "/icons/links/instagram.png",
+              "alt": "Instagram",
+              "width": 35
+            }
+          }
+        ]
       },
       {
         "classNames": "grid-cols-1 text-4xl",
@@ -115,7 +124,19 @@
           "imageSrc": "/icons/pixel/contact/phone-fill.svg",
           "alt": "Call",
           "width": 35
-        }
+        },
+        "isShowLinks": true,
+        "btn": [
+          {
+            "text":  "Contact Me by Phone",
+            "url": "tel:+447514196605",
+            "icon": {
+              "imageSrc": "/icons/links/phone.svg",
+              "alt": "Call",
+              "width": 35
+            }
+          }
+        ]
       }
     ]
   }

@@ -4,16 +4,17 @@ import {motion} from 'framer-motion';
 import styles from './MotionAnimatedCard.module.scss';
 import Image from "next/image";
 import {IMotionAnimatedCard} from "@/app/interfaces/IMotionAnimatedCard";
+import Link from "next/link";
 
 export const MotionAnimatedCard = (animatedCardsData: IMotionAnimatedCard): React.ReactNode => {
-  const [selectedId, setSelectedId] = useState(null);
-  const handleCardClick = (card: any): void => {
-    setSelectedId(selectedId === card ? null : card);
+  const [selectedId, setSelectedId] = useState<string>('');
+  const [hoveredButton, setHoveredButton] = useState<number | null>(null);
+  const handleCardClick = (card: string): void => {
+    setSelectedId(selectedId === card ? '' : card);
   };
   const openCardStyles: string = `
     w-full
     rounded-2xl
-    cursor-pointer
     absolute
     top-0
     right-0
@@ -109,6 +110,46 @@ export const MotionAnimatedCard = (animatedCardsData: IMotionAnimatedCard): Reac
                   </ul>
                 </div>
               </div>
+              {
+                value.isShowLinks &&
+                  <div className={'flex flex-row'} key={index}>{
+                    value.btn?.map((item: ButtonData, index: number) => {
+                      return (
+                        <motion.button
+                          className={`
+                      h-12 
+                      border-2
+                      border-solid 
+                      border-slate-200 
+                      mt-8
+                      mx-2
+                      flex
+                      flex-row
+                      items-center
+                      p-2 
+                      shadow-lg
+                      `}
+                          key={index}
+                          whileHover={{scale: 1.2}}
+                          onHoverStart={() => setHoveredButton(index)}
+                          onHoverEnd={() => setHoveredButton(null)}
+                          whileTap={{scale: 0.9}}>
+                          <div className={'border-r-2'}>
+                            <motion.div animate={{
+                              rotate: hoveredButton === index ? 360 : 0
+                            }}>
+                              <Image src={item.icon.imageSrc} className={'mr-2 pr-1'} alt={item.icon.alt}
+                                     width={item.icon.width} height={item.icon.width}/>
+                            </motion.div>
+                          </div>
+                          <Link href={item.icon.alt === 'Call' ? `tel:${process.env.PHONE_NUMBER}` : item.url}
+                                className={'font-bold text-center w-full'}>{item.text}</Link>
+                        </motion.button>
+                      )
+                    })
+                  }
+                  </div>
+              }
             </div>
           )}
         </motion.div>
