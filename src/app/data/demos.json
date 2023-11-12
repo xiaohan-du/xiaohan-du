@@ -89,7 +89,19 @@
           "imageSrc": "/icons/pixel/demos/folder-user.svg",
           "alt": "Portfolio",
           "width": 40
-        }
+        },
+        "isShowLinks": true,
+        "btn": [
+          {
+            "text":  "Source Code",
+            "url": "https://github.com/xiaohan-du/xiaohan-du",
+            "icon": {
+              "imageSrc": "/icons/links/github.png",
+              "alt": "GitHub",
+              "width": 30
+            }
+          }
+        ]
       },
       {
         "classNames": "grid-cols-2 col-span-1 text-4xl",
@@ -107,7 +119,28 @@
           "imageSrc": "/icons/pixel/demos/chat-voice.svg",
           "alt": "Snapi",
           "width": 40
-        }
+        },
+        "isShowLinks": true,
+        "btn": [
+          {
+            "text":  "Link",
+            "url": "https://www.snapi.com/",
+            "icon": {
+              "imageSrc": "/icons/pixel/demos/chat-voice.svg",
+              "alt": "Snapi",
+              "width": 30
+            }
+          },
+          {
+            "text":  "Source Code",
+            "url": "https://github.com/snapi-inc/snapi-frontend-v2",
+            "icon": {
+              "imageSrc": "/icons/links/github.png",
+              "alt": "GitHub",
+              "width": 30
+            }
+          }
+        ]
       },
       {
         "classNames": "grid-cols-1 col-span-2 text-4xl",
@@ -127,7 +160,19 @@
           "imageSrc": "/icons/pixel/demos/donut.svg",
           "alt": "Gitlab-Webhook",
           "width": 30
-        }
+        },
+        "isShowLinks": true,
+        "btn": [
+          {
+            "text":  "Source Code",
+            "url": "https://git.cardiff.ac.uk/c21127478/gitlab-webhooks",
+            "icon": {
+              "imageSrc": "/icons/links/gitlab.png",
+              "alt": "Gitlab",
+              "width": 30
+            }
+          }
+        ]
       },
       {
         "classNames": "grid-cols-3 text-2xl",
@@ -148,7 +193,28 @@
           "imageSrc": "/icons/pixel/demos/hand-heart.svg",
           "alt": "Sanctum-Wellbeing",
           "width": 30
-        }
+        },
+        "isShowLinks": true,
+        "btn": [
+          {
+            "text":  "Link",
+            "url": "https://sanctumwellbeing.co.uk/",
+            "icon": {
+              "imageSrc": "/icons/pixel/demos/hand-heart.svg",
+              "alt": "Snapi",
+              "width": 35
+            }
+          },
+          {
+            "text":  "Source Code",
+            "url": "https://github.com/xiaohan-du/sanctum-wellbeing",
+            "icon": {
+              "imageSrc": "/icons/links/github.png",
+              "alt": "GitHub",
+              "width": 30
+            }
+          }
+        ]
       }
     ]
   }

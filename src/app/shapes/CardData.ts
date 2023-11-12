@@ -10,5 +10,7 @@ type CardData = {
     imageSrc: string;
     alt: string;
     width: number;
-  }
+  },
+  isShowLinks: boolean;
+  btn?: ButtonData[]
 }

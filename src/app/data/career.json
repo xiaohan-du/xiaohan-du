@@ -80,7 +80,8 @@
           "imageSrc": "/icons/pixel/career/payment.svg",
           "alt": "Insurance",
           "width": 40
-        }
+        },
+        "isShowLinks": false
       },
       {
         "classNames": "grid-cols-3 text-2xl",
@@ -98,7 +99,8 @@
           "imageSrc": "/icons/pixel/career/mac.svg",
           "alt": "Digital Agency",
           "width": 30
-        }
+        },
+        "isShowLinks": false
       },
       {
         "classNames": "grid-cols-1 text-2xl",
@@ -116,7 +118,8 @@
           "imageSrc": "/icons/pixel/career/question-answer.svg",
           "alt": "Consultancy",
           "width": 30
-        }
+        },
+        "isShowLinks": false
       },
       {
         "classNames": "grid-cols-2 col-span-2 text-4xl",
@@ -135,7 +138,8 @@
           "imageSrc": "/icons/pixel/career/profile.svg",
           "alt": "RegTech",
           "width": 40
-        }
+        },
+        "isShowLinks": false
       }
     ]
   }

@@ -58,7 +58,7 @@
   "animatedCards": {
     "content": [
       {
-        "classNames": "grid-cols-1 col-span-3 text-4xl",
+        "classNames": "grid-cols-1 col-span-2 text-4xl",
         "title": "Development",
         "contents": {
           "iconWidth": 100,
@@ -76,7 +76,39 @@
           "imageSrc": "/icons/pixel/services/react.svg",
           "alt": "Development",
           "width": 40
-        }
+        },
+        "isShowLinks": false
+      },
+      {
+        "classNames": "grid-cols-3 text-2xl",
+        "title": "Example",
+        "contents": {
+          "iconWidth": 100,
+          "title": "Comprehensive web development excellence: from concept to launch:",
+          "text": [
+            "With a keen eye for aesthetics and usability, I transformed Louise's ideas into a visually stunning website",
+            "I prioritized clear and consistent communication throughout the development process",
+            "Live versions of the site were provided during development for real-time experience",
+            "My goal is to deliver websites that not only meet but exceed expectations"
+          ]
+        },
+        "icon": {
+          "imageSrc": "/icons/pixel/services/send-plane.svg",
+          "alt": "Example",
+          "width": 30
+        },
+        "isShowLinks": true,
+        "btn": [
+          {
+            "text":  "Example: Sanctum Wellbeing",
+            "url": "https://sanctumwellbeing.co.uk/",
+            "icon": {
+              "imageSrc": "/icons/pixel/demos/hand-heart.svg",
+              "alt": "Sanctum Wellbeing",
+              "width": 35
+            }
+          }
+        ]
       },
       {
         "classNames": "grid-cols-3 col-span-1 text-2xl",
@@ -94,7 +126,8 @@
           "imageSrc": "/icons/pixel/services/rocket.svg",
           "alt": "Deployment",
           "width": 25
-        }
+        },
+        "isShowLinks": false
       },
       {
         "classNames": "col-span-2 text-4xl",
@@ -113,7 +146,8 @@
           "imageSrc": "/icons/pixel/services/pencil-ruler.svg",
           "alt": "Design",
           "width": 40
-        }
+        },
+        "isShowLinks": false
       }
     ]
   }
