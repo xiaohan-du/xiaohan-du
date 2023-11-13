@@ -84,7 +84,8 @@
   "animatedCards": {
     "content": [
       {
-        "classNames": "grid-cols-1 col-span-3 text-4xl",
+        "classNames": "text-4xl",
+        "styleNames": "span 3 / span 3",
         "title": "Alex",
         "contents": {
           "iconWidth": 100,
@@ -112,7 +113,7 @@
         ]
       },
       {
-        "classNames": "grid-cols-1 col-span-1 text-4xl",
+        "classNames": "text-4xl",
         "title": "Louise",
         "contents": {
           "iconWidth": 100,
@@ -140,7 +141,8 @@
         ]
       },
       {
-        "classNames": "col-span-2 text-2xl",
+        "classNames": "text-2xl",
+        "styleNames": "span 2 / span 2",
         "title": "Neil",
         "contents": {
           "iconWidth": 100,
