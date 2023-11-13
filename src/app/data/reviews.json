@@ -9,39 +9,39 @@
     {
       "hiddenX": 180,
       "hiddenY": -300,
-      "visibleX": 180,
-      "visibleY": -580,
+      "visibleX": 430,
+      "visibleY": -400,
       "duration": 1.5,
       "delay": 0,
-      "imageSrc": "/icons/logos/about/coding.svg",
+      "imageSrc": "/icons/logos/reviews/handshake.png",
       "classNames": "shadow-xl rounded-full",
-      "title": "Coding",
-      "alt": "Coding Logo",
-      "width": 120
+      "title": "Handshake",
+      "alt": "Handshake Logo",
+      "width": 100
     },
     {
       "hiddenX": 180,
       "hiddenY": -420,
-      "visibleX": -75,
-      "visibleY": -300,
+      "visibleX": -20,
+      "visibleY": -200,
       "duration": 1.5,
       "delay": 0,
-      "imageSrc": "/icons/logos/about/helmet.png",
+      "imageSrc": "/icons/logos/reviews/idea.png",
       "classNames": "shadow-xl rounded-full",
-      "title": "Helmet",
-      "alt": "Helmet Logo",
+      "title": "Idea",
+      "alt": "Idea Logo",
       "width": 120
     },
     {
       "hiddenX": 200,
       "hiddenY": -530,
-      "visibleX": 203,
-      "visibleY": -250,
+      "visibleX": 400,
+      "visibleY": -325,
       "duration": 1.5,
-      "delay": 1,
-      "imageSrc": "/icons/logos/about/game.png",
-      "title": "Gaming",
-      "alt": "Gaming Logo",
+      "delay": 0,
+      "imageSrc": "/icons/logos/reviews/passion.png",
+      "title": "Passion",
+      "alt": "Passion Logo",
       "width": 80
     },
     {
@@ -50,10 +50,10 @@
       "visibleX": -40,
       "visibleY": -750,
       "duration": 1.5,
-      "delay": 1,
-      "imageSrc": "/icons/logos/about/astronomy.svg",
-      "title": "Astronomy",
-      "alt": "Astronomy Logo",
+      "delay": 0,
+      "imageSrc": "/icons/logos/reviews/review.png",
+      "title": "Review",
+      "alt": "Review Logo",
       "width": 80
     },
     {
@@ -63,22 +63,10 @@
       "visibleY": -570,
       "duration": 1.5,
       "delay": 0,
-      "imageSrc": "/icons/logos/about/crossfit.svg",
-      "title": "CrossFit",
-      "alt": "CrossFit Logo",
+      "imageSrc": "/icons/logos/reviews/smile.png",
+      "title": "Smile",
+      "alt": "Smile Logo",
       "width": 120
-    },
-    {
-      "hiddenX": 205,
-      "hiddenY": -800,
-      "visibleX": 435,
-      "visibleY": -940,
-      "duration": 1.5,
-      "delay": 1,
-      "imageSrc": "/icons/logos/about/printer.png",
-      "title": "3D Printer",
-      "alt": "3D Printer Logo",
-      "width": 70
     }
   ],
   "animatedCards": {
@@ -113,7 +101,7 @@
         ]
       },
       {
-        "classNames": "text-4xl",
+        "classNames": "text-2xl",
         "title": "Louise",
         "contents": {
           "iconWidth": 100,
@@ -125,7 +113,7 @@
         "icon": {
           "imageSrc": "/icons/pixel/reviews/user-heart.svg",
           "alt": "user-heart",
-          "width": 30
+          "width": 25
         },
         "isShowLinks": true,
         "btn": [
@@ -141,7 +129,7 @@
         ]
       },
       {
-        "classNames": "text-2xl",
+        "classNames": "text-4xl",
         "styleNames": "span 2 / span 2",
         "title": "Neil",
         "contents": {
@@ -154,7 +142,7 @@
         "icon": {
           "imageSrc": "/icons/pixel/reviews/user-heart.svg",
           "alt": "user-heart",
-          "width": 30
+          "width": 40
         },
         "isShowLinks": true,
         "btn": [

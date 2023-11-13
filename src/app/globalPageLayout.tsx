@@ -14,8 +14,8 @@ export default function GlobalPageLayout(
     animatedCardsData
   }: IGlobalPageLayoutProps): React.ReactNode {
   return (
-    <div className={'flex h-160 w-full'}>
-      <div className={'flex items-center justify-center w-1/2 mr-16'}>
+    <div className={'flex h-160 w-full justify-between'}>
+      <div className={'flex items-center justify-center w-1/2'}>
         <PushSwitch
           bgImage={bgImage}
           bgSize={bgSize}
