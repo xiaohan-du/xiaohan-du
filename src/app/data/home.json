@@ -111,7 +111,8 @@
   "animatedCards": {
     "content": [
       {
-        "classNames": "grid-cols-1 col-span-2 text-5xl ",
+        "classNames": "text-5xl",
+        "styleNames": "span 2 / span 2",
         "title": "Frontend",
         "contents": {
           "iconWidth": 100,
@@ -135,7 +136,7 @@
         "isShowLinks": false
       },
       {
-        "classNames": "grid-cols-3 text-2xl",
+        "classNames": "text-2xl",
         "title": "Backend",
         "contents": {
           "iconWidth": 100,
@@ -156,7 +157,7 @@
         "isShowLinks": false
       },
       {
-        "classNames": "grid-cols-1 text-2xl",
+        "classNames": "text-2xl",
         "title": "Agile",
         "contents": {
           "iconWidth": 100,
@@ -180,7 +181,8 @@
         "isShowLinks": false
       },
       {
-        "classNames": "grid-cols-2 col-span-2 text-4xl",
+        "classNames": "text-4xl",
+        "styleNames": "span 2 / span 2",
         "title": "Full Stack",
         "contents": {
           "iconWidth": 100,

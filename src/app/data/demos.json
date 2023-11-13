@@ -70,7 +70,8 @@
   "animatedCards": {
     "content": [
       {
-        "classNames": "grid-cols-1 col-span-2 text-4xl",
+        "classNames": "text-4xl",
+        "styleNames": "span 2 / span 2",
         "title": "Portfolio",
         "contents": {
           "iconWidth": 100,
@@ -104,7 +105,7 @@
         ]
       },
       {
-        "classNames": "grid-cols-2 col-span-1 text-4xl",
+        "classNames": "text-4xl",
         "title": "Snapi",
         "contents": {
           "iconWidth": 100,
@@ -143,7 +144,8 @@
         ]
       },
       {
-        "classNames": "grid-cols-1 col-span-2 text-4xl",
+        "classNames": "text-4xl",
+        "styleNames": "span 2 / span 2",
         "title": "Gitlab-Webhook",
         "contents": {
           "iconWidth": 100,
@@ -175,7 +177,7 @@
         ]
       },
       {
-        "classNames": "grid-cols-3 text-2xl",
+        "classNames": "text-2xl",
         "title": "Sanctum-Wellbeing",
         "contents": {
           "iconWidth": 100,

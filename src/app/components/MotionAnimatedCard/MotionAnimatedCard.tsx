@@ -53,6 +53,7 @@ export const MotionAnimatedCard = (animatedCardsData: IMotionAnimatedCard): Reac
       {animatedCardsData.content.map((value: CardData, index: number) => (
         <motion.div
           className={selectedId === value.title ? openCardStyles : `${value.classNames} ${cardStyles}`}
+          style={{gridColumn: value.styleNames}}
           key={index}
           layout
           onClick={() => handleCardClick(value.title)}

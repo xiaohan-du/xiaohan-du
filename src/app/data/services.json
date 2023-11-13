@@ -58,7 +58,8 @@
   "animatedCards": {
     "content": [
       {
-        "classNames": "grid-cols-1 col-span-2 text-4xl",
+        "classNames": "text-4xl",
+        "styleNames": "span 2 / span 2",
         "title": "Development",
         "contents": {
           "iconWidth": 100,
@@ -80,7 +81,7 @@
         "isShowLinks": false
       },
       {
-        "classNames": "grid-cols-3 text-2xl",
+        "classNames": "text-2xl",
         "title": "Example",
         "contents": {
           "iconWidth": 100,
@@ -111,7 +112,7 @@
         ]
       },
       {
-        "classNames": "grid-cols-3 col-span-1 text-2xl",
+        "classNames": "text-2xl",
         "title": "Deployment",
         "contents": {
           "iconWidth": 100,
@@ -130,7 +131,8 @@
         "isShowLinks": false
       },
       {
-        "classNames": "col-span-2 text-4xl",
+        "classNames": "text-4xl",
+        "styleNames": "span 2 / span 2",
         "title": "Design",
         "contents": {
           "iconWidth": 100,

@@ -1,5 +1,6 @@
 type CardData = {
   classNames: string;
+  styleNames?: string;
   title: string;
   contents: {
     iconWidth: number;

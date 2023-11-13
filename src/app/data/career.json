@@ -61,7 +61,8 @@
   "animatedCards": {
     "content": [
       {
-        "classNames": "grid-cols-1 col-span-2 text-4xl",
+        "classNames": "text-4xl",
+        "styleNames": "span 2 / span 2",
         "title": "Insurance",
         "contents": {
           "iconWidth": 100,
@@ -84,7 +85,7 @@
         "isShowLinks": false
       },
       {
-        "classNames": "grid-cols-3 text-2xl",
+        "classNames": "text-2xl",
         "title": "Agency",
         "contents": {
           "iconWidth": 100,
@@ -103,7 +104,7 @@
         "isShowLinks": false
       },
       {
-        "classNames": "grid-cols-1 text-2xl",
+        "classNames": "text-2xl",
         "title": "Consultancy",
         "contents": {
           "iconWidth": 100,
@@ -122,7 +123,8 @@
         "isShowLinks": false
       },
       {
-        "classNames": "grid-cols-2 col-span-2 text-4xl",
+        "classNames": "text-4xl",
+        "styleNames": "span 2 / span 2",
         "title": "RegTech",
         "contents": {
           "iconWidth": 100,
