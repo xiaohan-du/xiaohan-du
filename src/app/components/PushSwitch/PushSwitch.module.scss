@@ -1,34 +1,12 @@
 $x-y-offset: 0.625rem;
 $blur: 1rem;
 .pushSwitch {
-  position: relative;
-  height: auto;
-  width: 100%;
-  min-width: 30rem;
-  min-height: 30rem;
-  -webkit-appearance: none;
   box-shadow: $x-y-offset*-1 $x-y-offset*-1 $blur rgba(255, 255, 255, 0.5),
   $x-y-offset $x-y-offset $blur rgba(70, 70, 70, 0.12),
   inset $x-y-offset*-1 $x-y-offset*-1 $blur rgba(255, 255, 255, 0.5),
   inset $x-y-offset $x-y-offset $blur rgba(70, 70, 70, 0.12);
-  border-radius: 50%;
-  border: 1.25rem solid white;
-  outline: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: default;
-  background-size: cover;
-  background-repeat: no-repeat;
-  aspect-ratio: 1 / 1;
-  transition: box-shadow 1s;
 
   &Container {
-    width: 80%;
-    aspect-ratio: 1 / 1;
-    display: flex;
-    justify-content: flex-end;
-
     &:hover {
       .pushSwitch {
         box-shadow: $x-y-offset*-1 $x-y-offset*-1 $blur*10 rgba(255, 255, 255, 0.5),
