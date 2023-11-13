@@ -84,7 +84,7 @@
   "animatedCards": {
     "content": [
       {
-        "classNames": "col-span-3 text-4xl",
+        "classNames": "text-4xl",
         "styleNames": "span 3 / span 3",
         "title": "Team Player",
         "contents": {
@@ -125,7 +125,7 @@
         "isShowLinks": false
       },
       {
-        "classNames": "col-span-2 text-4xl",
+        "classNames": "text-4xl",
         "styleNames": "span 2 / span 2",
         "title": "Goals",
         "contents": {
