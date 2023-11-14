@@ -4,7 +4,6 @@ import {useDimensions} from "@/app/hooks/useDimensions";
 import {motion, useCycle} from "framer-motion";
 import {MenuToggle} from "../MotionToggleMenu/MenuToggle";
 import {Navigation} from "../MotionToggleMenu/Navigation";
-import styles from './ToggleMenu.module.scss';
 import {IToggleItemProps} from "@/app/interfaces/IToggleItem";
 import {IToggleMenuProps} from "@/app/interfaces/IToggleMenu";
 
@@ -29,7 +28,7 @@ export const ToggleMenu = ({icon, main, text, mappings, iconSize, iconClasses}: 
           animate={isOpen ? "open" : "closed"}
           custom={height}
           ref={containerRef}
-          className={styles.toggleMenuNav}
+          className={'relative'}
         >
           <MenuToggle toggle={() => toggleOpen()} image={
             <Image src={icon} alt="Menu Icon" width={iconSize} height={iconSize} className={iconClasses}/>
