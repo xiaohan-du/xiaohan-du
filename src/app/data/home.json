@@ -1,8 +1,5 @@
 {
   "bgImage": "/images/hello.png",
-  "bgSize": "90%",
-  "bgHorizontalPosition": "0",
-  "bgVerticalPosition": "",
   "title": "Software Engineer",
   "subTitle": "Xiaohan Du",
   "animatedIcon": [

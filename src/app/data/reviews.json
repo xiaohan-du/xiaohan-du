@@ -1,8 +1,5 @@
 {
   "bgImage": "/images/here.png",
-  "bgSize": "80%",
-  "bgHorizontalPosition": "4.7rem",
-  "bgVerticalPosition": "4rem",
   "title": "Testimonials",
   "subTitle": "From colleagues to clients, see what others say",
   "animatedIcon": [

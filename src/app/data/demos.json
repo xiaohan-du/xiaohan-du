@@ -1,8 +1,5 @@
 {
   "bgImage": "/images/bulb.png",
-  "bgSize": "90%",
-  "bgHorizontalPosition": "2rem",
-  "bgVerticalPosition": "0.5rem",
   "title": "My Demos",
   "subTitle": "Demos speak louder than words",
   "animatedIcon": [

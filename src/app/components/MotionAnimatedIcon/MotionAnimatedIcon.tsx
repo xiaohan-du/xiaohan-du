@@ -25,9 +25,9 @@ export const MotionAnimatedIcon = (
         hidden: {x: hiddenX, y: hiddenY},
         visible: {x: visibleX, y: visibleY, transition: {duration: duration, delay: delay}},
       }}
-      className={'w-fit'}
+      className={'w-fit z-0'}
     >
-      <Image src={imageSrc} className={classNames} title={title} alt={alt} width={width}
+      <Image src={imageSrc} className={`${classNames} z-0`} title={title} alt={alt} width={width}
              height={width}/>
     </motion.div>
   )

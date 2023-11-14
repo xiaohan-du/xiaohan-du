@@ -7,15 +7,11 @@ import {IMotionAnimatedIconProps} from "@/app/interfaces/IMotionAnimatedIcon";
 
 export const PushSwitch = ({
                              bgImage,
-                             bgHorizontalPosition,
-                             bgVerticalPosition,
-                             bgSize,
                              animatedIconData
                            }: IPushSwitchProps): ReactNode => {
   const pushSwitchStyle: PushSwitch = {
     backgroundImage: `url(${bgImage})`,
-    backgroundSize: `${bgSize} auto`,
-    backgroundPosition: `${bgHorizontalPosition} ${bgVerticalPosition}`
+    backgroundSize: `100% auto`,
   };
   // increase x = move right
   // increase y = move down
@@ -24,15 +20,15 @@ export const PushSwitch = ({
     aspect-square
     flex
     justify-end
+    w-full
+    h-full
     ${styles.pushSwitchContainer}
     `}>
-      <div>
+      <div className={'w-full h-full'}>
         <input type="checkbox" className={`
           relative 
           h-auto 
           w-full 
-          min-w-[30rem] 
-          min-h-[30rem] 
           z-10
           rounded-full
           border-[1.25rem]

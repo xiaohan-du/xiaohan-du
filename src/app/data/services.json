@@ -1,8 +1,5 @@
 {
   "bgImage": "/images/thumbup.png",
-  "bgSize": "80%",
-  "bgHorizontalPosition": "4.5rem",
-  "bgVerticalPosition": "4rem",
   "title": "My Services",
   "subTitle": "Transforming innovative concepts into web solutions",
   "animatedIcon": [

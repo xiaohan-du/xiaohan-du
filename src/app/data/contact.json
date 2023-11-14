@@ -1,8 +1,5 @@
 {
   "bgImage": "/images/callme.png",
-  "bgSize": "80%",
-  "bgHorizontalPosition": "3.5rem",
-  "bgVerticalPosition": "1rem",
   "title": "Contact Me",
   "subTitle": "Interested in a chat? Pick one of the options below",
   "animatedIcon": [
