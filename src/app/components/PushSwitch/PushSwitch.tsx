@@ -18,20 +18,18 @@ export const PushSwitch = ({
   return (
     <div className={`
     aspect-square
-    flex
-    justify-end
     w-full
     h-full
+    grid
     ${styles.pushSwitchContainer}
     `}>
-      <div className={'w-full h-full'}>
-        <input type="checkbox" className={`
+      <input type="checkbox" className={`
           relative 
           h-auto 
-          w-full 
+          w-4/5 
           z-10
           rounded-full
-          border-[1.25rem]
+          border-[1rem]
           border-solid
           border-white
           cursor-default
@@ -40,27 +38,26 @@ export const PushSwitch = ({
           aspect-square
           transition-shadow
           hover: duration-1000
+          m-auto 
+          col-start-1 
+          row-start-1
           ${styles.pushSwitch}
-        `} style={pushSwitchStyle} disabled/>
-        {animatedIconData.map((item: IMotionAnimatedIconProps, index: number): ReactNode => {
-          return (
-            <MotionAnimatedIcon
-              key={index}
-              hiddenX={item.hiddenX}
-              hiddenY={item.hiddenY}
-              visibleX={item.visibleX}
-              visibleY={item.visibleY}
-              duration={item.duration}
-              delay={item.delay}
-              imageSrc={item.imageSrc}
-              classNames={item.classNames}
-              title={item.title}
-              alt={item.alt}
-              width={item.width}
-            />
-          )
-        })}
-      </div>
+        `} style={pushSwitchStyle} disabled></input>
+      {animatedIconData.map((item: IMotionAnimatedIconProps, index: number): ReactNode => {
+        return (
+          <MotionAnimatedIcon
+            key={index}
+            visibleX={item.visibleX}
+            visibleY={item.visibleY}
+            duration={item.duration}
+            delay={item.delay}
+            imageSrc={item.imageSrc}
+            classNames={item.classNames}
+            title={item.title}
+            alt={item.alt}
+          />
+        )
+      })}
     </div>
   )
 };

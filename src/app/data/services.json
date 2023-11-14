@@ -4,52 +4,40 @@
   "subTitle": "Transforming innovative concepts into web solutions",
   "animatedIcon": [
     {
-      "hiddenX": 200,
-      "hiddenY": -290,
-      "visibleX": -20,
-      "visibleY": -480,
+      "visibleX": "-200%",
+      "visibleY": "-200%",
       "duration": 1.5,
       "delay": 0,
       "imageSrc": "/icons/logos/services/html.png",
       "title": "HTML",
-      "alt": "HTML Logo",
-      "width": 100
+      "alt": "HTML Logo"
     },
     {
-      "hiddenX": 180,
-      "hiddenY": -410,
-      "visibleX": -20,
-      "visibleY": -200,
+      "visibleX": "-200%",
+      "visibleY": "200%",
       "duration": 1.5,
       "delay": 1,
       "imageSrc": "/icons/logos/services/js.svg",
       "title": "JavaScript",
-      "alt": "JavaScript Logo",
-      "width": 140
+      "alt": "JavaScript Logo"
     },
     {
-      "hiddenX": 190,
-      "hiddenY": -520,
-      "visibleX": 390,
-      "visibleY": -290,
+      "visibleX": "220%",
+      "visibleY": "180%",
       "duration": 1.5,
       "delay": 0.5,
       "imageSrc": "/icons/logos/services/css.png",
       "title": "CSS",
-      "alt": "CSS Logo",
-      "width": 100
+      "alt": "CSS Logo"
     },
     {
-      "hiddenX": 170,
-      "hiddenY": -660,
-      "visibleX": 390,
-      "visibleY": -775,
+      "visibleX": "180%",
+      "visibleY": "-170%",
       "duration": 1.5,
       "delay": 1.5,
       "imageSrc": "/icons/logos/services/website.png",
       "title": "Website",
-      "alt": "Website Logo",
-      "width": 160
+      "alt": "Website Logo"
     }
   ],
   "animatedCards": {
@@ -98,7 +86,7 @@
         "isShowLinks": true,
         "btn": [
           {
-            "text":  "Example: Sanctum Wellbeing",
+            "text": "Example: Sanctum Wellbeing",
             "url": "https://sanctumwellbeing.co.uk/",
             "icon": {
               "imageSrc": "/icons/pixel/demos/hand-heart.svg",

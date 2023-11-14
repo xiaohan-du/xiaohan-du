@@ -4,52 +4,40 @@
   "subTitle": "Interested in a chat? Pick one of the options below",
   "animatedIcon": [
     {
-      "hiddenX": 200,
-      "hiddenY": -290,
-      "visibleX": -80,
-      "visibleY": -280,
+      "visibleX": "-280%",
+      "visibleY": "0%",
       "duration": 1.5,
       "delay": 0,
       "imageSrc": "/icons/logos/contact/email.svg",
       "title": "Email",
-      "alt": "Email Logo",
-      "width": 100
+      "alt": "Email Logo"
     },
     {
-      "hiddenX": 180,
-      "hiddenY": -410,
-      "visibleX": 20,
-      "visibleY": -180,
+      "visibleX": "-150%",
+      "visibleY": "220%",
       "duration": 1.5,
       "delay": 0,
       "imageSrc": "/icons/logos/contact/phone.svg",
       "title": "Phone",
-      "alt": "Phone Logo",
-      "width": 140
+      "alt": "Phone Logo"
     },
     {
-      "hiddenX": 190,
-      "hiddenY": -520,
-      "visibleX": 420,
-      "visibleY": -320,
+      "visibleX": "200%",
+      "visibleY": "200%",
       "duration": 1.5,
       "delay": 0,
       "imageSrc": "/icons/logos/contact/instagram.jpg",
       "title": "Instagram",
-      "alt": "Instagram Logo",
-      "width": 100
+      "alt": "Instagram Logo"
     },
     {
-      "hiddenX": 170,
-      "hiddenY": -660,
-      "visibleX": 290,
-      "visibleY": -880,
+      "visibleX": "130%",
+      "visibleY": "-220%",
       "duration": 1.5,
       "delay": 0,
       "imageSrc": "/icons/logos/contact/linkedin.svg",
       "title": "Linkedin",
-      "alt": "Linkedin Logo",
-      "width": 160
+      "alt": "Linkedin Logo"
     }
   ],
   "animatedCards": {
@@ -72,7 +60,7 @@
         "isShowLinks": true,
         "btn": [
           {
-            "text":  "Visit My Linkedin",
+            "text": "Visit My Linkedin",
             "url": "https://www.linkedin.com/in/xiaohan-du-055a0713a/",
             "icon": {
               "imageSrc": "/icons/links/linkedin.svg",
@@ -100,7 +88,7 @@
         "isShowLinks": true,
         "btn": [
           {
-            "text":  "Visit My Instagram",
+            "text": "Visit My Instagram",
             "url": "https://www.instagram.com/xiaohan_du/",
             "icon": {
               "imageSrc": "/icons/links/instagram.png",
@@ -127,7 +115,7 @@
         "isShowLinks": true,
         "btn": [
           {
-            "text":  "Contact Me by Phone",
+            "text": "Contact Me by Phone",
             "url": "tel:+447514196605",
             "icon": {
               "imageSrc": "/icons/links/phone.svg",

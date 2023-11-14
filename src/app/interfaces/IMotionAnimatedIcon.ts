@@ -5,5 +5,4 @@ export interface IMotionAnimatedIconProps extends IAnimationVariantsProps{
   classNames?: string;
   title: string;
   alt: string;
-  width: number;
 };

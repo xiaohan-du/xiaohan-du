@@ -4,66 +4,51 @@
   "subTitle": "From colleagues to clients, see what others say",
   "animatedIcon": [
     {
-      "hiddenX": 180,
-      "hiddenY": -300,
-      "visibleX": 430,
-      "visibleY": -400,
+      "visibleX": "240%",
+      "visibleY": "-120%",
       "duration": 1.5,
       "delay": 0,
       "imageSrc": "/icons/logos/reviews/handshake.png",
       "classNames": "shadow-xl rounded-full",
       "title": "Handshake",
-      "alt": "Handshake Logo",
-      "width": 100
+      "alt": "Handshake Logo"
     },
     {
-      "hiddenX": 180,
-      "hiddenY": -420,
-      "visibleX": -20,
-      "visibleY": -200,
+      "visibleX": "-180%",
+      "visibleY": "210%",
       "duration": 1.5,
       "delay": 0,
       "imageSrc": "/icons/logos/reviews/idea.png",
       "classNames": "shadow-xl rounded-full",
       "title": "Idea",
-      "alt": "Idea Logo",
-      "width": 120
+      "alt": "Idea Logo"
     },
     {
-      "hiddenX": 200,
-      "hiddenY": -530,
-      "visibleX": 400,
-      "visibleY": -325,
+      "visibleX": "220%",
+      "visibleY": "130%",
       "duration": 1.5,
       "delay": 0,
       "imageSrc": "/icons/logos/reviews/passion.png",
       "title": "Passion",
-      "alt": "Passion Logo",
-      "width": 80
+      "alt": "Passion Logo"
     },
     {
-      "hiddenX": 200,
-      "hiddenY": -600,
-      "visibleX": -40,
-      "visibleY": -750,
+      "visibleX": "-200%",
+      "visibleY": "-220%",
       "duration": 1.5,
       "delay": 0,
       "imageSrc": "/icons/logos/reviews/review.png",
       "title": "Review",
-      "alt": "Review Logo",
-      "width": 80
+      "alt": "Review Logo"
     },
     {
-      "hiddenX": 180,
-      "hiddenY": -700,
-      "visibleX": 430,
-      "visibleY": -570,
+      "visibleX": "250%",
+      "visibleY": "80%",
       "duration": 1.5,
       "delay": 0,
       "imageSrc": "/icons/logos/reviews/smile.png",
       "title": "Smile",
-      "alt": "Smile Logo",
-      "width": 120
+      "alt": "Smile Logo"
     }
   ],
   "animatedCards": {
@@ -87,7 +72,7 @@
         "isShowLinks": true,
         "btn": [
           {
-            "text":  "Alex's Recommendation on Linkedin",
+            "text": "Alex's Recommendation on Linkedin",
             "url": "https://www.linkedin.com/in/xiaohan-du-055a0713a/details/recommendations",
             "icon": {
               "imageSrc": "/icons/links/linkedin.svg",
@@ -115,7 +100,7 @@
         "isShowLinks": true,
         "btn": [
           {
-            "text":  "Louise's Recommendation on Linkedin",
+            "text": "Louise's Recommendation on Linkedin",
             "url": "https://www.linkedin.com/feed/update/urn:li:activity:7069434217784324096?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7069434217784324096%2C7069562529739415552%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287069562529739415552%2Curn%3Ali%3Aactivity%3A7069434217784324096%29",
             "icon": {
               "imageSrc": "/icons/links/linkedin.svg",
@@ -144,7 +129,7 @@
         "isShowLinks": true,
         "btn": [
           {
-            "text":  "Neil's Recommendation on Linkedin",
+            "text": "Neil's Recommendation on Linkedin",
             "url": "https://www.linkedin.com/in/xiaohan-du-055a0713a/details/recommendations",
             "icon": {
               "imageSrc": "/icons/links/linkedin.svg",
