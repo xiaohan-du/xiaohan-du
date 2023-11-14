@@ -5,9 +5,6 @@ export default function Reviews() {
   return (
     <GlobalPageLayout
       bgImage={reviews.bgImage}
-      bgSize={reviews.bgSize}
-      bgHorizontalPosition={reviews.bgHorizontalPosition}
-      bgVerticalPosition={reviews.bgVerticalPosition}
       title={reviews.title}
       subTitle={reviews.subTitle}
       animatedIconData={reviews.animatedIcon}

@@ -5,9 +5,6 @@ import {MotionAnimatedCard} from "@/app/components/MotionAnimatedCard/MotionAnim
 export default function GlobalPageLayout(
   {
     bgImage,
-    bgSize,
-    bgHorizontalPosition,
-    bgVerticalPosition,
     title,
     subTitle,
     animatedIconData,
@@ -15,12 +12,9 @@ export default function GlobalPageLayout(
   }: IGlobalPageLayoutProps): React.ReactNode {
   return (
     <div className={'flex h-160 w-full justify-between'}>
-      <div className={'flex items-center justify-center w-1/2'}>
+      <div className={'flex items-center justify-center w-1/2 mx-16'}>
         <PushSwitch
           bgImage={bgImage}
-          bgSize={bgSize}
-          bgHorizontalPosition={bgHorizontalPosition}
-          bgVerticalPosition={bgVerticalPosition}
           animatedIconData={animatedIconData}
         />
       </div>

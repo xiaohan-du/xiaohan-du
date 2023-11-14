@@ -1,70 +1,52 @@
 {
   "bgImage": "/images/bulb.png",
-  "bgSize": "90%",
-  "bgHorizontalPosition": "2rem",
-  "bgVerticalPosition": "0.5rem",
   "title": "My Demos",
   "subTitle": "Demos speak louder than words",
   "animatedIcon": [
     {
-      "hiddenX": 200,
-      "hiddenY": -290,
-      "visibleX": 400,
-      "visibleY": -480,
+      "visibleX": "-210%",
+      "visibleY": "180%",
       "duration": 1.5,
       "delay": 0,
       "imageSrc": "/icons/logos/demos/portfolio.png",
       "title": "Portfolio",
-      "alt": "Portfolio Logo",
-      "width": 120
+      "alt": "Portfolio Logo"
     },
     {
-      "hiddenX": 180,
-      "hiddenY": -410,
-      "visibleX": -20,
-      "visibleY": -600,
+      "visibleX": "-200%",
+      "visibleY": "-180%",
       "duration": 1.5,
       "delay": 1,
       "imageSrc": "/icons/logos/demos/sound.png",
       "title": "Audience Activation",
-      "alt": "Audience Activation Logo",
-      "width": 140
+      "alt": "Audience Activation Logo"
     },
     {
-      "hiddenX": 190,
-      "hiddenY": -520,
-      "visibleX": 330,
-      "visibleY": -290,
+      "visibleX": "150%",
+      "visibleY": "240%",
       "duration": 1.5,
       "delay": 0.5,
       "imageSrc": "/icons/logos/demos/meditation.png",
       "title": "Sanctum Wellbeing",
-      "alt": "Sanctum Wellbeing Logo",
-      "width": 100
+      "alt": "Sanctum Wellbeing Logo"
     },
     {
-      "hiddenX": 170,
-      "hiddenY": -660,
-      "visibleX": -30,
-      "visibleY": -480,
+      "visibleX": "210%",
+      "visibleY": "-170%",
       "duration": 1.5,
       "delay": 1.5,
       "imageSrc": "/icons/logos/demos/gitlab.svg",
       "title": "Gitlab",
-      "alt": "Gitlab Logo",
-      "width": 160
+      "alt": "Gitlab Logo"
     },
     {
-      "hiddenX": 170,
-      "hiddenY": -800,
-      "visibleX": -90,
-      "visibleY": -750,
+      "visibleX": "250%",
+      "visibleY": "-120%",
       "duration": 1.5,
       "delay": 1.5,
       "imageSrc": "/icons/logos/demos/webhook.png",
       "title": "Webhook",
-      "alt": "Webhook Logo",
-      "width": 160
+      "alt": "Webhook Logo"
     }
   ],
   "animatedCards": {
@@ -94,7 +76,7 @@
         "isShowLinks": true,
         "btn": [
           {
-            "text":  "Source Code",
+            "text": "Source Code",
             "url": "https://github.com/xiaohan-du/xiaohan-du",
             "icon": {
               "imageSrc": "/icons/links/github.png",
@@ -124,7 +106,7 @@
         "isShowLinks": true,
         "btn": [
           {
-            "text":  "Link",
+            "text": "Link",
             "url": "https://www.snapi.com/",
             "icon": {
               "imageSrc": "/icons/pixel/demos/chat-voice.svg",
@@ -133,7 +115,7 @@
             }
           },
           {
-            "text":  "Source Code",
+            "text": "Source Code",
             "url": "https://github.com/snapi-inc/snapi-frontend-v2",
             "icon": {
               "imageSrc": "/icons/links/github.png",
@@ -166,7 +148,7 @@
         "isShowLinks": true,
         "btn": [
           {
-            "text":  "Source Code",
+            "text": "Source Code",
             "url": "https://git.cardiff.ac.uk/c21127478/gitlab-webhooks",
             "icon": {
               "imageSrc": "/icons/links/gitlab.png",
@@ -199,7 +181,7 @@
         "isShowLinks": true,
         "btn": [
           {
-            "text":  "Link",
+            "text": "Link",
             "url": "https://sanctumwellbeing.co.uk/",
             "icon": {
               "imageSrc": "/icons/pixel/demos/hand-heart.svg",
@@ -208,7 +190,7 @@
             }
           },
           {
-            "text":  "Source Code",
+            "text": "Source Code",
             "url": "https://github.com/xiaohan-du/sanctum-wellbeing",
             "icon": {
               "imageSrc": "/icons/links/github.png",

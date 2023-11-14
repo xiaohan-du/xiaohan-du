@@ -1,61 +1,46 @@
 {
   "bgImage": "/images/laptop.png",
-  "bgSize": "80%",
-  "bgHorizontalPosition": "3.3rem",
-  "bgVerticalPosition": "1rem",
   "title": "My Career",
   "subTitle": "Diverse and dynamic career across multiple industries",
   "animatedIcon": [
     {
-      "hiddenX": 180,
-      "hiddenY": -300,
-      "visibleX": 183,
-      "visibleY": -560,
+      "visibleX": "-200%",
+      "visibleY": "200%",
       "duration": 1.5,
       "delay": 0,
       "imageSrc": "/icons/logos/career/fintech.png",
       "classNames": "shadow-xl rounded-full",
       "title": "Fintech",
-      "alt": "Fintech Logo",
-      "width": 110
+      "alt": "Fintech Logo"
     },
     {
-      "hiddenX": 180,
-      "hiddenY": -420,
-      "visibleX": -80,
-      "visibleY": -410,
+      "visibleX": "200%",
+      "visibleY": "200%",
       "duration": 1.5,
       "delay": 0.5,
       "imageSrc": "/icons/logos/career/house.png",
       "title": "Software House",
-      "alt": "Software House Logo",
-      "width": 110
+      "alt": "Software House Logo"
     },
     {
-      "hiddenX": 185,
-      "hiddenY": -530,
-      "visibleX": 190,
-      "visibleY": -245,
+      "visibleX": "-200%",
+      "visibleY": "-200%",
       "duration": 1.5,
-      "delay": 1,
+      "delay": 1.5,
       "imageSrc": "/icons/logos/career/insurance.png",
       "classNames": "shadow-xl rounded-full",
       "title": "Insurance",
-      "alt": "Insurance Logo",
-      "width": 100
+      "alt": "Insurance Logo"
     },
     {
-      "hiddenX": 185,
-      "hiddenY": -645,
-      "visibleX": 450,
-      "visibleY": -610,
+      "visibleX": "200%",
+      "visibleY": "-200%",
       "duration": 1.5,
-      "delay": 1.5,
+      "delay": 1,
       "imageSrc": "/icons/logos/career/agency.svg",
       "classNames": "shadow-xl rounded-full",
       "title": "Digital Agency",
-      "alt": "Digital Agency Logo",
-      "width": 100
+      "alt": "Digital Agency Logo"
     }
   ],
   "animatedCards": {

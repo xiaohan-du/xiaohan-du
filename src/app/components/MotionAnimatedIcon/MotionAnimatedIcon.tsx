@@ -5,8 +5,6 @@ import {IMotionAnimatedIconProps} from "@/app/interfaces/IMotionAnimatedIcon";
 
 export const MotionAnimatedIcon = (
   {
-    hiddenX,
-    hiddenY,
     visibleX,
     visibleY,
     duration,
@@ -14,21 +12,20 @@ export const MotionAnimatedIcon = (
     imageSrc,
     classNames,
     title,
-    alt,
-    width
+    alt
   }: IMotionAnimatedIconProps): ReactNode => {
   return (
     <motion.div
       initial="hidden"
       animate="visible"
       variants={{
-        hidden: {x: hiddenX, y: hiddenY},
+        hidden: {x: 0, y: 0},
         visible: {x: visibleX, y: visibleY, transition: {duration: duration, delay: delay}},
       }}
-      className={'w-fit'}
+      className={'m-auto col-start-1 row-start-1 w-1/6'}
     >
-      <Image src={imageSrc} className={classNames} title={title} alt={alt} width={width}
-             height={width}/>
+      <Image src={imageSrc} className={`${classNames} max-w-none w-full relative`} title={title} alt={alt} width={200}
+             height={200}/>
     </motion.div>
   )
 };

@@ -1,111 +1,84 @@
 {
   "bgImage": "/images/hello.png",
-  "bgSize": "90%",
-  "bgHorizontalPosition": "0",
-  "bgVerticalPosition": "",
   "title": "Software Engineer",
   "subTitle": "Xiaohan Du",
   "animatedIcon": [
     {
-      "hiddenX": 190,
-      "hiddenY": -290,
-      "visibleX": 0,
-      "visibleY": -530,
+      "visibleX": "-200%",
+      "visibleY": "-185%",
       "duration": 1.5,
       "delay": 0,
       "imageSrc": "/icons/logos/home/nextjs.svg",
       "classNames": "shadow-xl rounded-full",
       "title": "NextJS",
-      "alt": "NextJS Logo",
-      "width": 120
+      "alt": "NextJS Logo"
     },
     {
-      "hiddenX": 200,
-      "hiddenY": -400,
-      "visibleX": 400,
-      "visibleY": -600,
+      "visibleX": "250%",
+      "visibleY": "-120%",
       "duration": 1.5,
       "delay": 0,
       "imageSrc": "/icons/logos/home/react.svg",
       "classNames": "shadow-xl rounded-full",
       "title": "React",
-      "alt": "React Logo",
-      "width": 100
+      "alt": "React Logo"
     },
     {
-      "hiddenX": 210,
-      "hiddenY": -500,
-      "visibleX": -90,
-      "visibleY": -560,
+      "visibleX": "-270%",
+      "visibleY": "-50%",
       "duration": 1.5,
       "delay": 1,
       "imageSrc": "/icons/logos/home/framer.png",
       "classNames": "shadow-xl rounded-full",
       "title": "Framer Motion",
-      "alt": "Framer Motion Logo",
-      "width": 120
+      "alt": "Framer Motion Logo"
     },
     {
-      "hiddenX": 210,
-      "hiddenY": -600,
-      "visibleX": 250,
-      "visibleY": -850,
+      "visibleX": "60%",
+      "visibleY": "-250%",
       "duration": 1.5,
       "delay": 1,
       "imageSrc": "/icons/logos/home/sql.png",
       "title": "SQL",
-      "alt": "SQL Logo",
-      "width": 80
+      "alt": "SQL Logo"
     },
     {
-      "hiddenX": 200,
-      "hiddenY": -690,
-      "visibleX": -40,
-      "visibleY": -550,
+      "visibleX": "-240%",
+      "visibleY": "120%",
       "duration": 1.5,
       "delay": 0,
       "imageSrc": "/icons/logos/home/tailwind.png",
       "title": "Tailwind CSS",
-      "alt": "Tailwind Logo",
-      "width": 100
+      "alt": "Tailwind Logo"
     },
     {
-      "hiddenX": 200,
-      "hiddenY": -790,
-      "visibleX": 330,
-      "visibleY": -540,
+      "visibleX": "140%",
+      "visibleY": "220%",
       "duration": 1.5,
       "delay": 0,
       "imageSrc": "/icons/logos/home/springboot.svg",
       "classNames": "shadow-xl rounded-full",
       "title": "Springboot",
-      "alt": "Springboot Logo",
-      "width": 100
+      "alt": "Springboot Logo"
     },
     {
-      "hiddenX": 215,
-      "hiddenY": -875,
-      "visibleX": 140,
-      "visibleY": -600,
+      "visibleX": "-120%",
+      "visibleY": "250%",
       "duration": 1.5,
       "delay": 1,
       "imageSrc": "/icons/logos/home/typescript.png",
       "classNames": "shadow-xl rounded-full",
       "title": "TypeScript",
-      "alt": "TypeScript Logo",
-      "width": 70
+      "alt": "TypeScript Logo"
     },
     {
-      "hiddenX": 215,
-      "hiddenY": -945,
-      "visibleX": 470,
-      "visibleY": -900,
+      "visibleX": "270%",
+      "visibleY": "0%",
       "duration": 1.5,
       "delay": 1,
       "imageSrc": "/icons/logos/home/testing.png",
       "title": "React-testing-library",
-      "alt": "React-testing-library Logo",
-      "width": 70
+      "alt": "React-testing-library Logo"
     }
   ],
   "animatedCards": {
