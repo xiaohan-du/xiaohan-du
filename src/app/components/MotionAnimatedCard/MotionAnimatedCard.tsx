@@ -34,22 +34,28 @@ export const MotionAnimatedCard = (animatedCardsData: IMotionAnimatedCard): Reac
     h-full
     cursor-pointer
     p-4
+    lg:p-2
     flex
     items-center
     justify-center
-    font-mono
+    font-mono 
+    xl:text-2xl
+    lg:text-xl
+    md:text-2xl
   `;
   return (
     <div className={`${styles.motionAnimatedCard} 
     w-full 
-    h-full 
     my-8 
     rounded-2xl 
     gap-1
     p-1
     grid
     grid-cols-3
-    grid-rows-2`}>
+    grid-rows-2
+    aspect-video
+    xl:my-2
+    `}>
       {animatedCardsData.content.map((value: CardData, index: number) => (
         <motion.div
           className={selectedId === value.title ? openCardStyles : `${value.classNames} ${cardStyles}`}
@@ -59,7 +65,7 @@ export const MotionAnimatedCard = (animatedCardsData: IMotionAnimatedCard): Reac
           onClick={() => handleCardClick(value.title)}
         >
           {selectedId !== value.title && (
-            <div className={'flex flex-row'}>
+            <div className={'flex flex-row xl:flex-col xl:items-center'}>
               <Image
                 src={value.icon.imageSrc}
                 alt={value.icon.alt}
@@ -67,16 +73,17 @@ export const MotionAnimatedCard = (animatedCardsData: IMotionAnimatedCard): Reac
                 height={value.icon.width}
                 className={'mr-1'}
               />
-              {value.title}
+              <span className={'m-auto'}>{value.title}</span>
             </div>
           )}
           {selectedId === value.title && (
             <div className={`
               bg-white
               w-1/3
+              xl:w-1/2
               max-w-lg
               mx-auto
-              my-0
+              my-4
               z-10
               rounded-2xl
               shadow-2xl
@@ -85,6 +92,7 @@ export const MotionAnimatedCard = (animatedCardsData: IMotionAnimatedCard): Reac
               flex-col
               items-center
               justify-start
+              overflow-auto
             `}>
               <Image
                 src={value.icon.imageSrc}

@@ -90,6 +90,27 @@
       },
       {
         "classNames": "text-2xl",
+        "title": "RegTech",
+        "contents": {
+          "iconWidth": 100,
+          "title": "Front-End Software Engineering with a focus on data:",
+          "text": [
+          "Front end experience with HTML, CSS/SCSS, Bootstrap 4 in .NET MVC framework",
+          "Working on multiple projects and support tickets using JavaScript (jQuery)",
+          "CI/CD experience with Azure DevOps",
+          "Worked in an agile environment with a good understanding of Scrum/Kanban"
+          ]
+        },
+        "icon": {
+          "imageSrc": "/icons/pixel/career/profile.svg",
+          "alt": "RegTech",
+          "width": 30
+        },
+        "isShowLinks": false
+      },
+      {
+        "classNames": "text-4xl",
+        "styleNames": "span 2 / span 2",
         "title": "Consultancy",
         "contents": {
           "iconWidth": 100,
@@ -104,27 +125,6 @@
           "imageSrc": "/icons/pixel/career/question-answer.svg",
           "alt": "Consultancy",
           "width": 30
-        },
-        "isShowLinks": false
-      },
-      {
-        "classNames": "text-4xl",
-        "styleNames": "span 2 / span 2",
-        "title": "RegTech",
-        "contents": {
-          "iconWidth": 100,
-          "title": " Front-End Software Engineering with a focus on data:",
-          "text": [
-            "Front end experience with HTML, CSS/SCSS, Bootstrap 4 in .NET MVC framework",
-            "Working on multiple projects and support tickets using JavaScript (jQuery)",
-            "CI/CD experience with Azure DevOps",
-            "Worked in an agile environment with a good understanding of Scrum/Kanban"
-          ]
-        },
-        "icon": {
-          "imageSrc": "/icons/pixel/career/profile.svg",
-          "alt": "RegTech",
-          "width": 40
         },
         "isShowLinks": false
       }
