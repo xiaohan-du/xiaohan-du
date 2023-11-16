@@ -12,10 +12,10 @@ const variants = {
   }
 };
 
-export const Navigation = ({content, isOpen}: INavigationProps) => (
+export const Navigation = ({content, isOpen, ulPosition}: INavigationProps) => (
   <motion.ul variants={variants}
-             className={`absolute top-20 min-w-[9.5rem] ${isOpen ? 'block' : 'hidden'}`}>
-    {content.map((content, index) => (
+             className={`absolute top-12 min-w-[3rem] ${ulPosition} ${isOpen ? 'block' : 'hidden'}`}>
+    {content?.map((content, index) => (
       <MenuItem i={index} key={index} content={content}/>
     ))}
   </motion.ul>

@@ -14,14 +14,15 @@ export const MotionAnimatedCard = (animatedCardsData: IMotionAnimatedCard): Reac
   };
   const openCardStyles: string = `
     w-full
+    h-full
     rounded-2xl
-    absolute
+    fixed
     top-0
     right-0
     bottom-0
     left-0
     m-auto
-    z-10
+    z-40
     flex
     justify-center
     flex-wrap
@@ -34,14 +35,10 @@ export const MotionAnimatedCard = (animatedCardsData: IMotionAnimatedCard): Reac
     h-full
     cursor-pointer
     p-4
-    lg:p-2
     flex
     items-center
     justify-center
-    font-mono 
-    xl:text-2xl
-    lg:text-xl
-    md:text-2xl
+    font-mono
   `;
   return (
     <div className={`${styles.motionAnimatedCard} 
@@ -58,14 +55,14 @@ export const MotionAnimatedCard = (animatedCardsData: IMotionAnimatedCard): Reac
     `}>
       {animatedCardsData.content.map((value: CardData, index: number) => (
         <motion.div
-          className={selectedId === value.title ? openCardStyles : `${value.classNames} ${cardStyles}`}
+          className={selectedId === value.title ? openCardStyles : `text-xl ${value.classNames} ${cardStyles}`}
           style={{gridColumn: value.styleNames}}
           key={index}
           layout
           onClick={() => handleCardClick(value.title)}
         >
           {selectedId !== value.title && (
-            <div className={'flex flex-row xl:flex-col xl:items-center'}>
+            <div className={'flex flex-col items-center'}>
               <Image
                 src={value.icon.imageSrc}
                 alt={value.icon.alt}
@@ -79,15 +76,15 @@ export const MotionAnimatedCard = (animatedCardsData: IMotionAnimatedCard): Reac
           {selectedId === value.title && (
             <div className={`
               bg-white
-              w-1/3
-              xl:w-1/2
+              w-2/3
+              max-h-3/4
               max-w-lg
               mx-auto
               my-4
-              z-10
+              z-50
               rounded-2xl
               shadow-2xl
-              p-12
+              p-8
               flex
               flex-col
               items-center
@@ -99,12 +96,13 @@ export const MotionAnimatedCard = (animatedCardsData: IMotionAnimatedCard): Reac
                 alt={value.icon.alt}
                 width={value.contents.iconWidth}
                 height={value.contents.iconWidth}
+                className={'w-16'}
               />
-              <div className={'text-5xl mt-8 font-black'}>
+              <div className={'text-2xl mt-4 font-black'}>
                 {(value.title as string).toUpperCase()}
               </div>
               <div>
-                <div className={'mt-8 text-2xl'}>
+                <div className={'mt-4 text-base'}>
                   {value.contents.title}
                 </div>
                 <div className={'mt-4'}>
@@ -112,7 +110,7 @@ export const MotionAnimatedCard = (animatedCardsData: IMotionAnimatedCard): Reac
                     {
                       value.contents.text.map((item: string, index: number) => {
                         return (
-                          <li key={index} className={'mt-3'}>{item}</li>
+                          <li key={index} className={'mt-1 text-sm'}>{item}</li>
                         )
                       })
                     }
@@ -121,12 +119,11 @@ export const MotionAnimatedCard = (animatedCardsData: IMotionAnimatedCard): Reac
               </div>
               {
                 value.isShowLinks &&
-                  <div className={'flex flex-row'} key={index}>{
+                  <div className={'flex flex-col'} key={index}>{
                     value.btn?.map((item: ButtonData, index: number) => {
                       return (
                         <motion.button
                           className={`
-                      h-12 
                       border-2
                       border-solid 
                       border-slate-200 
@@ -137,17 +134,20 @@ export const MotionAnimatedCard = (animatedCardsData: IMotionAnimatedCard): Reac
                       items-center
                       p-2 
                       shadow-lg
+                      flex
+                      flex-col
+                      justify-center
                       `}
                           key={index}
                           whileHover={{scale: 1.2}}
                           onHoverStart={() => setHoveredButton(index)}
                           onHoverEnd={() => setHoveredButton(null)}
                           whileTap={{scale: 0.9}}>
-                          <div className={'border-r-2'}>
+                          <div className={'lg:border-r-2 lg:mr-1'}>
                             <motion.div animate={{
                               rotate: hoveredButton === index ? 360 : 0
                             }}>
-                              <Image src={item.icon.imageSrc} className={'mr-2 pr-1'} alt={item.icon.alt}
+                              <Image src={item.icon.imageSrc} className={'lg:mr-1 lg:pr-1 mb-2'} alt={item.icon.alt}
                                      width={item.icon.width} height={item.icon.width}/>
                             </motion.div>
                           </div>
@@ -165,7 +165,7 @@ export const MotionAnimatedCard = (animatedCardsData: IMotionAnimatedCard): Reac
       ))}
       <motion.div
         className={`
-          absolute 
+          fixed 
           h-full 
           w-full 
           left-0 
@@ -173,6 +173,7 @@ export const MotionAnimatedCard = (animatedCardsData: IMotionAnimatedCard): Reac
           bg-black 
           opacity-0 
           pointer-events-none
+          z-20
         `}
         animate={{opacity: selectedId ? .3 : 0}}
       />

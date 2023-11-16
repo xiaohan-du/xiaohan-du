@@ -27,9 +27,9 @@ export const MenuItem = ({i, content}: IMenuItemProps) => {
       variants={variants}
       whileHover={{scale: 1.1}}
       whileTap={{scale: 0.95}}
-      className={'mb-5 z-20 relative cursor-default bg-white rounded-xl'}
+      className={'mb-2 z-20 relative cursor-default bg-white rounded-xl'}
     >
-      <div className={'w-full h-full flex p-4 rounded-xl'} style={style}>
+      <div className={'w-full h-full flex p-2 rounded-lg text-xs'} style={style}>
         <div>{content.name}:&nbsp;</div>
         <div>{content.value}</div>
         <div>{content.unit}</div>

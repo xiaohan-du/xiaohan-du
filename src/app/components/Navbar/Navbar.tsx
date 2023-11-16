@@ -21,28 +21,30 @@ export const DefaultNavbar = (
   const brand = navbarData.brand;
   const links = navbarData.links;
   return (
-    <div className="w-full">
+    <div className="w-full sticky top-0 z-20">
       <Navbar fluid rounded>
         <Navbar.Brand as={Link} href={brand.defaultHref}>
           <Image src={brand.logo} className={brand.classNames} alt={brand.alt} width={brand.width} height={brand.width}/>
           <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white pb-1">{brand.name}</span>
         </Navbar.Brand>
         <Navbar.Toggle/>
-        <Navbar.Collapse>
-          {
-            links.contents.map((item, index) => {
-              return (
-                <Navbar.Link
-                  key={index}
-                  as={Link}
-                  href={item.href}
-                  className={pathname === item.href ? links.checked : links.default}>
-                  {item.title}
-                </Navbar.Link>
-              )
-            })
-          }
-        </Navbar.Collapse>
+        <div className={`absolute top-20 right-2 z-30 bg-slate-50 shadow-lg`}>
+          <Navbar.Collapse className={'[&>ul]:mt-0'}>
+            {
+              links.contents.map((item, index) => {
+                return (
+                  <Navbar.Link
+                    key={index}
+                    as={Link}
+                    href={item.href}
+                    className={`text-end ${pathname === item.href ? links.checked : links.default}`}>
+                    {item.title}
+                  </Navbar.Link>
+                )
+              })
+            }
+          </Navbar.Collapse>
+        </div>
       </Navbar>
       <WidgetBar {...widgetBarData} />
     </div>

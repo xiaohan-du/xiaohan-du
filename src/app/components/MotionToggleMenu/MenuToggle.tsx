@@ -6,10 +6,10 @@ export const MenuToggle = ({ toggle, image, text }: IToggleProps) => (
   <Button
     onMouseEnter={toggle}
     onMouseLeave={toggle}
-    className={'border-none select-none cursor-pointer relative w-full h-16 rounded-lg'}
+    className={'border-none select-none cursor-pointer relative w-full h-8 rounded-lg [&>span]:px-2'}
     color='light'
   >
-    {text}
+    <span className={'hidden md:block'}>{text}</span>
     {image}
   </Button>
 );
