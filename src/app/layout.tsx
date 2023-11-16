@@ -118,8 +118,8 @@ export default async function RootLayout({children}: LayoutProps) {
     main: metalPriceDataPerOz,
     text: 'Metal (USD/oz)',
     mappings: metalMappings,
-    iconSize: 30,
-    iconClasses: 'ml-2'
+    iconSize: 50,
+    iconClasses: 'md:ml-2'
   };
 
   const toggleMenuDataCurrency: IToggleMenuProps = {
@@ -128,8 +128,8 @@ export default async function RootLayout({children}: LayoutProps) {
     main: dummyCurrencyData,
     text: 'USD to',
     mappings: currencyMappings,
-    iconSize: 30,
-    iconClasses: 'ml-2'
+    iconSize: 50,
+    iconClasses: 'md:ml-2'
   };
 
   const toggleMenuDataWeather: IToggleMenuProps = {
@@ -137,7 +137,7 @@ export default async function RootLayout({children}: LayoutProps) {
     main: weatherData.main,
     text: city,
     mappings: weatherMappings,
-    iconSize: 50,
+    iconSize: 70,
     iconClasses: ''
   };
 
@@ -147,8 +147,8 @@ export default async function RootLayout({children}: LayoutProps) {
     main: dummyCryptoPrices,
     text: 'Crypto (USD)',
     mappings: cryptoMappings,
-    iconSize: 30,
-    iconClasses: 'ml-2'
+    iconSize: 50,
+    iconClasses: 'md:ml-2'
   };
 
   const toggleMenuDataStock: IToggleMenuProps = {
@@ -157,8 +157,8 @@ export default async function RootLayout({children}: LayoutProps) {
     main: dummyStockPrices,
     text: 'Stock (USD)',
     mappings: stockMappings,
-    iconSize: 30,
-    iconClasses: 'ml-2'
+    iconSize: 50,
+    iconClasses: 'md:ml-2'
   };
 
   const widgetBarData: {

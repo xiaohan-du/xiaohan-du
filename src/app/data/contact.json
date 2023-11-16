@@ -4,8 +4,8 @@
   "subTitle": "Interested in a chat? Pick one of the options below",
   "animatedIcon": [
     {
-      "visibleX": "-280%",
-      "visibleY": "0%",
+      "visibleX": "-230%",
+      "visibleY": "-100%",
       "duration": 1.5,
       "delay": 0,
       "imageSrc": "/icons/logos/contact/email.svg",

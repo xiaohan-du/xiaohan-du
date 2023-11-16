@@ -7,7 +7,7 @@ import {Navigation} from "../MotionToggleMenu/Navigation";
 import {IToggleItemProps} from "@/app/interfaces/IToggleItem";
 import {IToggleMenuProps} from "@/app/interfaces/IToggleMenu";
 
-export const ToggleMenu = ({icon, main, text, mappings, iconSize, iconClasses}: IToggleMenuProps) => {
+export const ToggleMenu = ({icon, main, text, mappings, iconSize, iconClasses, ulPosition}: IToggleMenuProps) => {
   const [isOpen, toggleOpen] = useCycle(false, true);
   const containerRef = useRef(null);
   const {height} = useDimensions(containerRef);
@@ -22,7 +22,7 @@ export const ToggleMenu = ({icon, main, text, mappings, iconSize, iconClasses}: 
   });
   return (
     <>
-      <div className={'flex flex-row mx-1'}>
+      <div className={'flex flex-row mx-1 relative'}>
         <motion.nav
           initial={false}
           animate={isOpen ? "open" : "closed"}
@@ -31,9 +31,15 @@ export const ToggleMenu = ({icon, main, text, mappings, iconSize, iconClasses}: 
           className={'relative'}
         >
           <MenuToggle toggle={() => toggleOpen()} image={
-            <Image src={icon} alt="Menu Icon" width={iconSize} height={iconSize} className={iconClasses}/>
+            <Image
+              src={icon}
+              alt="Menu Icon"
+              width={iconSize}
+              height={iconSize}
+              className={`w-8 ${iconClasses}`}
+            />
           } text={text}/>
-          <Navigation content={navContents} isOpen={isOpen}/>
+          <Navigation content={navContents} isOpen={isOpen} ulPosition={ulPosition}/>
         </motion.nav>
       </div>
     </>

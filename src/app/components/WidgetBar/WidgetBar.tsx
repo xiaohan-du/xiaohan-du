@@ -10,18 +10,58 @@ export const WidgetBar = (widgetBarData: {
   currencyData: IToggleMenuProps;
   metalData: IToggleMenuProps;
 }): ReactNode => {
-  const { icon: iconW, main: weatherMain, text: textW, mappings: weatherMappings } = widgetBarData.weatherData;
-  const { icon: iconC, main: cryptoPrices, text: textC, mappings: cryptoMappings } = widgetBarData.cryptoData;
-  const { icon: iconS, main: stockPrices, text: textS, mappings: stockMappings } = widgetBarData.stockData;
-  const { icon: iconCU, main: currencyPrices, text: textCU, mappings: currencyMappings } = widgetBarData.currencyData;
-  const { icon: iconM, main: metalPrices, text: textM, mappings: metalMappings } = widgetBarData.metalData;
+  const {
+    icon: iconW,
+    main: weatherMain,
+    text: textW,
+    mappings: weatherMappings,
+    iconSize: iconSizeW,
+    iconClasses: iconClassesW
+  } = widgetBarData.weatherData;
+  const {
+    icon: iconC,
+    main: cryptoPrices,
+    text: textC,
+    mappings: cryptoMappings,
+    iconSize: iconSizeC,
+    iconClasses: iconClassesC
+  } = widgetBarData.cryptoData;
+  const {
+    icon: iconS,
+    main: stockPrices,
+    text: textS,
+    mappings: stockMappings,
+    iconSize: iconSizeS,
+    iconClasses: iconClassesS
+  } = widgetBarData.stockData;
+  const {
+    icon: iconCU,
+    main: currencyPrices,
+    text: textCU,
+    mappings: currencyMappings,
+    iconSize: iconSizeCU,
+    iconClasses: iconClassesCU
+  } = widgetBarData.currencyData;
+  const {
+    icon: iconM,
+    main: metalPrices,
+    text: textM,
+    mappings: metalMappings,
+    iconSize: iconSizeM,
+    iconClasses: iconClassesM
+  } = widgetBarData.metalData;
   return (
     <div className={'bg-neutral-50 w-full p-2 flex flex-row justify-between mb-4 rounded-lg'}>
-      <ToggleMenu icon={`https://openweathermap.org/img/wn/${iconW}@2x.png`} main={weatherMain} text={textW} mappings={weatherMappings} iconSize={50} iconClasses={''} />
-      <ToggleMenu icon={iconC} main={cryptoPrices} text={textC} mappings={cryptoMappings} iconSize={30} iconClasses={'ml-2'} />
-      <ToggleMenu icon={iconS} main={stockPrices} text={textS} mappings={stockMappings} iconSize={30} iconClasses={'ml-2'} />
-      <ToggleMenu icon={iconCU} main={currencyPrices} text={textCU} mappings={currencyMappings} iconSize={30} iconClasses={'ml-2'} />
-      <ToggleMenu icon={iconM} main={metalPrices} text={textM} mappings={metalMappings} iconSize={30} iconClasses={'ml-2'} />
+      <ToggleMenu icon={`https://openweathermap.org/img/wn/${iconW}@2x.png`} main={weatherMain} text={textW}
+                  mappings={weatherMappings} iconSize={iconSizeW} iconClasses={iconClassesW} ulPosition={''}/>
+      <ToggleMenu icon={iconC} main={cryptoPrices} text={textC} mappings={cryptoMappings} iconSize={iconSizeC}
+                  iconClasses={iconClassesC} ulPosition={''}/>
+      <ToggleMenu icon={iconS} main={stockPrices} text={textS} mappings={stockMappings} iconSize={iconSizeS}
+                  iconClasses={iconClassesS} ulPosition={''}/>
+      <ToggleMenu icon={iconCU} main={currencyPrices} text={textCU} mappings={currencyMappings} iconSize={iconSizeCU}
+                  iconClasses={iconClassesCU} ulPosition={''}/>
+      <ToggleMenu icon={iconM} main={metalPrices} text={textM} mappings={metalMappings} iconSize={iconSizeM}
+                  iconClasses={iconClassesM} ulPosition={'right-0'}/>
     </div>
   )
 };

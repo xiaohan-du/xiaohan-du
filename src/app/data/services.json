@@ -97,27 +97,7 @@
         ]
       },
       {
-        "classNames": "text-2xl",
-        "title": "Deployment",
-        "contents": {
-          "iconWidth": 100,
-          "title": "Professional deployment on your chosen domain:",
-          "text": [
-            "Seamless Deployment: I offer a smooth and hassle-free process to make your website live",
-            "Not sure which design is better? I offer multiple links for you to preview for free!",
-            "Your website, your domain – I tailor the deployment to suit your unique needs"
-          ]
-        },
-        "icon": {
-          "imageSrc": "/icons/pixel/services/rocket.svg",
-          "alt": "Deployment",
-          "width": 25
-        },
-        "isShowLinks": false
-      },
-      {
         "classNames": "text-4xl",
-        "styleNames": "span 2 / span 2",
         "title": "Design",
         "contents": {
           "iconWidth": 100,
@@ -132,6 +112,26 @@
         "icon": {
           "imageSrc": "/icons/pixel/services/pencil-ruler.svg",
           "alt": "Design",
+          "width": 25
+        },
+        "isShowLinks": false
+      },
+      {
+        "classNames": "text-2xl",
+        "styleNames": "span 2 / span 2",
+        "title": "Deployment",
+        "contents": {
+          "iconWidth": 100,
+          "title": "Professional deployment on your chosen domain:",
+          "text": [
+            "Seamless Deployment: I offer a smooth and hassle-free process to make your website live",
+            "Not sure which design is better? I offer multiple links for you to preview for free!",
+            "Your website, your domain – I tailor the deployment to suit your unique needs"
+          ]
+        },
+        "icon": {
+          "imageSrc": "/icons/pixel/services/rocket.svg",
+          "alt": "Deployment",
           "width": 40
         },
         "isShowLinks": false

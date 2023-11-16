@@ -84,35 +84,6 @@
       },
       {
         "classNames": "text-2xl",
-        "title": "Louise",
-        "contents": {
-          "iconWidth": 100,
-          "title": "\"Xiaohan has been very helpful and professional and came up with lot's of great ideas\"",
-          "text": [
-            "Thank you Xiaohan, I love it. Xiaohan has been very helpful and professional and came up with lot's of great ideas. I highly recommend \uD83D\uDC4D\uD83E\uDEF6"
-          ]
-        },
-        "icon": {
-          "imageSrc": "/icons/pixel/reviews/user-heart.svg",
-          "alt": "user-heart",
-          "width": 25
-        },
-        "isShowLinks": true,
-        "btn": [
-          {
-            "text": "Louise's Recommendation on Linkedin",
-            "url": "https://www.linkedin.com/feed/update/urn:li:activity:7069434217784324096?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7069434217784324096%2C7069562529739415552%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287069562529739415552%2Curn%3Ali%3Aactivity%3A7069434217784324096%29",
-            "icon": {
-              "imageSrc": "/icons/links/linkedin.svg",
-              "alt": "Linkedin",
-              "width": 30
-            }
-          }
-        ]
-      },
-      {
-        "classNames": "text-4xl",
-        "styleNames": "span 2 / span 2",
         "title": "Neil",
         "contents": {
           "iconWidth": 100,
@@ -124,13 +95,42 @@
         "icon": {
           "imageSrc": "/icons/pixel/reviews/user-heart.svg",
           "alt": "user-heart",
-          "width": 40
+          "width": 30
         },
         "isShowLinks": true,
         "btn": [
           {
             "text": "Neil's Recommendation on Linkedin",
             "url": "https://www.linkedin.com/in/xiaohan-du-055a0713a/details/recommendations",
+            "icon": {
+              "imageSrc": "/icons/links/linkedin.svg",
+              "alt": "Linkedin",
+              "width": 30
+            }
+          }
+        ]
+      },
+      {
+        "classNames": "text-4xl",
+        "styleNames": "span 2 / span 2",
+        "title": "Louise",
+        "contents": {
+          "iconWidth": 100,
+          "title": "\"Xiaohan has been very helpful and professional and came up with lot's of great ideas\"",
+          "text": [
+            "Thank you Xiaohan, I love it. Xiaohan has been very helpful and professional and came up with lot's of great ideas. I highly recommend \uD83D\uDC4D\uD83E\uDEF6"
+          ]
+        },
+        "icon": {
+          "imageSrc": "/icons/pixel/reviews/user-heart.svg",
+          "alt": "user-heart",
+          "width": 40
+        },
+        "isShowLinks": true,
+        "btn": [
+          {
+            "text": "Louise's Recommendation on Linkedin",
+            "url": "https://www.linkedin.com/feed/update/urn:li:activity:7069434217784324096?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7069434217784324096%2C7069562529739415552%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287069562529739415552%2Curn%3Ali%3Aactivity%3A7069434217784324096%29",
             "icon": {
               "imageSrc": "/icons/links/linkedin.svg",
               "alt": "Linkedin",
