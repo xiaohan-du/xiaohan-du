@@ -51,7 +51,7 @@ export const MotionAnimatedCard = (animatedCardsData: IMotionAnimatedCard): Reac
     grid-cols-3
     grid-rows-2
     aspect-video
-    xl:my-2
+    md:mt-8
     `}>
       {animatedCardsData.content.map((value: CardData, index: number) => (
         <motion.div
@@ -62,7 +62,7 @@ export const MotionAnimatedCard = (animatedCardsData: IMotionAnimatedCard): Reac
           onClick={() => handleCardClick(value.title)}
         >
           {selectedId !== value.title && (
-            <div className={'flex flex-col items-center'}>
+            <div className={'flex flex-col xl:flex-row items-center'}>
               <Image
                 src={value.icon.imageSrc}
                 alt={value.icon.alt}
@@ -70,7 +70,7 @@ export const MotionAnimatedCard = (animatedCardsData: IMotionAnimatedCard): Reac
                 height={value.icon.width}
                 className={'mr-1'}
               />
-              <span className={'m-auto'}>{value.title}</span>
+              <span className={'m-auto sm:text-2xl md:text-2xl lg:text-3xl'}>{value.title}</span>
             </div>
           )}
           {selectedId === value.title && (
@@ -85,6 +85,7 @@ export const MotionAnimatedCard = (animatedCardsData: IMotionAnimatedCard): Reac
               rounded-2xl
               shadow-2xl
               p-8
+              md:p-16
               flex
               flex-col
               items-center
@@ -96,13 +97,13 @@ export const MotionAnimatedCard = (animatedCardsData: IMotionAnimatedCard): Reac
                 alt={value.icon.alt}
                 width={value.contents.iconWidth}
                 height={value.contents.iconWidth}
-                className={'w-16'}
+                className={'w-16 md:w-24'}
               />
-              <div className={'text-2xl mt-4 font-black'}>
+              <div className={'text-2xl md:text-4xl mt-4 font-black'}>
                 {(value.title as string).toUpperCase()}
               </div>
               <div>
-                <div className={'mt-4 text-base'}>
+                <div className={'mt-4 text-base md:text-2xl'}>
                   {value.contents.title}
                 </div>
                 <div className={'mt-4'}>
@@ -110,7 +111,7 @@ export const MotionAnimatedCard = (animatedCardsData: IMotionAnimatedCard): Reac
                     {
                       value.contents.text.map((item: string, index: number) => {
                         return (
-                          <li key={index} className={'mt-1 text-sm'}>{item}</li>
+                          <li key={index} className={'mt-1 text-sm md:text-lg'}>{item}</li>
                         )
                       })
                     }
@@ -119,40 +120,40 @@ export const MotionAnimatedCard = (animatedCardsData: IMotionAnimatedCard): Reac
               </div>
               {
                 value.isShowLinks &&
-                  <div className={'flex flex-col'} key={index}>{
+                  <div className={'flex flex-col md:flex-row'} key={index}>{
                     value.btn?.map((item: ButtonData, index: number) => {
                       return (
                         <motion.button
                           className={`
-                      border-2
-                      border-solid 
-                      border-slate-200 
-                      mt-8
-                      mx-2
-                      flex
-                      flex-row
-                      items-center
-                      p-2 
-                      shadow-lg
-                      flex
-                      flex-col
-                      justify-center
-                      `}
+                            border-2
+                            border-solid 
+                            border-slate-200 
+                            mt-8
+                            mx-2
+                            flex
+                            items-center
+                            p-2 
+                            shadow-lg
+                            flex
+                            flex-col
+                            md:flex-row
+                            justify-center
+                          `}
                           key={index}
                           whileHover={{scale: 1.2}}
                           onHoverStart={() => setHoveredButton(index)}
                           onHoverEnd={() => setHoveredButton(null)}
                           whileTap={{scale: 0.9}}>
-                          <div className={'lg:border-r-2 lg:mr-1'}>
+                          <div className={'md:border-r-2 md:pr-1'}>
                             <motion.div animate={{
                               rotate: hoveredButton === index ? 360 : 0
                             }}>
-                              <Image src={item.icon.imageSrc} className={'lg:mr-1 lg:pr-1 mb-2'} alt={item.icon.alt}
+                              <Image src={item.icon.imageSrc} className={'lg:mr-1 lg:pr-1 mb-2 md:mb-0'} alt={item.icon.alt}
                                      width={item.icon.width} height={item.icon.width}/>
                             </motion.div>
                           </div>
                           <Link href={item.icon.alt === 'Call' ? `tel:${process.env.PHONE_NUMBER}` : item.url}
-                                className={'font-bold text-center w-full'}>{item.text}</Link>
+                                className={'font-bold text-center w-full md:pl-1'}>{item.text}</Link>
                         </motion.button>
                       )
                     })

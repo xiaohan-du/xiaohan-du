@@ -31,7 +31,13 @@ export const ToggleMenu = ({icon, main, text, mappings, iconSize, iconClasses, u
           className={'relative'}
         >
           <MenuToggle toggle={() => toggleOpen()} image={
-            <Image src={icon} alt="Menu Icon" width={iconSize} height={iconSize} className={iconClasses}/>
+            <Image
+              src={icon}
+              alt="Menu Icon"
+              width={iconSize}
+              height={iconSize}
+              className={`w-8 ${iconClasses}`}
+            />
           } text={text}/>
           <Navigation content={navContents} isOpen={isOpen} ulPosition={ulPosition}/>
         </motion.nav>

@@ -160,10 +160,10 @@
       },
       {
         "classNames": "text-2xl",
-        "title": "Sanctum-Wellbeing",
+        "title": "Client",
         "contents": {
           "iconWidth": 100,
-          "title": "A front-end website I built for my private client:",
+          "title": "A front-end website I built for my private client - Sanctum-Wellbeing:",
           "text": [
             "Minimalist and elegant UI",
             "Clear project scope",
