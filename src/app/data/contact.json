@@ -4,8 +4,10 @@
   "subTitle": "Interested in a chat? Pick one of the options below",
   "animatedIcon": [
     {
+      "hiddenX": "0%",
+      "hiddenY": "250%",
       "visibleX": "-230%",
-      "visibleY": "-100%",
+      "visibleY": "100%",
       "duration": 1.5,
       "delay": 0,
       "imageSrc": "/icons/logos/contact/email.svg",
@@ -13,8 +15,10 @@
       "alt": "Email Logo"
     },
     {
+      "hiddenX": "0%",
+      "hiddenY": "150%",
       "visibleX": "-150%",
-      "visibleY": "220%",
+      "visibleY": "380%",
       "duration": 1.5,
       "delay": 0,
       "imageSrc": "/icons/logos/contact/phone.svg",
@@ -22,8 +26,10 @@
       "alt": "Phone Logo"
     },
     {
+      "hiddenX": "0%",
+      "hiddenY": "-50%",
       "visibleX": "200%",
-      "visibleY": "200%",
+      "visibleY": "240%",
       "duration": 1.5,
       "delay": 0,
       "imageSrc": "/icons/logos/contact/instagram.jpg",
@@ -31,8 +37,10 @@
       "alt": "Instagram Logo"
     },
     {
+      "hiddenX": "0%",
+      "hiddenY": "-50%",
       "visibleX": "130%",
-      "visibleY": "-220%",
+      "visibleY": "-290%",
       "duration": 1.5,
       "delay": 0,
       "imageSrc": "/icons/logos/contact/linkedin.svg",

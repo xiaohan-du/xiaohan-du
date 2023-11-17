@@ -1,5 +1,6 @@
 'use client'
 import {ReactNode} from "react";
+import {motion} from "framer-motion";
 import styles from './PushSwitch.module.scss';
 import {IPushSwitchProps} from "@/app/interfaces/IPushSwitch";
 import {MotionAnimatedIcon} from "@/app/components/MotionAnimatedIcon/MotionAnimatedIcon";
@@ -19,7 +20,7 @@ export const PushSwitch = ({
     <div className={`
     aspect-square
     w-full
-    h-full
+    h-auto
     grid
     ${styles.pushSwitchContainer}
     `}>
@@ -43,21 +44,29 @@ export const PushSwitch = ({
           row-start-1
           ${styles.pushSwitch}
         `} style={pushSwitchStyle} disabled></input>
-      {animatedIconData.map((item: IMotionAnimatedIconProps, index: number): ReactNode => {
-        return (
-          <MotionAnimatedIcon
-            key={index}
-            visibleX={item.visibleX}
-            visibleY={item.visibleY}
-            duration={item.duration}
-            delay={item.delay}
-            imageSrc={item.imageSrc}
-            classNames={item.classNames}
-            title={item.title}
-            alt={item.alt}
-          />
-        )
-      })}
+      <motion.div
+        className={'col-start-1 row-start-1'}
+        animate={{ rotate: 360 }}
+        transition={{ duration: 35, repeat: Infinity, ease: 'linear' }}
+      >
+        {animatedIconData.map((item: IMotionAnimatedIconProps, index: number): ReactNode => {
+          return (
+            <MotionAnimatedIcon
+              key={index}
+              hiddenX={item.hiddenX}
+              hiddenY={item.hiddenY}
+              visibleX={item.visibleX}
+              visibleY={item.visibleY}
+              duration={item.duration}
+              delay={item.delay}
+              imageSrc={item.imageSrc}
+              classNames={item.classNames}
+              title={item.title}
+              alt={item.alt}
+            />
+          )
+        })}
+      </motion.div>
     </div>
   )
 };

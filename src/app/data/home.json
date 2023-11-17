@@ -4,8 +4,10 @@
   "subTitle": "Xiaohan Du",
   "animatedIcon": [
     {
+      "hiddenX": "20%",
+      "hiddenY": "300%",
       "visibleX": "-200%",
-      "visibleY": "-185%",
+      "visibleY": "140%",
       "duration": 1.5,
       "delay": 0,
       "imageSrc": "/icons/logos/home/nextjs.svg",
@@ -14,8 +16,10 @@
       "alt": "NextJS Logo"
     },
     {
+      "hiddenX": "20%",
+      "hiddenY": "250%",
       "visibleX": "250%",
-      "visibleY": "-120%",
+      "visibleY": "120%",
       "duration": 1.5,
       "delay": 0,
       "imageSrc": "/icons/logos/home/react.svg",
@@ -24,8 +28,10 @@
       "alt": "React Logo"
     },
     {
+      "hiddenX": "20%",
+      "hiddenY": "250%",
       "visibleX": "-270%",
-      "visibleY": "-50%",
+      "visibleY": "150%",
       "duration": 1.5,
       "delay": 1,
       "imageSrc": "/icons/logos/home/framer.png",
@@ -34,8 +40,10 @@
       "alt": "Framer Motion Logo"
     },
     {
+      "hiddenX": "20%",
+      "hiddenY": "100%",
       "visibleX": "60%",
-      "visibleY": "-250%",
+      "visibleY": "-200%",
       "duration": 1.5,
       "delay": 1,
       "imageSrc": "/icons/logos/home/sql.png",
@@ -43,7 +51,9 @@
       "alt": "SQL Logo"
     },
     {
-      "visibleX": "-240%",
+      "hiddenX": "20%",
+      "hiddenY": "100%",
+      "visibleX": "-220%",
       "visibleY": "120%",
       "duration": 1.5,
       "delay": 0,
@@ -52,8 +62,10 @@
       "alt": "Tailwind Logo"
     },
     {
+      "hiddenX": "20%",
+      "hiddenY": "-200%",
       "visibleX": "140%",
-      "visibleY": "220%",
+      "visibleY": "100%",
       "duration": 1.5,
       "delay": 0,
       "imageSrc": "/icons/logos/home/springboot.svg",
@@ -62,8 +74,10 @@
       "alt": "Springboot Logo"
     },
     {
+      "hiddenX": "20%",
+      "hiddenY": "-200%",
       "visibleX": "-120%",
-      "visibleY": "250%",
+      "visibleY": "0%",
       "duration": 1.5,
       "delay": 1,
       "imageSrc": "/icons/logos/home/typescript.png",
@@ -72,8 +86,10 @@
       "alt": "TypeScript Logo"
     },
     {
-      "visibleX": "270%",
-      "visibleY": "0%",
+      "hiddenX": "20%",
+      "hiddenY": "-200%",
+      "visibleX": "250%",
+      "visibleY": "-330%",
       "duration": 1.5,
       "delay": 1,
       "imageSrc": "/icons/logos/home/testing.png",

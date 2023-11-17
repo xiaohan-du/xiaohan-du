@@ -4,8 +4,10 @@
   "subTitle": "Demos speak louder than words",
   "animatedIcon": [
     {
+      "hiddenX": "0%",
+      "hiddenY": "270%",
       "visibleX": "-210%",
-      "visibleY": "180%",
+      "visibleY": "420%",
       "duration": 1.5,
       "delay": 0,
       "imageSrc": "/icons/logos/demos/portfolio.png",
@@ -13,8 +15,10 @@
       "alt": "Portfolio Logo"
     },
     {
+      "hiddenX": "0%",
+      "hiddenY": "200%",
       "visibleX": "-200%",
-      "visibleY": "-180%",
+      "visibleY": "0%",
       "duration": 1.5,
       "delay": 1,
       "imageSrc": "/icons/logos/demos/sound.png",
@@ -22,8 +26,10 @@
       "alt": "Audience Activation Logo"
     },
     {
+      "hiddenX": "0%",
+      "hiddenY": "80%",
       "visibleX": "150%",
-      "visibleY": "240%",
+      "visibleY": "260%",
       "duration": 1.5,
       "delay": 0.5,
       "imageSrc": "/icons/logos/demos/meditation.png",
@@ -31,8 +37,10 @@
       "alt": "Sanctum Wellbeing Logo"
     },
     {
+      "hiddenX": "0%",
+      "hiddenY": "0%",
       "visibleX": "210%",
-      "visibleY": "-170%",
+      "visibleY": "-250%",
       "duration": 1.5,
       "delay": 1.5,
       "imageSrc": "/icons/logos/demos/gitlab.svg",
@@ -40,8 +48,10 @@
       "alt": "Gitlab Logo"
     },
     {
-      "visibleX": "250%",
-      "visibleY": "-120%",
+      "hiddenX": "0%",
+      "hiddenY": "-120%",
+      "visibleX": "270%",
+      "visibleY": "-320%",
       "duration": 1.5,
       "delay": 1.5,
       "imageSrc": "/icons/logos/demos/webhook.png",

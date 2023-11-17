@@ -4,8 +4,10 @@
   "subTitle": "From colleagues to clients, see what others say",
   "animatedIcon": [
     {
+      "hiddenX": "20%",
+      "hiddenY": "270%",
       "visibleX": "240%",
-      "visibleY": "-120%",
+      "visibleY": "120%",
       "duration": 1.5,
       "delay": 0,
       "imageSrc": "/icons/logos/reviews/handshake.png",
@@ -14,8 +16,10 @@
       "alt": "Handshake Logo"
     },
     {
+      "hiddenX": "20%",
+      "hiddenY": "230%",
       "visibleX": "-180%",
-      "visibleY": "210%",
+      "visibleY": "380%",
       "duration": 1.5,
       "delay": 0,
       "imageSrc": "/icons/logos/reviews/idea.png",
@@ -24,8 +28,10 @@
       "alt": "Idea Logo"
     },
     {
+      "hiddenX": "20%",
+      "hiddenY": "120%",
       "visibleX": "220%",
-      "visibleY": "130%",
+      "visibleY": "200%",
       "duration": 1.5,
       "delay": 0,
       "imageSrc": "/icons/logos/reviews/passion.png",
@@ -33,8 +39,10 @@
       "alt": "Passion Logo"
     },
     {
+      "hiddenX": "20%",
+      "hiddenY": "0%",
       "visibleX": "-200%",
-      "visibleY": "-220%",
+      "visibleY": "-240%",
       "duration": 1.5,
       "delay": 0,
       "imageSrc": "/icons/logos/reviews/review.png",
@@ -42,8 +50,10 @@
       "alt": "Review Logo"
     },
     {
-      "visibleX": "250%",
-      "visibleY": "80%",
+      "hiddenX": "20%",
+      "hiddenY": "-100%",
+      "visibleX": "270%",
+      "visibleY": "-60%",
       "duration": 1.5,
       "delay": 0,
       "imageSrc": "/icons/logos/reviews/smile.png",

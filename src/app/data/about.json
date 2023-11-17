@@ -4,8 +4,10 @@
   "subTitle": "Collaborative, Professional and Passionate",
   "animatedIcon": [
     {
+      "hiddenX": "20%",
+      "hiddenY": "270%",
       "visibleX": "0%",
-      "visibleY": "-270%",
+      "visibleY": "-20%",
       "duration": 1.5,
       "delay": 0,
       "imageSrc": "/icons/logos/about/coding.svg",
@@ -14,8 +16,10 @@
       "alt": "Coding Logo"
     },
     {
+      "hiddenX": "20%",
+      "hiddenY": "120%",
       "visibleX": "-240%",
-      "visibleY": "120%",
+      "visibleY": "260%",
       "duration": 1.5,
       "delay": 0,
       "imageSrc": "/icons/logos/about/helmet.png",
@@ -24,8 +28,10 @@
       "alt": "Helmet Logo"
     },
     {
+      "hiddenX": "0%",
+      "hiddenY": "80%",
       "visibleX": "0%",
-      "visibleY": "260%",
+      "visibleY": "320%",
       "duration": 1.5,
       "delay": 1,
       "imageSrc": "/icons/logos/about/game.png",
@@ -33,8 +39,10 @@
       "alt": "Gaming Logo"
     },
     {
+      "hiddenX": "0%",
+      "hiddenY": "-20%",
       "visibleX": "-230%",
-      "visibleY": "-140%",
+      "visibleY": "-190%",
       "duration": 1.5,
       "delay": 1,
       "imageSrc": "/icons/logos/about/astronomy.svg",
@@ -42,8 +50,10 @@
       "alt": "Astronomy Logo"
     },
     {
+      "hiddenX": "20%",
+      "hiddenY": "-120%",
       "visibleX": "240%",
-      "visibleY": "120%",
+      "visibleY": "-30%",
       "duration": 1.5,
       "delay": 0,
       "imageSrc": "/icons/logos/about/crossfit.svg",
@@ -51,8 +61,10 @@
       "alt": "CrossFit Logo"
     },
     {
+      "hiddenX": "0%",
+      "hiddenY": "-220%",
       "visibleX": "240%",
-      "visibleY": "-140%",
+      "visibleY": "-380%",
       "duration": 1.5,
       "delay": 1,
       "imageSrc": "/icons/logos/about/printer.png",

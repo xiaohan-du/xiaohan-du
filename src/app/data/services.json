@@ -4,8 +4,10 @@
   "subTitle": "Transforming innovative concepts into web solutions",
   "animatedIcon": [
     {
+      "hiddenX": "0%",
+      "hiddenY": "250%",
       "visibleX": "-200%",
-      "visibleY": "-200%",
+      "visibleY": "50%",
       "duration": 1.5,
       "delay": 0,
       "imageSrc": "/icons/logos/services/html.png",
@@ -13,8 +15,10 @@
       "alt": "HTML Logo"
     },
     {
+      "hiddenX": "0%",
+      "hiddenY": "150%",
       "visibleX": "-200%",
-      "visibleY": "200%",
+      "visibleY": "350%",
       "duration": 1.5,
       "delay": 1,
       "imageSrc": "/icons/logos/services/js.svg",
@@ -22,8 +26,10 @@
       "alt": "JavaScript Logo"
     },
     {
+      "hiddenX": "0%",
+      "hiddenY": "50%",
       "visibleX": "220%",
-      "visibleY": "180%",
+      "visibleY": "220%",
       "duration": 1.5,
       "delay": 0.5,
       "imageSrc": "/icons/logos/services/css.png",
@@ -31,8 +37,10 @@
       "alt": "CSS Logo"
     },
     {
+      "hiddenX": "0%",
+      "hiddenY": "-50%",
       "visibleX": "180%",
-      "visibleY": "-170%",
+      "visibleY": "-260%",
       "duration": 1.5,
       "delay": 1.5,
       "imageSrc": "/icons/logos/services/website.png",
