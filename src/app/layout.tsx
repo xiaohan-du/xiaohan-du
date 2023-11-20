@@ -176,7 +176,7 @@ export default async function RootLayout({children}: LayoutProps) {
   };
 
   return (
-    <html lang="en" className={poppins.className}>
+    <html lang="en" className={`${poppins.className} no-scrollbar`}>
     <body>
     <main className="flex min-h-screen flex-col items-center p-12 pb-0 main justify-between">
       <DefaultNavbar {...widgetBarData} />
