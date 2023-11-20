@@ -1,4 +1,5 @@
 import type { Config } from 'tailwindcss'
+const plugin = require('tailwindcss/plugin')
 
 const lengthVars = {
   '128': '32rem',
@@ -11,6 +12,11 @@ const lengthVars = {
   '184': '46rem',
   '192': '48rem',
 };
+
+interface IUtilities {
+  addUtilities: (utilities: Record<string, any>, options?: any) => void;
+}
+
 
 const config: Config = {
   content: [
@@ -33,7 +39,18 @@ const config: Config = {
     }
   },
   plugins: [
-    require("flowbite/plugin")
+    require("flowbite/plugin"),
+    plugin(({ addUtilities }: IUtilities) => {
+      addUtilities({
+        '.no-scrollbar::-webkit-scrollbar': {
+          'display': 'none',
+        },
+        '.no-scrollbar': {
+          '-ms-overflow-style': 'none',
+          'scrollbar-width': 'none'
+        }
+      })
+    })
   ],
 }
 
