@@ -5,6 +5,8 @@ import styles from './MotionAnimatedCard.module.scss';
 import Image from "next/image";
 import {IMotionAnimatedCard} from "@/app/interfaces/IMotionAnimatedCard";
 import Link from "next/link";
+import {hyphenStringToWords} from "@/app/functions/hyphenStringToWords";
+import techs from '../../data/techs.json';
 
 export const MotionAnimatedCard = (animatedCardsData: IMotionAnimatedCard): React.ReactNode => {
   const [selectedId, setSelectedId] = useState<string>('');
@@ -111,7 +113,25 @@ export const MotionAnimatedCard = (animatedCardsData: IMotionAnimatedCard): Reac
                     {
                       value.contents.text.map((item: string, index: number) => {
                         return (
-                          <li key={index} className={'mt-1 text-sm md:text-lg'}>{item}</li>
+                          <li key={index} className={'mt-1 text-sm md:text-lg'}>
+                            {
+                              Object.keys(techs).some(word => item.toLowerCase().includes(word.toLowerCase())) ? (
+                                item.split(' ').map((word, wordIndex) => (
+                                  Object.keys(techs).includes(word) ? (
+                                    <span key={wordIndex}>
+                                      <a href={techs[word as keyof typeof techs]} className={'underline text-blue-600'}>
+                                        {hyphenStringToWords(word)}
+                                      </a>{' '}
+                                    </span>
+                                  ) : (
+                                    <span key={wordIndex}>{word} </span>
+                                  )
+                                ))
+                              ) : (
+                                item
+                              )
+                            }
+                          </li>
                         )
                       })
                     }
