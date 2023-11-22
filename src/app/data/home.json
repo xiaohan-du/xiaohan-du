@@ -107,11 +107,11 @@
           "iconWidth": 100,
           "title": "Highly skilled and creative, I am passionate about crafting exceptional user experiences on the web:",
           "text": [
-            "My day to day work could be ⬇️",
+            "⬇️ My day to day work could be ⬇️",
             "Building reusable components, connect to backend services",
             "Writing unit tests",
-            "Deploying code to QA environments and assist testers",
-            "Or it could be ⬇️",
+            "Deploying code to QA environments using CI/CD pipeline and assist testers",
+            "⬇️ Or it could be ⬇️",
             "Creating visually stunning and animated interfaces from scratch",
             "Mentoring junior developers",
             "Learning and applying new technologies in real-world projects"
@@ -133,8 +133,8 @@
           "text": [
             "Proficient in Java programming",
             "Experienced in implementing comprehensive unit tests",
-            "Establish a Spring Boot MVC framework to develop RESTful APIs",
-            "Familiarity with Spring Boot's auto-configuration",
+            "Establish a Spring-Boot MVC framework to develop RESTful APIs",
+            "Familiarity with Spring-Boot auto-configuration",
             "Familiarity with SQL for effective database querying and manipulation"
           ]
         },

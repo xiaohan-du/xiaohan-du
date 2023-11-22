@@ -37,78 +37,78 @@ export default async function RootLayout({children}: LayoutProps) {
   const weatherData: IWeatherProps = await getWeatherData({lat: lat, lon: lon, city: city});
 
   // enable this and remove dummy to show price
-  // const cryptoData: ICryptoProps = await getCryptoData();
-  // const cryptoPrices: Cryptos = Object.values(cryptoData.data).reduce((result, item) => {
-  //   result[item.symbol] = item.quote.USD.price.toString().substring(0, 9);
-  //   return result;
-  // }, {
-  //   BTC: 0,
-  //   DOGE: 0,
-  //   XLM: 0,
-  //   ETH: 0,
-  //   ADA: 0
-  // });
-
-  const dummyCryptoPrices = {
+  const cryptoData: ICryptoProps = await getCryptoData();
+  const cryptoPrices: Cryptos = Object.values(cryptoData.data).reduce((result, item) => {
+    result[item.symbol] = item.quote.USD.price.toString().substring(0, 9);
+    return result;
+  }, {
     BTC: 0,
     DOGE: 0,
     XLM: 0,
     ETH: 0,
     ADA: 0
-  };
+  });
+
+  // const dummyCryptoPrices = {
+  //   BTC: 0,
+  //   DOGE: 0,
+  //   XLM: 0,
+  //   ETH: 0,
+  //   ADA: 0
+  // };
 
   // enable this and remove dummy to show price
-  // const stockData: IStockProps = await getStockData();
-  //
-  // const stockPrices: Stock = Object.keys(stockData).reduce((result, symbol) => {
-  //   (result as IStockProps)[symbol] = (stockData[symbol] as Quote)?.c;
-  //   return result;
-  // }, {
-  //   AAPL: 0,
-  //   MSFT: 0,
-  //   AMZN: 0,
-  //   META: 0,
-  //   NVDA: 0
-  // });
+  const stockData: IStockProps = await getStockData();
 
-  const dummyStockPrices = {
+  const stockPrices: Stock = Object.keys(stockData).reduce((result, symbol) => {
+    (result as IStockProps)[symbol] = (stockData[symbol] as Quote)?.c;
+    return result;
+  }, {
     AAPL: 0,
     MSFT: 0,
     AMZN: 0,
     META: 0,
     NVDA: 0
-  }
+  });
 
-  // const currencyData: ICurrencyProps = await getCurrencyData();
+  // const dummyStockPrices = {
+  //   AAPL: 0,
+  //   MSFT: 0,
+  //   AMZN: 0,
+  //   META: 0,
+  //   NVDA: 0
+  // }
 
-  const dummyCurrencyData = {
-    GBP: 0,
-    CAD: 0,
-    JPY: 0,
-    AUD: 0,
-    EUR: 0
-  };
+  const currencyData: ICurrencyProps = await getCurrencyData();
+
+  // const dummyCurrencyData = {
+  //   GBP: 0,
+  //   CAD: 0,
+  //   JPY: 0,
+  //   AUD: 0,
+  //   EUR: 0
+  // };
 
   // enable this and remove dummy to show price
-  // const metalPriceData: IMetalProps = await getMetalData();
-  const dummyMetalPriceData = {
-    success: true,
-    base: 'USD',
-    timestamp: 1698940670,
-    rates: {
-      XAG: 0,
-      XAU: 0,
-      XCU: 0,
-      XPT: 0,
-      ZNC: 0
-    }
-  }
+  const metalPriceData: IMetalProps = await getMetalData();
+  // const dummyMetalPriceData = {
+  //   success: true,
+  //   base: 'USD',
+  //   timestamp: 1698940670,
+  //   rates: {
+  //     XAG: 0,
+  //     XAU: 0,
+  //     XCU: 0,
+  //     XPT: 0,
+  //     ZNC: 0
+  //   }
+  // }
 
-  const metalPriceDataPerOz: Partial<Metal> = Object.keys(dummyMetalPriceData.rates).reduce((result, symbol) => {
+  const metalPriceDataPerOz: Partial<Metal> = Object.keys(metalPriceData.rates).reduce((result, symbol) => {
     const key = symbol as keyof Metal;
     return {
       ...result,
-      [key]: (1 / (dummyMetalPriceData.rates[key] as unknown as number)).toString().substring(0, 8)
+      [key]: (1 / (metalPriceData.rates[key] as unknown as number)).toString().substring(0, 8)
     };
   }, {});
 
@@ -123,8 +123,8 @@ export default async function RootLayout({children}: LayoutProps) {
 
   const toggleMenuDataCurrency: IToggleMenuProps = {
     icon: '/icons/currency.svg',
-    // main: currencyData.rates,
-    main: dummyCurrencyData,
+    main: currencyData.rates,
+    // main: dummyCurrencyData,
     text: 'USD to',
     mappings: currencyMappings,
     iconSize: 50,
@@ -142,8 +142,8 @@ export default async function RootLayout({children}: LayoutProps) {
 
   const toggleMenuDataCrypto: IToggleMenuProps = {
     icon: '/icons/crypto.svg',
-    // main: cryptoPrices,
-    main: dummyCryptoPrices,
+    main: cryptoPrices,
+    // main: dummyCryptoPrices,
     text: 'Crypto (USD)',
     mappings: cryptoMappings,
     iconSize: 50,
@@ -152,8 +152,8 @@ export default async function RootLayout({children}: LayoutProps) {
 
   const toggleMenuDataStock: IToggleMenuProps = {
     icon: '/icons/stock.svg',
-    // main: stockPrices,
-    main: dummyStockPrices,
+    main: stockPrices,
+    // main: dummyStockPrices,
     text: 'Stock (USD)',
     mappings: stockMappings,
     iconSize: 50,
@@ -177,7 +177,7 @@ export default async function RootLayout({children}: LayoutProps) {
   return (
     <html lang="en" className={`${poppins.className} no-scrollbar`}>
     <body>
-    <main className="flex min-h-screen flex-col items-center p-12 pb-0 main justify-between" >
+    <main className="flex min-h-screen flex-col items-center p-12 pb-0 main justify-between">
       <DefaultNavbar {...widgetBarData} />
       {children}
       <DefaultFooter />

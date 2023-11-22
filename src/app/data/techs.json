@@ -1,0 +1,16 @@
+{
+  "React": "https://react.dev/",
+  "NextJS": "https://nextjs.org/",
+  "TypeScript": "https://www.typescriptlang.org/",
+  "Tailwind-CSS": "https://tailwindcss.com/",
+  "Framer-Motion": "https://www.framer.com/motion/",
+  "Flowbite-React": "https://www.flowbite-react.com/",
+  "Spring-Boot": "https://spring.io/projects/spring-boot",
+  "Jest": "https://jestjs.io/",
+  "React-Testing-Library": "https://testing-library.com/docs/react-testing-library/intro/",
+  "Bulma": "https://bulma.io/",
+  "Chakra-UI": "https://chakra-ui.com/",
+  "Redux": "https://redux.js.org/",
+  "Node.js": "https://nodejs.org/en/",
+  "Netlify": "https://www.netlify.com/"
+}
