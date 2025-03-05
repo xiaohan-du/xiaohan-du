@@ -3,20 +3,10 @@ import Link from "next/link";
 import Image from "next/image";
 import {Navbar} from "flowbite-react";
 import {ReactNode} from "react";
-import {WidgetBar} from "@/app/components/WidgetBar/WidgetBar";
-import {IToggleMenuProps} from "@/app/interfaces/IToggleMenu";
 import {usePathname} from "next/navigation";
 import navbarData from "../../data/navbar.json";
 
-export const DefaultNavbar = (
-  widgetBarData: {
-    weatherData: IToggleMenuProps;
-    cryptoData: IToggleMenuProps;
-    stockData: IToggleMenuProps;
-    currencyData: IToggleMenuProps;
-    metalData: IToggleMenuProps;
-  }
-): ReactNode => {
+export const DefaultNavbar = ( ): ReactNode => {
   const pathname = usePathname();
   const brand = navbarData.brand;
   const links = navbarData.links;
@@ -46,7 +36,6 @@ export const DefaultNavbar = (
           </Navbar.Collapse>
         </div>
       </Navbar>
-      <WidgetBar {...widgetBarData} />
     </div>
   )
 };
