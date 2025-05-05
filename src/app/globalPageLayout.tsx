@@ -23,7 +23,7 @@ export default function GlobalPageLayout(
           <p className={'text-lg lg:text-xl text-gray-400 cursor-default'}>{title}</p>
           <p className={'text-4xl md:text-2xl lg:text-3xl xl:text-4xl font-bold md:mt-2 xl:mt-4 cursor-default'}>{subTitle}</p>
         </div>
-        <MotionAnimatedCard content={animatedCardsData.content} />
+        <MotionAnimatedCard animatedCardsData={animatedCardsData} />
       </div>
     </div>
   )
