@@ -7,8 +7,9 @@ import {IMotionAnimatedCard} from "@/app/interfaces/IMotionAnimatedCard";
 import Link from "next/link";
 import {hyphenStringToWords} from "@/app/functions/hyphenStringToWords";
 import techs from '../../data/techs.json';
+import { getGridCols, getGridRows } from '@/app/functions/getGrids';
 
-export const MotionAnimatedCard = (animatedCardsData: IMotionAnimatedCard): React.ReactNode => {
+export const MotionAnimatedCard = ({ animatedCardsData }: { animatedCardsData: IMotionAnimatedCard }): React.ReactNode => {
   const [selectedId, setSelectedId] = useState<string>('');
   const [hoveredButton, setHoveredButton] = useState<number | null>(null);
   const handleCardClick = (card: string): void => {
@@ -50,8 +51,8 @@ export const MotionAnimatedCard = (animatedCardsData: IMotionAnimatedCard): Reac
     gap-1
     p-1
     grid
-    grid-cols-3
-    grid-rows-2
+    ${getGridCols(animatedCardsData.grid?.cols)}
+    ${getGridRows(animatedCardsData.grid?.rows)}
     aspect-video
     md:mt-8
     `}>
@@ -80,7 +81,7 @@ export const MotionAnimatedCard = (animatedCardsData: IMotionAnimatedCard): Reac
               bg-white
               w-2/3
               max-h-3/4
-              max-w-lg
+              max-w-xl
               mx-auto
               my-4
               z-50
@@ -113,7 +114,7 @@ export const MotionAnimatedCard = (animatedCardsData: IMotionAnimatedCard): Reac
                     {
                       value.contents.text.map((item: string, index: number) => {
                         return (
-                          <li key={index} className={'mt-1 text-sm md:text-lg'}>
+                          <li key={index} className={'mt-2 text-sm md:text-lg'}>
                             {
                               Object.keys(techs).some(word => item.toLowerCase().includes(word.toLowerCase())) ? (
                                 item.split(' ').map((word, wordIndex) => (

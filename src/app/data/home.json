@@ -5,9 +5,9 @@
   "animatedIcon": [
     {
       "hiddenX": "20%",
-      "hiddenY": "300%",
+      "hiddenY": "500%",
       "visibleX": "-200%",
-      "visibleY": "140%",
+      "visibleY": "280%",
       "duration": 1.5,
       "delay": 0,
       "imageSrc": "/icons/logos/home/nextjs.svg",
@@ -17,7 +17,19 @@
     },
     {
       "hiddenX": "20%",
-      "hiddenY": "250%",
+      "hiddenY": "500%",
+      "visibleX": "-120%",
+      "visibleY": "120%",
+      "duration": 1.5,
+      "delay": 0,
+      "imageSrc": "/icons/logos/home/angular.svg",
+      "classNames": "shadow-xl rounded-full",
+      "title": "Angular",
+      "alt": "Angular Logo"
+    },
+    {
+      "hiddenX": "20%",
+      "hiddenY": "400%",
       "visibleX": "250%",
       "visibleY": "120%",
       "duration": 1.5,
@@ -34,10 +46,10 @@
       "visibleY": "150%",
       "duration": 1.5,
       "delay": 1,
-      "imageSrc": "/icons/logos/home/framer.png",
+      "imageSrc": "/icons/logos/home/netcore.svg",
       "classNames": "shadow-xl rounded-full",
-      "title": "Framer Motion",
-      "alt": "Framer Motion Logo"
+      "title": ".Net Core",
+      "alt": ".Net Core Logo"
     },
     {
       "hiddenX": "20%",
@@ -95,26 +107,82 @@
       "imageSrc": "/icons/logos/home/testing.png",
       "title": "React-testing-library",
       "alt": "React-testing-library Logo"
+    },
+    {
+      "hiddenX": "20%",
+      "hiddenY": "-450%",
+      "visibleX": "250%",
+      "visibleY": "-330%",
+      "duration": 1.5,
+      "delay": 1,
+      "imageSrc": "/icons/logos/home/playwright.png",
+      "title": "Playwright",
+      "alt": "Playwright Logo"
     }
   ],
   "animatedCards": {
+    "grid": {
+      "cols": 2,
+      "rows": 2
+    },
     "content": [
       {
+        "classNames": "text-4xl",
+        "title": "Full Stack",
+        "contents": {
+          "iconWidth": 100,
+          "title": "Full Stack Development for end-to-end application lifecycle management:",
+          "text": [
+            "Deep understanding of software architecture principles, enabling scalable and maintainable solutions.",
+            "Independently designing and developing full-stack applications, transforming raw data into dynamic, user-friendly interfaces.",
+            "Owning the entire development lifecycle from front-end and back-end to database design and deployment.",
+            "Managing deployment processes to staging and production environments, ensuring smooth and reliable releases.",
+            "Leading continuous integration and deployment pipelines to ensure efficient, error-free production workflows."
+          ]
+        },
+        "icon": {
+          "imageSrc": "/icons/pixel/home/stack.svg",
+          "alt": "Full Stack",
+          "width": 40
+        },
+        "isShowLinks": false
+      },
+      {
+        "classNames": "text-2xl",
+        "title": "Test",
+        "contents": {
+          "iconWidth": 100,
+          "title": "Comprehensive Testing Expertise for High-Quality Software Delivery:",
+          "text": [
+            "Deep understanding of the importance of high-quality tests in software engineering and the principles behind writing effective, maintainable tests.",
+            "Proficient in writing front-end unit tests using Jest and React Testing Library, back-end unit tests using xUnit, and end-to-end tests using Playwright.",
+            "Led the full lifecycle of E2E test setup, from initial proof-of-concept (POC) to code setup, test writing, documentation, and coaching non-developers such as QA teams.",
+            "Ensure quality at every stage of the process, including conducting code reviews, optimizing test strategies, and deploying tests through CI/CD pipelines.",
+            "Implement best practices in testing to increase test coverage, reduce defects, and streamline the development workflow."
+          ]
+        },
+        "icon": {
+          "imageSrc": "/icons/pixel/home/loop.svg",
+          "alt": "Test",
+          "width": 45
+        },
+        "isShowLinks": false
+      },
+      {
         "classNames": "text-5xl",
-        "styleNames": "span 2 / span 2",
         "title": "Frontend",
         "contents": {
           "iconWidth": 100,
-          "title": "Highly skilled and creative, I am passionate about crafting exceptional user experiences on the web:",
+          "title": "Highly skilled and creative, I am passionate about delivering robust, scalable, and user-centered web applications:",
           "text": [
-            "⬇️ My day to day work could be ⬇️",
-            "Building reusable components, connect to backend services",
-            "Writing unit tests",
-            "Deploying code to QA environments using CI/CD pipeline and assist testers",
-            "⬇️ Or it could be ⬇️",
-            "Creating visually stunning and animated interfaces from scratch",
-            "Mentoring junior developers",
-            "Learning and applying new technologies in real-world projects"
+            "⬇️ My typical responsibilities include ⬇️",
+            "Architecting and developing complex, reusable front-end systems integrated with scalable backend services.",
+            "Establishing and enforcing best practices in code quality, testing, and performance optimization.",
+            "Driving continuous integration and deployment processes, ensuring smooth delivery pipelines and production readiness.",
+            "⬇️ I also contribute by ⬇️",
+            "Designing and implementing advanced UI/UX patterns with accessibility and responsiveness in mind.",
+            "Performing code reviews, mentoring team members, and fostering a collaborative development culture.",
+            "Evaluating and introducing new technologies to improve product quality and team efficiency."
           ]
         },
         "icon": {
@@ -129,63 +197,19 @@
         "title": "Backend",
         "contents": {
           "iconWidth": 100,
-          "title": "Java, Spring Boot MVC, and SQL expertise for efficient backend development:",
+          "title": "Expertise in .NET Core, RESTful API design, and SQL for full-stack web applications:",
           "text": [
-            "Proficient in Java programming",
-            "Experienced in implementing comprehensive unit tests",
-            "Establish a Spring-Boot MVC framework to develop RESTful APIs",
-            "Familiarity with Spring-Boot auto-configuration",
-            "Familiarity with SQL for effective database querying and manipulation"
+            "Design and develop both front-end and back-end components to deliver complete, end-to-end solutions.",
+            "Build scalable, secure RESTful APIs using .NET Core and integrate them with front-end technologies.",
+            "Architect and build end-to-end solutions, seamlessly integrating front-end and back-end components.",
+            "Ensure thorough testing (unit and integration) to guarantee system reliability and performance.",
+            "Leverage Entity Framework Core and advanced SQL for efficient data modeling, querying, and manipulation."
           ]
         },
         "icon": {
           "imageSrc": "/icons/pixel/home/terminal.svg",
           "alt": "Backend",
-          "width": 30
-        },
-        "isShowLinks": false
-      },
-      {
-        "classNames": "text-2xl",
-        "title": "Agile",
-        "contents": {
-          "iconWidth": 100,
-          "title": "In my professional journey, I have embraced and thrived in Agile methodologies:",
-          "text": [
-            "Regular Agile meetings",
-            "N-week sprints",
-            "Sprint Planning",
-            "Daily Stand-Up",
-            "Sprint Retrospective",
-            "Backlog Refinement",
-            "Ad-Hoc Collaboration",
-            "Cross-Functional Problem Solving"
-          ]
-        },
-        "icon": {
-          "imageSrc": "/icons/pixel/home/loop.svg",
-          "alt": "Agile",
-          "width": 30
-        },
-        "isShowLinks": false
-      },
-      {
-        "classNames": "text-4xl",
-        "styleNames": "span 2 / span 2",
-        "title": "Full Stack",
-        "contents": {
-          "iconWidth": 100,
-          "title": "Full Stack Development for seamless end-to-end application development:",
-          "text": [
-            "High level understanding of software architecture principles",
-            "Independently developing full stack applications transforming raw data to eye-pleasing UI",
-            "Proven ability to analyze and solve complex problems in the development process"
-          ]
-        },
-        "icon": {
-          "imageSrc": "/icons/pixel/home/stack.svg",
-          "alt": "Full Stack",
-          "width": 40
+          "width": 45
         },
         "isShowLinks": false
       }

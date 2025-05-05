@@ -17,6 +17,8 @@ export const MotionAnimatedIcon = (
     alt
   }: IMotionAnimatedIconProps): ReactNode => {
   return (
+    // hiddenX is the x coord when icon is hidden initially
+    // hiddenY is the y coord when icon is hidden initially
     <motion.div
       initial="hidden"
       animate="visible"
